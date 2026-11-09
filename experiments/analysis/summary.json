@@ -1,0 +1,391 @@
+{
+ "E0": {
+  "all_match": true,
+  "dist": {
+   "HTM": [
+    1,
+    9,
+    54,
+    321,
+    1847,
+    9992,
+    50136,
+    227536,
+    870072,
+    1887748,
+    623800,
+    2644
+   ],
+   "QTM": [
+    1,
+    6,
+    27,
+    120,
+    534,
+    2256,
+    8969,
+    33058,
+    114149,
+    360508,
+    930588,
+    1350852,
+    782536,
+    90280,
+    276
+   ]
+  },
+  "mean_htm": 8.755576240555664,
+  "mean_qtm": 10.666385786138873
+ },
+ "E1": {
+  "growth": {
+   "BFS": 5.054502072633203,
+   "BFS bidirecional": 2.487868785430886
+  },
+  "rho_L": 0.8273467616945963,
+  "rho_d": 0.9857601887178231,
+  "sat_mean": 8.742857142857142,
+  "first_gap_L": 5
+ },
+ "E2": {
+  "runs": 880,
+  "all_success": true,
+  "all_optimal": true
+ },
+ "E3": {
+  "failures": "{('A*', 'misplaced'): 15, ('A*', 'zero'): 47, ('IDA*', 'misplaced'): 15, ('IDA*', 'zero'): 48}"
+ },
+ "E3b": {
+  "tp_uniform": {
+   "count": {
+    "Duas fases (1ª solução)": 100.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 100.0
+   },
+   "mean": {
+    "Duas fases (1ª solução)": 23.15,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 20.04
+   },
+   "std": {
+    "Duas fases (1ª solução)": 1.2421470496399745,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 0.5671121243776768
+   },
+   "min": {
+    "Duas fases (1ª solução)": 19.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 19.0
+   },
+   "25%": {
+    "Duas fases (1ª solução)": 22.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 20.0
+   },
+   "50%": {
+    "Duas fases (1ª solução)": 23.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 20.0
+   },
+   "75%": {
+    "Duas fases (1ª solução)": 24.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 20.0
+   },
+   "max": {
+    "Duas fases (1ª solução)": 26.0,
+    "Duas fases (alvo ≤ 20 ou 1 s)": 21.0
+   }
+  }
+ },
+ "E4": [
+  {
+   "label": "2×2×2 ⟨U,R,F⟩ QTM",
+   "order": "3674160",
+   "diameter": 14.0,
+   "meanDistance": 10.666,
+   "girth": 4,
+   "symTotal": 6
+  },
+  {
+   "label": "2×2×2 ⟨U,R,F⟩ HTM",
+   "order": "3674160",
+   "diameter": 11.0,
+   "meanDistance": 8.756,
+   "girth": 3,
+   "symTotal": 6
+  },
+  {
+   "label": "2×2×2 ⟨R,U⟩ QTM",
+   "order": "29160",
+   "diameter": 17.0,
+   "meanDistance": 12.005,
+   "girth": 4,
+   "symTotal": 4
+  },
+  {
+   "label": "2×2×2 ⟨R,U⟩ HTM",
+   "order": "29160",
+   "diameter": 14.0,
+   "meanDistance": 9.794,
+   "girth": 3,
+   "symTotal": 4
+  },
+  {
+   "label": "2×2×2 ⟨R,U2⟩",
+   "order": "120",
+   "diameter": 10.0,
+   "meanDistance": 5.858,
+   "girth": 4,
+   "symTotal": 2
+  },
+  {
+   "label": "2×2×2 ⟨R2,U2,F2⟩",
+   "order": "24",
+   "diameter": 4.0,
+   "meanDistance": 2.583,
+   "girth": 6,
+   "symTotal": 6
+  },
+  {
+   "label": "2×2×2 ⟨R2,U2⟩",
+   "order": "6",
+   "diameter": 3.0,
+   "meanDistance": 1.5,
+   "girth": 6,
+   "symTotal": 4
+  },
+  {
+   "label": "3×3×3 ⟨R2,U2⟩",
+   "order": "12",
+   "diameter": 6.0,
+   "meanDistance": 3.0,
+   "girth": 12,
+   "symTotal": 4
+  },
+  {
+   "label": "3×3×3 ⟨R,L⟩",
+   "order": "16",
+   "diameter": 4.0,
+   "meanDistance": 2.0,
+   "girth": 4,
+   "symTotal": 16
+  },
+  {
+   "label": "3×3×3 ⟨R,U2⟩",
+   "order": "14400",
+   "diameter": 25.0,
+   "meanDistance": 16.587,
+   "girth": 4,
+   "symTotal": 2
+  },
+  {
+   "label": "3×3×3 ⟨R2,U2,F2⟩",
+   "order": "2592",
+   "diameter": 14.0,
+   "meanDistance": 9.451,
+   "girth": 12,
+   "symTotal": 6
+  },
+  {
+   "label": "3×3×3 grupo dos quadrados",
+   "order": "663552",
+   "diameter": 15.0,
+   "meanDistance": 10.134,
+   "girth": 4,
+   "symTotal": 48
+  },
+  {
+   "label": "3×3×3 ⟨R,U⟩ QTM",
+   "order": "73483200",
+   "diameter": NaN,
+   "meanDistance": NaN,
+   "girth": 4,
+   "symTotal": 4
+  },
+  {
+   "label": "3×3×3 ⟨R,U,F⟩ QTM",
+   "order": "170659735142400",
+   "diameter": NaN,
+   "meanDistance": NaN,
+   "girth": 4,
+   "symTotal": 6
+  },
+  {
+   "label": "3×3×3 H (Kociemba)",
+   "order": "19508428800",
+   "diameter": NaN,
+   "meanDistance": NaN,
+   "girth": 4,
+   "symTotal": 16
+  },
+  {
+   "label": "3×3×3 G QTM",
+   "order": "43252003274489856000",
+   "diameter": NaN,
+   "meanDistance": NaN,
+   "girth": 4,
+   "symTotal": 48
+  },
+  {
+   "label": "3×3×3 G HTM",
+   "order": "43252003274489856000",
+   "diameter": NaN,
+   "meanDistance": NaN,
+   "girth": 3,
+   "symTotal": 48
+  }
+ ],
+ "numbers": {
+  "EzeroAllMatch": "todas",
+  "SchreierGTime": "\\num{7.7}",
+  "BfsTimeHTM": "\\num{414}",
+  "BfsTimeQTM": "\\num{331}",
+  "MeanDistHTM": "\\num{8.756}",
+  "MeanDistQTM": "\\num{10.666}",
+  "DiamHTM": "\\num{11}",
+  "DiamQTM": "\\num{14}",
+  "TwoPhaseTables": "\\num{1310}",
+  "EoneGrowthBFS": "\\num{5.05}",
+  "EoneGrowthBi": "\\num{2.49}",
+  "EoneGrowthRatio": "\\num{2.25}",
+  "EoneRhoL": "\\num{0.827}",
+  "EoneRhoD": "\\num{0.986}",
+  "EoneSatMean": "\\num{8.74}",
+  "EoneSamples": "\\num{30}",
+  "EoneMaxL": "\\num{20}",
+  "EoneFirstGap": "\\num{5}",
+  "EtwoBFSExp": "\\num{3191043}",
+  "EtwoBFSPeak": "\\num{3672938}",
+  "EtwoBFSTime": "\\num{1222.1}",
+  "EtwoBFSBiExp": "\\num{14456}",
+  "EtwoBFSBiPeak": "\\num{74584}",
+  "EtwoBFSBiTime": "\\num{15.8}",
+  "EtwoAstarExp": "\\num{19562}",
+  "EtwoAstarPeak": "\\num{100822}",
+  "EtwoAstarTime": "\\num{48.4}",
+  "EtwoIDAstarExp": "\\num{36544}",
+  "EtwoIDAstarPeak": "\\num{11}",
+  "EtwoIDAstarTime": "\\num{11.7}",
+  "EtwoSamples": "\\num{20}",
+  "EtwoRuns": "\\num{880}",
+  "EtwoDmax": "\\num{11}",
+  "EtwoAllOptimal": "todas",
+  "EthreeShowCols": "4",
+  "EthreeLastD": "\\num{11}",
+  "EthreeMaxOverPerm": "\\num{5.5}",
+  "EthreeMaxOverOri": "\\num{14.5}",
+  "EthreeMaxExp": "\\num{33670}",
+  "EthreeZeroFailFrom": "\\num{8}",
+  "EthreeMisFailFrom": "\\num{11}",
+  "EthreeNodeLimit": "\\num{3000000}",
+  "EthreeSamples": "\\num{15}",
+  "EthreeMisMax": "\\num{2}",
+  "EthreeAllOptimal": "todas",
+  "TPFirstMean": "\\num{23.15}",
+  "TPFirstMax": "\\num{26}",
+  "TPFirstMin": "\\num{19}",
+  "TPFirstTimeMed": "\\num{4.4}",
+  "TPFirstTimeMax": "\\num{62}",
+  "TPFirstLe": "\\num{2}",
+  "TPTargetMean": "\\num{20.04}",
+  "TPTargetMax": "\\num{21}",
+  "TPTargetMin": "\\num{19}",
+  "TPTargetTimeMed": "\\num{115.2}",
+  "TPTargetTimeMax": "\\num{1012}",
+  "TPTargetLe": "\\num{82}",
+  "TPUniformN": "\\num{100}",
+  "EthreebSamples": "\\num{10}",
+  "EthreebLmax": "\\num{12}",
+  "EthreebPdbTimeLast": "\\num{4.5}",
+  "EthreebPdbExpLast": "\\num{1120950}",
+  "EthreebDstarEqL": "sim",
+  "EthreebDstarEqLCount": "\\num{90}",
+  "EthreebCount": "\\num{90}",
+  "EthreebTPOptimalPct": "\\num{97}",
+  "EthreebTPExcessMax": "\\num{8}",
+  "EfourSets": "\\num{17}",
+  "EfourMaxNodes": "\\num{1000000}",
+  "EfourSqDiam": "\\num{15}",
+  "EfourSqMean": "\\num{10.13}",
+  "EfourRUTwoDiamQ": "\\num{17}",
+  "EfourRUTwoDiamH": "\\num{14}",
+  "EfourRUtwoThreeDiam": "\\num{25}",
+  "GhtmSpheres": "\\num{1}; \\num{18}; \\num{243}; \\num{3240}; \\num{43239}; \\num{574908}",
+  "GqtmSpheres": "\\num{1}; \\num{12}; \\num{114}; \\num{1068}; \\num{10011}; \\num{93840}; \\num{878880}",
+  "ResultsCommit": "8585968",
+  "ResultsEnv": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz $\\times$4; RAM 15.7 GiB",
+  "ResultsDate": "2026-11-09",
+  "ResultsTotalMin": "\\num{10.7}"
+ },
+ "metadata": [
+  {
+   "experiment": "E0",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "n/a (determinístico)",
+   "startedAt": "2026-11-09T15:07:36.603Z",
+   "durationMs": 2108,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {}
+  },
+  {
+   "experiment": "E1",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "e1",
+   "startedAt": "2026-11-09T15:07:38.712Z",
+   "durationMs": 140561,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {
+    "maxNodes": 4000000,
+    "timeLimitMs": 60000
+   }
+  },
+  {
+   "experiment": "E2",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "e2",
+   "startedAt": "2026-11-09T15:09:59.280Z",
+   "durationMs": 60332,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {
+    "maxNodes": 4000000,
+    "timeLimitMs": 60000
+   }
+  },
+  {
+   "experiment": "E3",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "e3",
+   "startedAt": "2026-11-09T15:10:59.619Z",
+   "durationMs": 305493,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {
+    "maxNodes": 3000000,
+    "timeLimitMs": 30000
+   }
+  },
+  {
+   "experiment": "E3b",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "e3b",
+   "startedAt": "2026-11-09T15:16:05.122Z",
+   "durationMs": 102775,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {
+    "maxNodes": 30000000,
+    "timeLimitMs": 120000,
+    "misplacedMaxLength": 7
+   }
+  },
+  {
+   "experiment": "E4",
+   "softwareVersion": "0.1.0",
+   "gitCommit": "8585968",
+   "seed": "n/a (determinístico)",
+   "startedAt": "2026-11-09T15:17:47.901Z",
+   "durationMs": 31697,
+   "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB",
+   "limits": {
+    "maxNodes3": 1000000
+   }
+  }
+ ]
+}

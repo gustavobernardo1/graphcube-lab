@@ -1,0 +1,29 @@
+\section{Fundamentação teórica}\label{sec:fundamentacao}
+
+\subsection{Grupos de permutação}
+Seja $\Omega$ um conjunto finito. O grupo simétrico $\Sym(\Omega)$ é o conjunto das bijeções de $\Omega$ com a composição. Neste trabalho adotamos explicitamente
+\begin{equation}\label{eq:produto}
+  (g\cdot h)(i) = g\bigl(h(i)\bigr), \qquad g,h\in\Sym(\Omega),\; i\in\Omega,
+\end{equation}
+isto é, $g\cdot h$ aplica primeiro $h$ e depois $g$ \emph{aos índices}. Toda permutação se decompõe, de modo único a menos da ordem, em ciclos disjuntos; a \emph{ordem} de $g$ (menor $k\ge1$ com $g^k=e$) é o mínimo múltiplo comum dos comprimentos desses ciclos, e o \emph{sinal} é $\sgn g = (-1)^{\sum_c (|c|-1)}$, um homomorfismo $\Sym(\Omega)\to\{\pm1\}$~\cite{joyner2008}. O \emph{comutador} de $a$ e $b$ é $[a,b]=a\,b\,a^{-1}b^{-1}$ e o \emph{conjugado} de $a$ por $b$ é $b\,a\,b^{-1}$; conjugados têm o mesmo tipo de ciclo\lit.
+
+Dado $S\subseteq\Sym(\Omega)$, o subgrupo gerado $\langle S\rangle$ é o menor subgrupo que contém $S$. Uma \emph{base} $B=(\beta_1,\dots,\beta_k)$ e um \emph{conjunto gerador forte} definem a cadeia de estabilizadores $G=G^{(1)}\ge G^{(2)}\ge\cdots\ge G^{(k+1)}=1$, com $G^{(i+1)}=G^{(i)}_{\beta_i}$. Pelo teorema órbita-estabilizador, $|G|=\prod_i |\beta_i^{G^{(i)}}|$. O algoritmo de Schreier--Sims~\cite{sims1970,seress2003,holt2005} constrói essa cadeia a partir de geradores arbitrários, usando os geradores de Schreier $u_x s\, u_{xs}^{-1}$ e o teste de pertinência por peneiramento (\textit{sifting}).
+
+\subsection{Grafos de Cayley}
+\begin{definition}[Grafo de Cayley]
+Sejam $H$ um grupo e $S\subseteq H\setminus\{e\}$ com $S=S^{-1}$. O grafo de Cayley $\Cay(H,S)$ tem vértices $H$ e arestas $\{h, h s\}$, $h\in H$, $s\in S$.
+\end{definition}
+\noindent $\Cay(H,S)$ é $|S|$-regular, conexo se e somente se $S$ gera $H$, e \emph{vértice-transitivo}: para cada $g\in H$, a multiplicação à esquerda $h\mapsto gh$ é um automorfismo~\cite{godsil2001}\lit. A distância $d(g,h)$ é o menor comprimento de uma palavra em $S$ que representa $g^{-1}h$; o \emph{diâmetro} é o maior $d(e,h)$; a \emph{esfera} de raio $r$ é $S(r)=\{h: d(e,h)=r\}$. Um ciclo que passa por $e$ corresponde a uma palavra $s_1\cdots s_k$ com produto $e$ que não se reduz livremente à palavra vazia --- uma \emph{relação} entre os geradores. A \emph{cintura} (\textit{girth}) é o comprimento do menor ciclo. Babai e Seress~\cite{babai1992} discutem cotas gerais para diâmetros de grafos de Cayley de grupos de permutação.
+
+\subsection{Busca em grafos}
+Dado um grafo com custos unitários, um estado inicial $s_0$ e um objetivo $t$:
+\begin{itemize}[nosep]
+\item a \textbf{busca em largura} (BFS) expande os vértices por distância crescente e encontra um caminho mínimo, com custo de tempo e memória $\Theta(b^d)$ para fator de ramificação $b$ e profundidade $d$~\cite{russell2021};
+\item a \textbf{busca bidirecional}~\cite{pohl1971} executa duas BFS, a partir de $s_0$ e de $t$, e para quando as fronteiras se encontram, com custo $\Theta(b^{d/2})$;
+\item o \textbf{A$^*$}~\cite{hart1968} expande o nó de menor $f(n)=g(n)+h(n)$, em que $g(n)$ é o custo conhecido de $s_0$ até $n$ e $h(n)$ estima o custo restante. Se $h$ é \emph{admissível} ($h\le d^*$), a primeira solução extraída é ótima; se $h$ é \emph{consistente} ($h(n)\le 1+h(n')$ para toda aresta $n\to n'$), nenhum nó é reexpandido;
+\item o \textbf{IDA$^*$}~\cite{korf1985} realiza buscas em profundidade limitadas por $f\le\theta$, aumentando o limiar $\theta$ para o menor $f$ que o excedeu; é ótimo com $h$ admissível e usa memória $O(d)$.
+\end{itemize}
+O \emph{fator de ramificação efetivo} $b^*$ de uma execução que gerou $N$ nós e encontrou solução de profundidade $d$ é a solução de $N+1=1+b^*+\dots+(b^*)^d$~\cite{russell2021}.
+
+\subsection{Pattern databases}
+Uma \emph{pattern database} (PDB)~\cite{culberson1998} armazena distâncias exatas num espaço abstrato obtido ao ignorar parte da informação do estado (por exemplo, considerar apenas as orientações das peças). Korf~\cite{korf1997} usou PDBs de cantos e de arestas, combinadas pelo máximo, para obter as primeiras soluções ótimas de estados aleatórios do \cube{3}. Formalizamos a admissibilidade dessas heurísticas na \cref{prop:pdb}.

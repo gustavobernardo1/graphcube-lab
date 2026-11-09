@@ -6,7 +6,7 @@ import { getExact2, exact2Sync } from './MathPanel';
 import { encodeCubie2 } from '../search/cube2';
 import { toCubie } from '../core/cubie';
 import { canonicalFrame, conjugateMove } from '../core/symmetry';
-import { parseMove, invertMove, formatMove } from '../core/notation';
+import { parseMove, invertMove, formatMove, freeReduce } from '../core/notation';
 import { auxWorker } from '../workers/client';
 import { CubeNet } from './CubeNet';
 
@@ -130,7 +130,8 @@ export function StateGraphView() {
 
   const hoverNode = hover ? g.nodes.get(hover) : null;
   const total = lab.n === 3 ? ORDER_3 : ORDER_2;
-  const realCycles = g.cycles.filter((c) => c.length > 2).slice(-4).reverse();
+  const nontrivial = g.cycles.filter((c) => freeReduce(c.word.map(parseMove)).length > 0);
+  const realCycles = nontrivial.slice(-4).reverse();
 
   return (
     <div className="panel-body">
@@ -171,7 +172,7 @@ export function StateGraphView() {
       />
       <div className="row between wrap small">
         <span className="muted">
-          {g.edges.size} arestas · histórico {g.history.length - 1} passos · {g.repeatedStates()} estados repetidos
+          {g.edges.size} arestas · histórico {g.history.length - 1} passos · estados repetidos: {g.repeatedStates()}
         </span>
         <span className="legend">
           {DIST_COLORS.slice(0, lab.n === 2 ? 12 : 13).map((c, i) => (
@@ -189,15 +190,15 @@ export function StateGraphView() {
           </div>
         </div>
       )}
-      {lab.lastCycle && lab.lastCycle.length > 2 && (
+      {lab.lastCycle && (
         <div className="callout">
           <b>Ciclo fechado</b> de comprimento {lab.lastCycle.length}: a palavra <span className="mono">{lab.lastCycle.word.join(' ')}</span> é uma
           <b> relação</b> do grupo (seu produto é a identidade). Ciclos no grafo de estados ↔ relações entre geradores.
         </div>
       )}
-      {realCycles.length > 1 && (
+      {nontrivial.length > 1 && (
         <details className="small">
-          <summary>Ciclos detectados ({g.cycles.filter((c) => c.length > 2).length})</summary>
+          <summary>Relações detectadas ({nontrivial.length})</summary>
           <ul className="mono">
             {realCycles.map((c, i) => (
               <li key={i}>

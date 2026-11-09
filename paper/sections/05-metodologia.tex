@@ -1,0 +1,36 @@
+\section{Metodologia experimental}\label{sec:metodologia}
+
+\subsection{Questões e hipóteses}
+\begin{description}[nosep,leftmargin=1.2em]
+\item[Q1 (crescimento).] Como o esforço de busca varia com a dificuldade do problema? \emph{Hipótese:} o esforço é função da distância real $d^*$, não do comprimento $L$ do embaralhamento; $d^*$ deixa de acompanhar $L$ a partir de poucos movimentos e satura em torno da distância média do grafo.
+\item[Q2 (algoritmos).] Qual o custo relativo de BFS, BFS bidirecional, A$^*$ e IDA$^*$? \emph{Hipótese:} a taxa de crescimento por camada da busca bidirecional é próxima da raiz quadrada da taxa da BFS; A$^*$/IDA$^*$ com PDBs expandem ordens de grandeza menos nós; IDA$^*$ troca memória por reexpansões.
+\item[Q3 (heurísticas).] Quanto heurísticas mais informativas reduzem a busca? \emph{Hipótese:} a ordem de eficiência segue a razão média $h(s_0)/d^*$, e o máximo de duas PDBs domina cada uma delas.
+\item[Q4 (estrutura).] Como o conjunto de geradores altera a estrutura de $\Cay(\langle S\rangle,S)$?
+\end{description}
+
+\subsection{Instâncias e amostragem}
+\paragraph{Comprimento $L$, profundidade e distância $d^*$.} Distinguimos três grandezas que não devem ser confundidas: o \emph{comprimento do embaralhamento} $L$ (parâmetro do procedimento que gera a instância), a \emph{profundidade} atingida por uma busca (dependente do algoritmo) e a \emph{distância mínima real} $d^*(s)$ (propriedade do estado). No \cube{2}, $d^*$ é conhecido exatamente para todo estado pela tabela de 3\,674\,160 entradas; no \cube{3}, $d^*$ só é conhecido quando um algoritmo ótimo (IDA$^*$) termina.
+
+\paragraph{Embaralhamentos.} Palavras aleatórias de comprimento $L$ sem giros consecutivos da mesma face e com faces opostas em ordem canônica (geradas por \texttt{mulberry32} com semente registrada).
+
+\paragraph{Amostragem uniforme por camada (\cube{2}).} Para estudar os algoritmos em função de $d^*$, sorteamos índices uniformes em $[0,\num{3674160})$ e aceitamos os que têm $d^*=d$. Como a codificação é bijetiva, obtemos amostras uniformes de cada esfera $S(d)$.
+
+\paragraph{Estados uniformes do \cube{3}.} Sorteamos independentemente $\sigma,\tau,x,y$, corrigimos a paridade trocando duas arestas e fixamos as últimas orientações pelas somas; pelo \cref{thm:lei}, isso gera estados uniformes de $G$.
+
+\subsection{Experimentos}
+\begin{description}[nosep,leftmargin=1.2em]
+\item[E0 --- validação.] Ordens de sete grupos por Schreier--Sims e distribuição completa de distâncias do \cube{2} em HTM e QTM, comparadas a valores publicados.
+\item[E1 --- crescimento (Q1).] \cube{2}, HTM, $L=0,\dots,\gclEoneMaxL$, \gclEoneSamples{} embaralhamentos por $L$; BFS e BFS bidirecional; registramos $d^*$ e o esforço.
+\item[E2 --- algoritmos (Q2).] \cube{2}, HTM, \gclEtwoSamples{} estados uniformes em cada esfera $d^*=1,\dots,11$; BFS, bidirecional, A$^*$ e IDA$^*$ (ambos com $h_{\max}$).
+\item[E3 --- heurísticas (Q3).] \cube{2}, HTM, \gclEthreeSamples{} estados uniformes em cada $d^*\in\{2,4,6,7,\allowbreak 8,9,10,11\}$; A$^*$ e IDA$^*$ com $h_0$, $h_{\mathrm{pec}}$, $h_{\mathrm{ori}}$, $h_{\mathrm{perm}}$, $h_{\max}$ e o oráculo $h^*=d^*$ (referência inferior de esforço).
+\item[E3b --- \cube{3}.] \gclEthreebSamples{} embaralhamentos por $L\in\{2,4,6,7,\dots,12\}$: IDA$^*$ com $h_{\mathrm{PDB}}$ (e com $h_{\mathrm{pec}}$ para $L\le7$) e duas fases (200~ms); \gclTPUniformN{} estados uniformes de $G$ resolvidos por duas fases em dois regimes: primeira solução e ``alvo $\le20$ ou 1~s''.
+\item[E4 --- estrutura (Q4).] \gclEfourSets{} conjuntos de geradores (\cref{tab:e4}); BFS a partir de $e$ (completa no \cube{2}; no \cube{3}, até \gclEfourMaxNodes{} vértices, reportando apenas esferas completas), cintura, relação mínima, simetrias e $|\langle S\rangle|$ por Schreier--Sims.
+\end{description}
+
+\subsection{Métricas e convenções}
+Métrica de contagem: HTM (meia-volta conta 1), salvo indicação. Registramos: sucesso e motivo de falha (limite de nós ou de tempo); comprimento da solução e se é igual a $d^*$; nós expandidos, gerados e descobertos; pico de estados armazenados (proxy de memória --- no \cube{2} BFS e bidirecional usam tabelas de tamanho fixo de cerca de 22~MB, de modo que o pico mede o que uma implementação com tabela de dispersão precisaria guardar); tempo de parede; fator de ramificação efetivo. Execuções que estouram limites são \emph{mantidas} como falhas, não descartadas. Limites: E1/E2 $4\cdot10^6$ nós e 60~s; E3 \gclEthreeNodeLimit{} nós e 30~s; E3b $3\cdot10^7$ nós e 120~s.
+
+\paragraph{Natureza das medidas.} São \emph{propriedades do grafo matemático} (exatas): ordens de grupos, esferas completas, diâmetros, distribuições de distâncias, cinturas e $d^*$ no \cube{2}. Dependem do \emph{procedimento de amostragem}: médias de $d^*$ em função de $L$ e qualquer média sobre instâncias. Dependem da \emph{implementação e do hardware}: tempos e contagens de nós (estas também do algoritmo e das regras de poda). Bolas desenhadas na interface são \emph{visualizações parciais}.
+
+\subsection{Reprodutibilidade}
+Cada arquivo de resultado registra experimento, parâmetros, semente efetiva, convenção de contagem, limites, versão do software, commit e ambiente. Os resultados deste artigo foram obtidos com o commit \texttt{\gclResultsCommit}, em \gclResultsEnv, em \gclResultsDate{}, num total de \gclResultsTotalMin{} minutos. Para reproduzir: \texttt{npm run experiments} (em \texttt{app/}) e \texttt{python3 experiments/analysis/analyze.py}, que regenera todas as figuras, tabelas e os números citados no texto (definidos como macros \LaTeX{} geradas a partir dos dados).

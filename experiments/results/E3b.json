@@ -3,10 +3,10 @@
   "experiment": "E3b",
   "title": "3×3×3: IDA* ótimo (h_PDB, h_pec) vs. duas fases",
   "softwareVersion": "0.1.0",
-  "gitCommit": "d865b42",
-  "startedAt": "2026-11-09T14:59:32.181Z",
-  "durationMs": 99644,
-  "seed": "graphcube",
+  "gitCommit": "8585968",
+  "startedAt": "2026-11-09T15:16:05.122Z",
+  "durationMs": 102775,
+  "seed": "e3b",
   "params": {
    "lengths": [
     2,
@@ -46,7 +46,7 @@
    "generated": 6,
    "discovered": 7,
    "peakStored": 2,
-   "timeMs": 0.169,
+   "timeMs": 0.333,
    "ebf": 2,
    "dstar": 2
   },
@@ -64,7 +64,7 @@
    "generated": 6,
    "discovered": 7,
    "peakStored": 2,
-   "timeMs": 0.088,
+   "timeMs": 0.148,
    "ebf": 2,
    "dstar": 2
   },
@@ -82,7 +82,7 @@
    "generated": 25,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.312,
+   "timeMs": 0.456,
    "ebf": null,
    "dstar": 2
   },
@@ -100,7 +100,7 @@
    "generated": 3,
    "discovered": 4,
    "peakStored": 2,
-   "timeMs": 0.032,
+   "timeMs": 0.043,
    "ebf": 1.303,
    "dstar": 2
   },
@@ -118,7 +118,7 @@
    "generated": 3,
    "discovered": 4,
    "peakStored": 2,
-   "timeMs": 0.066,
+   "timeMs": 0.033,
    "ebf": 1.303,
    "dstar": 2
   },
@@ -136,7 +136,7 @@
    "generated": 23,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.053,
+   "timeMs": 0.145,
    "ebf": null,
    "dstar": 2
   },
@@ -154,7 +154,7 @@
    "generated": 12,
    "discovered": 13,
    "peakStored": 2,
-   "timeMs": 0.036,
+   "timeMs": 0.05,
    "ebf": 3,
    "dstar": 2
   },
@@ -172,7 +172,7 @@
    "generated": 12,
    "discovered": 13,
    "peakStored": 2,
-   "timeMs": 0.024,
+   "timeMs": 0.041,
    "ebf": 3,
    "dstar": 2
   },
@@ -190,7 +190,7 @@
    "generated": 1565,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.845,
+   "timeMs": 1.025,
    "ebf": null,
    "dstar": 2
   },
@@ -208,7 +208,7 @@
    "generated": 9,
    "discovered": 10,
    "peakStored": 2,
-   "timeMs": 0.032,
+   "timeMs": 0.037,
    "ebf": 2.541,
    "dstar": 2
   },
@@ -226,7 +226,7 @@
    "generated": 9,
    "discovered": 10,
    "peakStored": 2,
-   "timeMs": 0.02,
+   "timeMs": 0.035,
    "ebf": 2.541,
    "dstar": 2
   },
@@ -244,7 +244,7 @@
    "generated": 21,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.032,
+   "timeMs": 0.049,
    "ebf": null,
    "dstar": 2
   },
@@ -262,7 +262,7 @@
    "generated": 9,
    "discovered": 10,
    "peakStored": 2,
-   "timeMs": 0.023,
+   "timeMs": 0.035,
    "ebf": 2.541,
    "dstar": 2
   },
@@ -280,7 +280,7 @@
    "generated": 9,
    "discovered": 10,
    "peakStored": 2,
-   "timeMs": 0.02,
+   "timeMs": 0.036,
    "ebf": 2.541,
    "dstar": 2
   },
@@ -298,7 +298,7 @@
    "generated": 1565,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.476,
+   "timeMs": 0.732,
    "ebf": null,
    "dstar": 2
   },
@@ -316,7 +316,7 @@
    "generated": 27,
    "discovered": 28,
    "peakStored": 2,
-   "timeMs": 0.038,
+   "timeMs": 0.103,
    "ebf": 4.72,
    "dstar": 2
   },
@@ -334,7 +334,7 @@
    "generated": 39,
    "discovered": 40,
    "peakStored": 2,
-   "timeMs": 0.043,
+   "timeMs": 0.141,
    "ebf": 5.765,
    "dstar": 2
   },
@@ -352,7 +352,7 @@
    "generated": 1064,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.243,
+   "timeMs": 0.359,
    "ebf": null,
    "dstar": 2
   },
@@ -370,7 +370,7 @@
    "generated": 4,
    "discovered": 5,
    "peakStored": 2,
-   "timeMs": 0.029,
+   "timeMs": 0.025,
    "ebf": 1.562,
    "dstar": 2
   },
@@ -388,7 +388,7 @@
    "generated": 4,
    "discovered": 5,
    "peakStored": 2,
-   "timeMs": 0.015,
+   "timeMs": 0.023,
    "ebf": 1.562,
    "dstar": 2
   },
@@ -406,7 +406,7 @@
    "generated": 1542,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.295,
+   "timeMs": 0.465,
    "ebf": null,
    "dstar": 2
   },
@@ -424,7 +424,7 @@
    "generated": 19,
    "discovered": 20,
    "peakStored": 2,
-   "timeMs": 0.026,
+   "timeMs": 0.051,
    "ebf": 3.887,
    "dstar": 2
   },
@@ -442,7 +442,7 @@
    "generated": 19,
    "discovered": 20,
    "peakStored": 2,
-   "timeMs": 0.026,
+   "timeMs": 0.051,
    "ebf": 3.887,
    "dstar": 2
   },
@@ -460,7 +460,7 @@
    "generated": 35,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.027,
+   "timeMs": 0.041,
    "ebf": null,
    "dstar": 2
   },
@@ -478,7 +478,7 @@
    "generated": 23,
    "discovered": 24,
    "peakStored": 2,
-   "timeMs": 0.03,
+   "timeMs": 0.058,
    "ebf": 4.322,
    "dstar": 2
   },
@@ -496,7 +496,7 @@
    "generated": 38,
    "discovered": 39,
    "peakStored": 2,
-   "timeMs": 0.048,
+   "timeMs": 0.083,
    "ebf": 5.685,
    "dstar": 2
   },
@@ -514,7 +514,7 @@
    "generated": 1539,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.225,
+   "timeMs": 0.144,
    "ebf": null,
    "dstar": 2
   },
@@ -532,7 +532,7 @@
    "generated": 10,
    "discovered": 11,
    "peakStored": 2,
-   "timeMs": 0.017,
+   "timeMs": 0.034,
    "ebf": 2.702,
    "dstar": 2
   },
@@ -550,7 +550,7 @@
    "generated": 10,
    "discovered": 11,
    "peakStored": 2,
-   "timeMs": 0.019,
+   "timeMs": 0.032,
    "ebf": 2.702,
    "dstar": 2
   },
@@ -568,7 +568,7 @@
    "generated": 22,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.012,
+   "timeMs": 0.02,
    "ebf": null,
    "dstar": 2
   },
@@ -586,7 +586,7 @@
    "generated": 27,
    "discovered": 28,
    "peakStored": 4,
-   "timeMs": 0.032,
+   "timeMs": 0.065,
    "ebf": 1.936,
    "dstar": 4
   },
@@ -604,7 +604,7 @@
    "generated": 273,
    "discovered": 274,
    "peakStored": 4,
-   "timeMs": 0.271,
+   "timeMs": 0.534,
    "ebf": 3.768,
    "dstar": 4
   },
@@ -622,7 +622,7 @@
    "generated": 1452,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.164,
+   "timeMs": 0.209,
    "ebf": null,
    "dstar": 4
   },
@@ -640,7 +640,7 @@
    "generated": 23,
    "discovered": 24,
    "peakStored": 4,
-   "timeMs": 0.035,
+   "timeMs": 0.06,
    "ebf": 1.842,
    "dstar": 4
   },
@@ -658,7 +658,7 @@
    "generated": 470,
    "discovered": 471,
    "peakStored": 4,
-   "timeMs": 0.386,
+   "timeMs": 0.514,
    "ebf": 4.366,
    "dstar": 4
   },
@@ -676,7 +676,7 @@
    "generated": 1121,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.187,
+   "timeMs": 0.138,
    "ebf": null,
    "dstar": 4
   },
@@ -694,7 +694,7 @@
    "generated": 35,
    "discovered": 36,
    "peakStored": 4,
-   "timeMs": 0.051,
+   "timeMs": 0.085,
    "ebf": 2.096,
    "dstar": 4
   },
@@ -712,7 +712,7 @@
    "generated": 362,
    "discovered": 363,
    "peakStored": 4,
-   "timeMs": 0.172,
+   "timeMs": 0.356,
    "ebf": 4.069,
    "dstar": 4
   },
@@ -730,7 +730,7 @@
    "generated": 1430,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.109,
+   "timeMs": 0.169,
    "ebf": null,
    "dstar": 4
   },
@@ -748,7 +748,7 @@
    "generated": 192,
    "discovered": 193,
    "peakStored": 5,
-   "timeMs": 0.171,
+   "timeMs": 0.275,
    "ebf": 3.42,
    "dstar": 4
   },
@@ -766,7 +766,7 @@
    "generated": 471,
    "discovered": 472,
    "peakStored": 4,
-   "timeMs": 0.207,
+   "timeMs": 0.428,
    "ebf": 4.368,
    "dstar": 4
   },
@@ -784,7 +784,7 @@
    "generated": 921,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.171,
+   "timeMs": 0.325,
    "ebf": null,
    "dstar": 4
   },
@@ -802,7 +802,7 @@
    "generated": 30,
    "discovered": 31,
    "peakStored": 4,
-   "timeMs": 0.04,
+   "timeMs": 0.1,
    "ebf": 2,
    "dstar": 4
   },
@@ -820,7 +820,7 @@
    "generated": 504,
    "discovered": 505,
    "peakStored": 4,
-   "timeMs": 0.252,
+   "timeMs": 0.486,
    "ebf": 4.449,
    "dstar": 4
   },
@@ -838,7 +838,7 @@
    "generated": 56,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.028,
+   "timeMs": 0.046,
    "ebf": null,
    "dstar": 4
   },
@@ -856,7 +856,7 @@
    "generated": 32,
    "discovered": 33,
    "peakStored": 4,
-   "timeMs": 0.063,
+   "timeMs": 0.115,
    "ebf": 2.04,
    "dstar": 4
   },
@@ -874,7 +874,7 @@
    "generated": 191,
    "discovered": 192,
    "peakStored": 4,
-   "timeMs": 0.109,
+   "timeMs": 0.272,
    "ebf": 3.415,
    "dstar": 4
   },
@@ -892,7 +892,7 @@
    "generated": 60,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.038,
+   "timeMs": 0.054,
    "ebf": null,
    "dstar": 4
   },
@@ -910,7 +910,7 @@
    "generated": 25,
    "discovered": 26,
    "peakStored": 4,
-   "timeMs": 0.038,
+   "timeMs": 0.066,
    "ebf": 1.891,
    "dstar": 4
   },
@@ -928,7 +928,7 @@
    "generated": 1183,
    "discovered": 1184,
    "peakStored": 4,
-   "timeMs": 0.721,
+   "timeMs": 1.147,
    "ebf": 5.584,
    "dstar": 4
   },
@@ -946,7 +946,7 @@
    "generated": 63,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.04,
+   "timeMs": 0.05,
    "ebf": null,
    "dstar": 4
   },
@@ -964,7 +964,7 @@
    "generated": 127,
    "discovered": 128,
    "peakStored": 5,
-   "timeMs": 0.124,
+   "timeMs": 0.202,
    "ebf": 3.048,
    "dstar": 4
   },
@@ -982,7 +982,7 @@
    "generated": 568,
    "discovered": 569,
    "peakStored": 4,
-   "timeMs": 0.281,
+   "timeMs": 0.524,
    "ebf": 4.594,
    "dstar": 4
   },
@@ -1000,7 +1000,7 @@
    "generated": 770,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.142,
+   "timeMs": 0.207,
    "ebf": null,
    "dstar": 4
   },
@@ -1018,7 +1018,7 @@
    "generated": 28,
    "discovered": 29,
    "peakStored": 4,
-   "timeMs": 0.043,
+   "timeMs": 0.064,
    "ebf": 1.958,
    "dstar": 4
   },
@@ -1036,7 +1036,7 @@
    "generated": 184,
    "discovered": 185,
    "peakStored": 4,
-   "timeMs": 0.086,
+   "timeMs": 0.224,
    "ebf": 3.38,
    "dstar": 4
   },
@@ -1054,7 +1054,7 @@
    "generated": 1120,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.108,
+   "timeMs": 0.133,
    "ebf": null,
    "dstar": 4
   },
@@ -1072,7 +1072,7 @@
    "generated": 26,
    "discovered": 27,
    "peakStored": 4,
-   "timeMs": 0.039,
+   "timeMs": 0.051,
    "ebf": 1.914,
    "dstar": 4
   },
@@ -1090,7 +1090,7 @@
    "generated": 74,
    "discovered": 75,
    "peakStored": 4,
-   "timeMs": 0.078,
+   "timeMs": 0.045,
    "ebf": 2.614,
    "dstar": 4
   },
@@ -1108,7 +1108,7 @@
    "generated": 1581,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.103,
+   "timeMs": 0.13,
    "ebf": null,
    "dstar": 4
   },
@@ -1126,7 +1126,7 @@
    "generated": 4606,
    "discovered": 4607,
    "peakStored": 7,
-   "timeMs": 3.601,
+   "timeMs": 5.237,
    "ebf": 3.882,
    "dstar": 6
   },
@@ -1144,7 +1144,7 @@
    "generated": 35479,
    "discovered": 35480,
    "peakStored": 6,
-   "timeMs": 8.045,
+   "timeMs": 10.635,
    "ebf": 5.545,
    "dstar": 6
   },
@@ -1162,7 +1162,7 @@
    "generated": 6809,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.033,
+   "timeMs": 1.572,
    "ebf": null,
    "dstar": 6
   },
@@ -1180,7 +1180,7 @@
    "generated": 193,
    "discovered": 194,
    "peakStored": 6,
-   "timeMs": 0.128,
+   "timeMs": 0.191,
    "ebf": 2.173,
    "dstar": 6
   },
@@ -1198,7 +1198,7 @@
    "generated": 48301,
    "discovered": 48302,
    "peakStored": 6,
-   "timeMs": 9.915,
+   "timeMs": 11.769,
    "ebf": 5.849,
    "dstar": 6
   },
@@ -1216,7 +1216,7 @@
    "generated": 1109,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.105,
+   "timeMs": 0.109,
    "ebf": null,
    "dstar": 6
   },
@@ -1234,7 +1234,7 @@
    "generated": 364,
    "discovered": 365,
    "peakStored": 6,
-   "timeMs": 0.191,
+   "timeMs": 0.219,
    "ebf": 2.45,
    "dstar": 6
   },
@@ -1252,7 +1252,7 @@
    "generated": 66394,
    "discovered": 66395,
    "peakStored": 6,
-   "timeMs": 17.379,
+   "timeMs": 18.501,
    "ebf": 6.179,
    "dstar": 6
   },
@@ -1270,7 +1270,7 @@
    "generated": 6846,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.61,
+   "timeMs": 0.539,
    "ebf": null,
    "dstar": 6
   },
@@ -1306,7 +1306,7 @@
    "generated": 14857,
    "discovered": 14858,
    "peakStored": 6,
-   "timeMs": 4.15,
+   "timeMs": 3.538,
    "ebf": 4.767,
    "dstar": 6
   },
@@ -1324,7 +1324,7 @@
    "generated": 1619,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.128,
+   "timeMs": 0.119,
    "ebf": null,
    "dstar": 6
   },
@@ -1342,7 +1342,7 @@
    "generated": 178,
    "discovered": 179,
    "peakStored": 7,
-   "timeMs": 0.123,
+   "timeMs": 0.117,
    "ebf": 2.139,
    "dstar": 6
   },
@@ -1360,7 +1360,7 @@
    "generated": 49186,
    "discovered": 49187,
    "peakStored": 6,
-   "timeMs": 11.338,
+   "timeMs": 10.969,
    "ebf": 5.867,
    "dstar": 6
   },
@@ -1378,7 +1378,7 @@
    "generated": 2290,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.219,
+   "timeMs": 0.208,
    "ebf": null,
    "dstar": 6
   },
@@ -1396,7 +1396,7 @@
    "generated": 44,
    "discovered": 45,
    "peakStored": 6,
-   "timeMs": 0.05,
+   "timeMs": 0.049,
    "ebf": 1.615,
    "dstar": 6
   },
@@ -1414,7 +1414,7 @@
    "generated": 40181,
    "discovered": 40182,
    "peakStored": 6,
-   "timeMs": 8.822,
+   "timeMs": 8.888,
    "ebf": 5.666,
    "dstar": 6
   },
@@ -1432,7 +1432,7 @@
    "generated": 1619,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.126,
+   "timeMs": 0.116,
    "ebf": null,
    "dstar": 6
   },
@@ -1450,7 +1450,7 @@
    "generated": 227,
    "discovered": 228,
    "peakStored": 7,
-   "timeMs": 0.153,
+   "timeMs": 0.177,
    "ebf": 2.241,
    "dstar": 6
   },
@@ -1468,7 +1468,7 @@
    "generated": 51911,
    "discovered": 51912,
    "peakStored": 6,
-   "timeMs": 10.54,
+   "timeMs": 11.249,
    "ebf": 5.922,
    "dstar": 6
   },
@@ -1486,7 +1486,7 @@
    "generated": 716,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.105,
+   "timeMs": 0.108,
    "ebf": null,
    "dstar": 6
   },
@@ -1504,7 +1504,7 @@
    "generated": 51,
    "discovered": 52,
    "peakStored": 6,
-   "timeMs": 0.046,
+   "timeMs": 0.053,
    "ebf": 1.666,
    "dstar": 6
   },
@@ -1522,7 +1522,7 @@
    "generated": 49209,
    "discovered": 49210,
    "peakStored": 6,
-   "timeMs": 11.249,
+   "timeMs": 10.483,
    "ebf": 5.868,
    "dstar": 6
   },
@@ -1540,7 +1540,7 @@
    "generated": 87,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.033,
+   "timeMs": 0.035,
    "ebf": null,
    "dstar": 6
   },
@@ -1558,7 +1558,7 @@
    "generated": 222,
    "discovered": 223,
    "peakStored": 6,
-   "timeMs": 0.133,
+   "timeMs": 0.142,
    "ebf": 2.232,
    "dstar": 6
   },
@@ -1576,7 +1576,7 @@
    "generated": 15684,
    "discovered": 15685,
    "peakStored": 6,
-   "timeMs": 3.022,
+   "timeMs": 3.463,
    "ebf": 4.813,
    "dstar": 6
   },
@@ -1594,7 +1594,7 @@
    "generated": 1648,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.135,
+   "timeMs": 0.139,
    "ebf": null,
    "dstar": 6
   },
@@ -1612,7 +1612,7 @@
    "generated": 1168,
    "discovered": 1169,
    "peakStored": 7,
-   "timeMs": 0.531,
+   "timeMs": 0.613,
    "ebf": 3.037,
    "dstar": 6
   },
@@ -1630,7 +1630,7 @@
    "generated": 10870,
    "discovered": 10871,
    "peakStored": 6,
-   "timeMs": 2.272,
+   "timeMs": 2.463,
    "ebf": 4.514,
    "dstar": 6
   },
@@ -1648,7 +1648,7 @@
    "generated": 1301,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.099,
+   "timeMs": 0.089,
    "ebf": null,
    "dstar": 6
   },
@@ -1666,7 +1666,7 @@
    "generated": 1916,
    "discovered": 1917,
    "peakStored": 8,
-   "timeMs": 1.006,
+   "timeMs": 1.019,
    "ebf": 2.761,
    "dstar": 7
   },
@@ -1684,7 +1684,7 @@
    "generated": 322484,
    "discovered": 322485,
    "peakStored": 7,
-   "timeMs": 61.704,
+   "timeMs": 68.57,
    "ebf": 5.964,
    "dstar": 7
   },
@@ -1702,7 +1702,7 @@
    "generated": 1773,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.151,
+   "timeMs": 0.148,
    "ebf": null,
    "dstar": 7
   },
@@ -1720,7 +1720,7 @@
    "generated": 604,
    "discovered": 605,
    "peakStored": 7,
-   "timeMs": 0.339,
+   "timeMs": 0.333,
    "ebf": 2.302,
    "dstar": 7
   },
@@ -1738,7 +1738,7 @@
    "generated": 493507,
    "discovered": 493508,
    "peakStored": 7,
-   "timeMs": 98.571,
+   "timeMs": 103.074,
    "ebf": 6.349,
    "dstar": 7
   },
@@ -1756,7 +1756,7 @@
    "generated": 2376,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.294,
+   "timeMs": 0.234,
    "ebf": null,
    "dstar": 7
   },
@@ -1774,7 +1774,7 @@
    "generated": 2835,
    "discovered": 2836,
    "peakStored": 8,
-   "timeMs": 1.392,
+   "timeMs": 1.395,
    "ebf": 2.934,
    "dstar": 7
   },
@@ -1792,7 +1792,7 @@
    "generated": 489753,
    "discovered": 489754,
    "peakStored": 7,
-   "timeMs": 93.865,
+   "timeMs": 130.207,
    "ebf": 6.342,
    "dstar": 7
   },
@@ -1810,7 +1810,7 @@
    "generated": 2354,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.276,
+   "timeMs": 0.275,
    "ebf": null,
    "dstar": 7
   },
@@ -1828,7 +1828,7 @@
    "generated": 130,
    "discovered": 131,
    "peakStored": 7,
-   "timeMs": 0.098,
+   "timeMs": 0.104,
    "ebf": 1.787,
    "dstar": 7
   },
@@ -1846,7 +1846,7 @@
    "generated": 61099,
    "discovered": 61100,
    "peakStored": 7,
-   "timeMs": 10.495,
+   "timeMs": 12.67,
    "ebf": 4.664,
    "dstar": 7
   },
@@ -1864,7 +1864,7 @@
    "generated": 88,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.055,
+   "timeMs": 0.062,
    "ebf": null,
    "dstar": 7
   },
@@ -1882,7 +1882,7 @@
    "generated": 2130,
    "discovered": 2131,
    "peakStored": 8,
-   "timeMs": 0.947,
+   "timeMs": 1.047,
    "ebf": 2.807,
    "dstar": 7
   },
@@ -1900,7 +1900,7 @@
    "generated": 433998,
    "discovered": 433999,
    "peakStored": 7,
-   "timeMs": 82.164,
+   "timeMs": 86.287,
    "ebf": 6.23,
    "dstar": 7
   },
@@ -1918,7 +1918,7 @@
    "generated": 2041,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.194,
+   "timeMs": 0.183,
    "ebf": null,
    "dstar": 7
   },
@@ -1936,7 +1936,7 @@
    "generated": 860,
    "discovered": 861,
    "peakStored": 7,
-   "timeMs": 0.425,
+   "timeMs": 0.444,
    "ebf": 2.435,
    "dstar": 7
   },
@@ -1954,7 +1954,7 @@
    "generated": 368291,
    "discovered": 368292,
    "peakStored": 7,
-   "timeMs": 73.261,
+   "timeMs": 79.634,
    "ebf": 6.082,
    "dstar": 7
   },
@@ -1972,7 +1972,7 @@
    "generated": 5138,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.579,
+   "timeMs": 0.55,
    "ebf": null,
    "dstar": 7
   },
@@ -1990,7 +1990,7 @@
    "generated": 128,
    "discovered": 129,
    "peakStored": 7,
-   "timeMs": 0.099,
+   "timeMs": 0.1,
    "ebf": 1.783,
    "dstar": 7
   },
@@ -2008,7 +2008,7 @@
    "generated": 143726,
    "discovered": 143727,
    "peakStored": 7,
-   "timeMs": 26.111,
+   "timeMs": 30.661,
    "ebf": 5.294,
    "dstar": 7
   },
@@ -2026,7 +2026,7 @@
    "generated": 833,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.152,
+   "timeMs": 0.13,
    "ebf": null,
    "dstar": 7
   },
@@ -2044,7 +2044,7 @@
    "generated": 123,
    "discovered": 124,
    "peakStored": 7,
-   "timeMs": 0.092,
+   "timeMs": 0.095,
    "ebf": 1.77,
    "dstar": 7
   },
@@ -2062,7 +2062,7 @@
    "generated": 500739,
    "discovered": 500740,
    "peakStored": 7,
-   "timeMs": 90.642,
+   "timeMs": 102.92,
    "ebf": 6.362,
    "dstar": 7
   },
@@ -2080,7 +2080,7 @@
    "generated": 204,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.069,
+   "timeMs": 0.073,
    "ebf": null,
    "dstar": 7
   },
@@ -2098,7 +2098,7 @@
    "generated": 248,
    "discovered": 249,
    "peakStored": 7,
-   "timeMs": 0.153,
+   "timeMs": 0.165,
    "ebf": 1.992,
    "dstar": 7
   },
@@ -2116,7 +2116,7 @@
    "generated": 389333,
    "discovered": 389334,
    "peakStored": 7,
-   "timeMs": 78.419,
+   "timeMs": 84.1,
    "ebf": 6.132,
    "dstar": 7
   },
@@ -2134,7 +2134,7 @@
    "generated": 161,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.085,
+   "timeMs": 0.08,
    "ebf": null,
    "dstar": 7
   },
@@ -2152,7 +2152,7 @@
    "generated": 29520,
    "discovered": 29521,
    "peakStored": 8,
-   "timeMs": 13.272,
+   "timeMs": 13.502,
    "ebf": 4.185,
    "dstar": 7
   },
@@ -2170,7 +2170,7 @@
    "generated": 190584,
    "discovered": 190585,
    "peakStored": 7,
-   "timeMs": 40.464,
+   "timeMs": 40.557,
    "ebf": 5.519,
    "dstar": 7
   },
@@ -2188,7 +2188,7 @@
    "generated": 940214,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 24.298,
+   "timeMs": 26.119,
    "ebf": null,
    "dstar": 7
   },
@@ -2206,7 +2206,7 @@
    "generated": 38801,
    "discovered": 38802,
    "peakStored": 9,
-   "timeMs": 18.697,
+   "timeMs": 16.823,
    "ebf": 3.597,
    "dstar": 8
   },
@@ -2224,7 +2224,7 @@
    "generated": 132492,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.153,
+   "timeMs": 5.305,
    "ebf": null,
    "dstar": 8
   },
@@ -2242,7 +2242,7 @@
    "generated": 909,
    "discovered": 910,
    "peakStored": 8,
-   "timeMs": 0.612,
+   "timeMs": 0.459,
    "ebf": 2.17,
    "dstar": 8
   },
@@ -2260,7 +2260,7 @@
    "generated": 391475,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 14.41,
+   "timeMs": 15.325,
    "ebf": null,
    "dstar": 8
   },
@@ -2278,7 +2278,7 @@
    "generated": 4386,
    "discovered": 4387,
    "peakStored": 8,
-   "timeMs": 1.903,
+   "timeMs": 1.939,
    "ebf": 2.692,
    "dstar": 8
   },
@@ -2296,7 +2296,7 @@
    "generated": 2348,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.099,
+   "timeMs": 0.111,
    "ebf": null,
    "dstar": 8
   },
@@ -2314,7 +2314,7 @@
    "generated": 1424,
    "discovered": 1425,
    "peakStored": 8,
-   "timeMs": 0.606,
+   "timeMs": 0.627,
    "ebf": 2.309,
    "dstar": 8
   },
@@ -2332,7 +2332,7 @@
    "generated": 583,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.046,
+   "timeMs": 0.047,
    "ebf": null,
    "dstar": 8
   },
@@ -2350,7 +2350,7 @@
    "generated": 669,
    "discovered": 670,
    "peakStored": 8,
-   "timeMs": 0.297,
+   "timeMs": 0.336,
    "ebf": 2.078,
    "dstar": 8
   },
@@ -2368,7 +2368,7 @@
    "generated": 121,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.016,
+   "timeMs": 0.019,
    "ebf": null,
    "dstar": 8
   },
@@ -2386,7 +2386,7 @@
    "generated": 959,
    "discovered": 960,
    "peakStored": 8,
-   "timeMs": 0.413,
+   "timeMs": 0.496,
    "ebf": 2.186,
    "dstar": 8
   },
@@ -2404,7 +2404,7 @@
    "generated": 1625,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.109,
+   "timeMs": 0.115,
    "ebf": null,
    "dstar": 8
   },
@@ -2422,7 +2422,7 @@
    "generated": 690,
    "discovered": 691,
    "peakStored": 8,
-   "timeMs": 0.279,
+   "timeMs": 0.335,
    "ebf": 2.087,
    "dstar": 8
   },
@@ -2440,7 +2440,7 @@
    "generated": 167,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.015,
+   "timeMs": 0.019,
    "ebf": null,
    "dstar": 8
   },
@@ -2458,7 +2458,7 @@
    "generated": 3195,
    "discovered": 3196,
    "peakStored": 9,
-   "timeMs": 1.195,
+   "timeMs": 1.407,
    "ebf": 2.579,
    "dstar": 8
   },
@@ -2476,7 +2476,7 @@
    "generated": 15478,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.696,
+   "timeMs": 0.657,
    "ebf": null,
    "dstar": 8
   },
@@ -2494,7 +2494,7 @@
    "generated": 2122,
    "discovered": 2123,
    "peakStored": 8,
-   "timeMs": 1.309,
+   "timeMs": 1.473,
    "ebf": 2.439,
    "dstar": 8
   },
@@ -2512,7 +2512,7 @@
    "generated": 800691,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 22.145,
+   "timeMs": 32.209,
    "ebf": null,
    "dstar": 8
   },
@@ -2530,7 +2530,7 @@
    "generated": 490,
    "discovered": 491,
    "peakStored": 8,
-   "timeMs": 0.269,
+   "timeMs": 0.373,
    "ebf": 1.989,
    "dstar": 8
   },
@@ -2548,7 +2548,7 @@
    "generated": 2172,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.091,
+   "timeMs": 0.129,
    "ebf": null,
    "dstar": 8
   },
@@ -2566,7 +2566,7 @@
    "generated": 9392,
    "discovered": 9393,
    "peakStored": 9,
-   "timeMs": 3.769,
+   "timeMs": 6.55,
    "ebf": 2.62,
    "dstar": 9
   },
@@ -2584,7 +2584,7 @@
    "generated": 1166,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.066,
+   "timeMs": 0.085,
    "ebf": null,
    "dstar": 9
   },
@@ -2602,7 +2602,7 @@
    "generated": 13038,
    "discovered": 13039,
    "peakStored": 9,
-   "timeMs": 6.333,
+   "timeMs": 10.083,
    "ebf": 2.724,
    "dstar": 9
   },
@@ -2620,7 +2620,7 @@
    "generated": 528996,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 18.288,
+   "timeMs": 24.107,
    "ebf": null,
    "dstar": 9
   },
@@ -2638,7 +2638,7 @@
    "generated": 12323,
    "discovered": 12324,
    "peakStored": 10,
-   "timeMs": 5.217,
+   "timeMs": 6.087,
    "ebf": 2.706,
    "dstar": 9
   },
@@ -2656,7 +2656,7 @@
    "generated": 5696,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.247,
+   "timeMs": 0.34,
    "ebf": null,
    "dstar": 9
   },
@@ -2674,7 +2674,7 @@
    "generated": 7904,
    "discovered": 7905,
    "peakStored": 9,
-   "timeMs": 3.019,
+   "timeMs": 6.223,
    "ebf": 2.566,
    "dstar": 9
   },
@@ -2692,7 +2692,7 @@
    "generated": 16938,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.657,
+   "timeMs": 0.995,
    "ebf": null,
    "dstar": 9
   },
@@ -2710,7 +2710,7 @@
    "generated": 34936,
    "discovered": 34937,
    "peakStored": 9,
-   "timeMs": 14.504,
+   "timeMs": 28.146,
    "ebf": 3.06,
    "dstar": 9
   },
@@ -2728,7 +2728,7 @@
    "generated": 11037,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.591,
+   "timeMs": 1.087,
    "ebf": null,
    "dstar": 9
   },
@@ -2746,7 +2746,7 @@
    "generated": 3121,
    "discovered": 3122,
    "peakStored": 9,
-   "timeMs": 1.213,
+   "timeMs": 2.226,
    "ebf": 2.294,
    "dstar": 9
   },
@@ -2764,7 +2764,7 @@
    "generated": 48798,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.698,
+   "timeMs": 2.506,
    "ebf": null,
    "dstar": 9
   },
@@ -2782,7 +2782,7 @@
    "generated": 34597,
    "discovered": 34598,
    "peakStored": 10,
-   "timeMs": 14.689,
+   "timeMs": 27.102,
    "ebf": 3.056,
    "dstar": 9
   },
@@ -2800,7 +2800,7 @@
    "generated": 77872,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.152,
+   "timeMs": 5.504,
    "ebf": null,
    "dstar": 9
   },
@@ -2818,7 +2818,7 @@
    "generated": 10433,
    "discovered": 10434,
    "peakStored": 9,
-   "timeMs": 4.978,
+   "timeMs": 9.296,
    "ebf": 2.653,
    "dstar": 9
   },
@@ -2836,7 +2836,7 @@
    "generated": 59824,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.257,
+   "timeMs": 3.762,
    "ebf": null,
    "dstar": 9
   },
@@ -2854,7 +2854,7 @@
    "generated": 6103,
    "discovered": 6104,
    "peakStored": 9,
-   "timeMs": 2.654,
+   "timeMs": 4.827,
    "ebf": 2.488,
    "dstar": 9
   },
@@ -2872,7 +2872,7 @@
    "generated": 60153,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.045,
+   "timeMs": 3.145,
    "ebf": null,
    "dstar": 9
   },
@@ -2890,7 +2890,7 @@
    "generated": 16115,
    "discovered": 16116,
    "peakStored": 9,
-   "timeMs": 7.255,
+   "timeMs": 12.054,
    "ebf": 2.793,
    "dstar": 9
   },
@@ -2908,7 +2908,7 @@
    "generated": 439906,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 14.835,
+   "timeMs": 18.532,
    "ebf": null,
    "dstar": 9
   },
@@ -2926,7 +2926,7 @@
    "generated": 11334,
    "discovered": 11335,
    "peakStored": 10,
-   "timeMs": 5.37,
+   "timeMs": 5.716,
    "ebf": 2.411,
    "dstar": 10
   },
@@ -2944,7 +2944,7 @@
    "generated": 335882,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 11.166,
+   "timeMs": 10.997,
    "ebf": null,
    "dstar": 10
   },
@@ -2962,7 +2962,7 @@
    "generated": 47975,
    "discovered": 47976,
    "peakStored": 10,
-   "timeMs": 22.231,
+   "timeMs": 23.481,
    "ebf": 2.812,
    "dstar": 10
   },
@@ -2980,7 +2980,7 @@
    "generated": 257345,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 9.065,
+   "timeMs": 8.778,
    "ebf": null,
    "dstar": 10
   },
@@ -2998,7 +2998,7 @@
    "generated": 168903,
    "discovered": 168904,
    "peakStored": 10,
-   "timeMs": 76.681,
+   "timeMs": 73.017,
    "ebf": 3.21,
    "dstar": 10
   },
@@ -3016,7 +3016,7 @@
    "generated": 1006100,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 42.78,
+   "timeMs": 38.742,
    "ebf": null,
    "dstar": 10
   },
@@ -3034,7 +3034,7 @@
    "generated": 154768,
    "discovered": 154769,
    "peakStored": 10,
-   "timeMs": 64.729,
+   "timeMs": 66.88,
    "ebf": 3.181,
    "dstar": 10
   },
@@ -3052,7 +3052,7 @@
    "generated": 467635,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 15.413,
+   "timeMs": 12.954,
    "ebf": null,
    "dstar": 10
   },
@@ -3070,7 +3070,7 @@
    "generated": 119988,
    "discovered": 119989,
    "peakStored": 10,
-   "timeMs": 50.189,
+   "timeMs": 51.232,
    "ebf": 3.097,
    "dstar": 10
   },
@@ -3088,7 +3088,7 @@
    "generated": 71285,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.2,
+   "timeMs": 2.172,
    "ebf": null,
    "dstar": 10
   },
@@ -3106,7 +3106,7 @@
    "generated": 58589,
    "discovered": 58590,
    "peakStored": 10,
-   "timeMs": 25.35,
+   "timeMs": 25.344,
    "ebf": 2.872,
    "dstar": 10
   },
@@ -3124,7 +3124,7 @@
    "generated": 83646,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.651,
+   "timeMs": 3.079,
    "ebf": null,
    "dstar": 10
   },
@@ -3142,7 +3142,7 @@
    "generated": 520584,
    "discovered": 520585,
    "peakStored": 11,
-   "timeMs": 267.71,
+   "timeMs": 225.741,
    "ebf": 3.61,
    "dstar": 10
   },
@@ -3160,7 +3160,7 @@
    "generated": 1460537,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 63.21,
+   "timeMs": 56.984,
    "ebf": null,
    "dstar": 10
   },
@@ -3178,7 +3178,7 @@
    "generated": 842087,
    "discovered": 842088,
    "peakStored": 11,
-   "timeMs": 359.846,
+   "timeMs": 363.448,
    "ebf": 3.795,
    "dstar": 10
   },
@@ -3196,7 +3196,7 @@
    "generated": 183811,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 8.739,
+   "timeMs": 9.172,
    "ebf": null,
    "dstar": 10
   },
@@ -3214,7 +3214,7 @@
    "generated": 38787,
    "discovered": 38788,
    "peakStored": 10,
-   "timeMs": 17.842,
+   "timeMs": 17.917,
    "ebf": 2.749,
    "dstar": 10
   },
@@ -3232,7 +3232,7 @@
    "generated": 36953,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.591,
+   "timeMs": 1.589,
    "ebf": null,
    "dstar": 10
   },
@@ -3250,7 +3250,7 @@
    "generated": 141964,
    "discovered": 141965,
    "peakStored": 11,
-   "timeMs": 63.145,
+   "timeMs": 61.976,
    "ebf": 3.152,
    "dstar": 10
   },
@@ -3268,7 +3268,7 @@
    "generated": 790425,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 28.58,
+   "timeMs": 28.809,
    "ebf": null,
    "dstar": 10
   },
@@ -3286,7 +3286,7 @@
    "generated": 1046487,
    "discovered": 1046488,
    "peakStored": 11,
-   "timeMs": 441.056,
+   "timeMs": 435.983,
    "ebf": 3.416,
    "dstar": 11
   },
@@ -3304,7 +3304,7 @@
    "generated": 275587,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 10.138,
+   "timeMs": 10.236,
    "ebf": null,
    "dstar": 11
   },
@@ -3322,7 +3322,7 @@
    "generated": 3767743,
    "discovered": 3767744,
    "peakStored": 11,
-   "timeMs": 1667.015,
+   "timeMs": 1564.422,
    "ebf": 3.854,
    "dstar": 11
   },
@@ -3340,7 +3340,7 @@
    "generated": 6242304,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 211.808,
+   "timeMs": 202.758,
    "ebf": null,
    "dstar": 11
   },
@@ -3358,7 +3358,7 @@
    "generated": 837597,
    "discovered": 837598,
    "peakStored": 12,
-   "timeMs": 330.87,
+   "timeMs": 359.17,
    "ebf": 3.345,
    "dstar": 11
   },
@@ -3376,7 +3376,7 @@
    "generated": 409237,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 13.535,
+   "timeMs": 14.789,
    "ebf": null,
    "dstar": 11
   },
@@ -3394,7 +3394,7 @@
    "generated": 827394,
    "discovered": 827395,
    "peakStored": 11,
-   "timeMs": 327.94,
+   "timeMs": 347.487,
    "ebf": 3.341,
    "dstar": 11
   },
@@ -3412,7 +3412,7 @@
    "generated": 3096556,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 86.684,
+   "timeMs": 90.565,
    "ebf": null,
    "dstar": 11
   },
@@ -3430,7 +3430,7 @@
    "generated": 838443,
    "discovered": 838444,
    "peakStored": 12,
-   "timeMs": 324.948,
+   "timeMs": 442.203,
    "ebf": 3.346,
    "dstar": 11
   },
@@ -3448,7 +3448,7 @@
    "generated": 2228726,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 58.459,
+   "timeMs": 66.482,
    "ebf": null,
    "dstar": 11
   },
@@ -3466,7 +3466,7 @@
    "generated": 4112505,
    "discovered": 4112506,
    "peakStored": 11,
-   "timeMs": 1771.912,
+   "timeMs": 1677.681,
    "ebf": 3.886,
    "dstar": 11
   },
@@ -3484,7 +3484,7 @@
    "generated": 1016550,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 32.741,
+   "timeMs": 34.002,
    "ebf": null,
    "dstar": 11
   },
@@ -3502,7 +3502,7 @@
    "generated": 810084,
    "discovered": 810085,
    "peakStored": 12,
-   "timeMs": 309.216,
+   "timeMs": 384.204,
    "ebf": 3.335,
    "dstar": 11
   },
@@ -3520,7 +3520,7 @@
    "generated": 110534,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.824,
+   "timeMs": 3.676,
    "ebf": null,
    "dstar": 11
   },
@@ -3538,7 +3538,7 @@
    "generated": 1600484,
    "discovered": 1600485,
    "peakStored": 12,
-   "timeMs": 629.279,
+   "timeMs": 696.39,
    "ebf": 3.556,
    "dstar": 11
   },
@@ -3556,7 +3556,7 @@
    "generated": 315480,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 9.58,
+   "timeMs": 9.346,
    "ebf": null,
    "dstar": 11
   },
@@ -3574,7 +3574,7 @@
    "generated": 3436801,
    "discovered": 3436802,
    "peakStored": 11,
-   "timeMs": 1362.818,
+   "timeMs": 1465.075,
    "ebf": 3.821,
    "dstar": 11
   },
@@ -3592,7 +3592,7 @@
    "generated": 4385738,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 124.971,
+   "timeMs": 126.309,
    "ebf": null,
    "dstar": 11
   },
@@ -3610,7 +3610,7 @@
    "generated": 574226,
    "discovered": 574227,
    "peakStored": 11,
-   "timeMs": 240.401,
+   "timeMs": 228.195,
    "ebf": 3.228,
    "dstar": 11
   },
@@ -3628,7 +3628,7 @@
    "generated": 110965,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.092,
+   "timeMs": 3.649,
    "ebf": null,
    "dstar": 11
   },
@@ -3646,7 +3646,7 @@
    "generated": 7728060,
    "discovered": 7728061,
    "peakStored": 12,
-   "timeMs": 3068.569,
+   "timeMs": 3294.92,
    "ebf": 3.651,
    "dstar": 12
   },
@@ -3660,11 +3660,11 @@
    "success": true,
    "status": "solved",
    "length": 20,
-   "expanded": 7643136,
-   "generated": 7643136,
+   "expanded": 7184384,
+   "generated": 7184384,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 200.293,
+   "timeMs": 202.834,
    "ebf": null,
    "dstar": 12
   },
@@ -3682,7 +3682,7 @@
    "generated": 3885810,
    "discovered": 3885811,
    "peakStored": 12,
-   "timeMs": 1555.73,
+   "timeMs": 1601.708,
    "ebf": 3.441,
    "dstar": 12
   },
@@ -3700,7 +3700,7 @@
    "generated": 2270368,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 57.424,
+   "timeMs": 62.031,
    "ebf": null,
    "dstar": 12
   },
@@ -3718,7 +3718,7 @@
    "generated": 13556364,
    "discovered": 13556365,
    "peakStored": 12,
-   "timeMs": 5311.226,
+   "timeMs": 5764.001,
    "ebf": 3.832,
    "dstar": 12
   },
@@ -3736,7 +3736,7 @@
    "generated": 1600016,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 48.967,
+   "timeMs": 48.311,
    "ebf": null,
    "dstar": 12
   },
@@ -3754,7 +3754,7 @@
    "generated": 35587128,
    "discovered": 35587129,
    "peakStored": 13,
-   "timeMs": 13883.132,
+   "timeMs": 14520.211,
    "ebf": 4.162,
    "dstar": 12
   },
@@ -3772,7 +3772,7 @@
    "generated": 6619136,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 206.954,
+   "timeMs": 200.913,
    "ebf": null,
    "dstar": 12
   },
@@ -3790,7 +3790,7 @@
    "generated": 7780215,
    "discovered": 7780216,
    "peakStored": 13,
-   "timeMs": 3115.63,
+   "timeMs": 3108.06,
    "ebf": 3.653,
    "dstar": 12
   },
@@ -3808,7 +3808,7 @@
    "generated": 3109366,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 82.034,
+   "timeMs": 81.762,
    "ebf": null,
    "dstar": 12
   },
@@ -3826,7 +3826,7 @@
    "generated": 20291733,
    "discovered": 20291734,
    "peakStored": 13,
-   "timeMs": 8318.703,
+   "timeMs": 8406.159,
    "ebf": 3.967,
    "dstar": 12
   },
@@ -3844,7 +3844,7 @@
    "generated": 2465860,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 69.78,
+   "timeMs": 73.633,
    "ebf": null,
    "dstar": 12
   },
@@ -3862,7 +3862,7 @@
    "generated": 24276934,
    "discovered": 24276935,
    "peakStored": 13,
-   "timeMs": 9447.823,
+   "timeMs": 10051.627,
    "ebf": 4.028,
    "dstar": 12
   },
@@ -3876,11 +3876,11 @@
    "success": true,
    "status": "solved",
    "length": 20,
-   "expanded": 7962624,
-   "generated": 7962624,
+   "expanded": 6946816,
+   "generated": 6946816,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 200.667,
+   "timeMs": 200.693,
    "ebf": null,
    "dstar": 12
   },
@@ -3898,7 +3898,7 @@
    "generated": 4992763,
    "discovered": 4992764,
    "peakStored": 13,
-   "timeMs": 1909.715,
+   "timeMs": 1995.251,
    "ebf": 3.516,
    "dstar": 12
   },
@@ -3916,7 +3916,7 @@
    "generated": 2610087,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 77.438,
+   "timeMs": 75.451,
    "ebf": null,
    "dstar": 12
   },
@@ -3934,7 +3934,7 @@
    "generated": 25189511,
    "discovered": 25189512,
    "peakStored": 13,
-   "timeMs": 10085.113,
+   "timeMs": 10395.174,
    "ebf": 4.041,
    "dstar": 12
   },
@@ -3948,11 +3948,11 @@
    "success": true,
    "status": "solved",
    "length": 12,
-   "expanded": 6758400,
-   "generated": 6758400,
+   "expanded": 6103040,
+   "generated": 6103040,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 201.106,
+   "timeMs": 200.19,
    "ebf": null,
    "dstar": 12
   },
@@ -3970,7 +3970,7 @@
    "generated": 6230241,
    "discovered": 6230242,
    "peakStored": 13,
-   "timeMs": 2544.771,
+   "timeMs": 2689.245,
    "ebf": 3.584,
    "dstar": 12
   },
@@ -3984,11 +3984,11 @@
    "success": true,
    "status": "solved",
    "length": 17,
-   "expanded": 6840320,
-   "generated": 6840320,
+   "expanded": 7020544,
+   "generated": 7020544,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 201.698,
+   "timeMs": 200.806,
    "ebf": null,
    "dstar": 12
   },
@@ -4008,7 +4008,7 @@
    "generated": 160803,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.979,
+   "timeMs": 6.233,
    "ebf": null,
    "dstar": null
   },
@@ -4028,7 +4028,7 @@
    "generated": 5109189,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 154.956,
+   "timeMs": 145.521,
    "ebf": null,
    "dstar": null
   },
@@ -4048,7 +4048,7 @@
    "generated": 157667,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.184,
+   "timeMs": 5.448,
    "ebf": null,
    "dstar": null
   },
@@ -4068,7 +4068,7 @@
    "generated": 538556,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 17.811,
+   "timeMs": 17.217,
    "ebf": null,
    "dstar": null
   },
@@ -4088,7 +4088,7 @@
    "generated": 55426,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.974,
+   "timeMs": 1.66,
    "ebf": null,
    "dstar": null
   },
@@ -4108,7 +4108,7 @@
    "generated": 7760511,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 212.928,
+   "timeMs": 219.404,
    "ebf": null,
    "dstar": null
   },
@@ -4128,7 +4128,7 @@
    "generated": 1443072,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 43.165,
+   "timeMs": 51.087,
    "ebf": null,
    "dstar": null
   },
@@ -4148,7 +4148,7 @@
    "generated": 3255408,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 93.684,
+   "timeMs": 107.435,
    "ebf": null,
    "dstar": null
   },
@@ -4168,7 +4168,7 @@
    "generated": 266643,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 7.334,
+   "timeMs": 8.465,
    "ebf": null,
    "dstar": null
   },
@@ -4184,11 +4184,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 38305792,
-   "generated": 38305792,
+   "expanded": 34037760,
+   "generated": 34037760,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1003.949,
+   "timeMs": 1002.583,
    "ebf": null,
    "dstar": null
   },
@@ -4208,7 +4208,7 @@
    "generated": 796834,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 25.066,
+   "timeMs": 29.405,
    "ebf": null,
    "dstar": null
   },
@@ -4228,7 +4228,7 @@
    "generated": 8239207,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 255.931,
+   "timeMs": 288.444,
    "ebf": null,
    "dstar": null
   },
@@ -4248,7 +4248,7 @@
    "generated": 194949,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.802,
+   "timeMs": 7.134,
    "ebf": null,
    "dstar": null
   },
@@ -4268,7 +4268,7 @@
    "generated": 2865438,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 76.476,
+   "timeMs": 84.343,
    "ebf": null,
    "dstar": null
   },
@@ -4288,7 +4288,7 @@
    "generated": 74281,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.921,
+   "timeMs": 2.329,
    "ebf": null,
    "dstar": null
   },
@@ -4308,7 +4308,7 @@
    "generated": 3204605,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 75.894,
+   "timeMs": 85.548,
    "ebf": null,
    "dstar": null
   },
@@ -4328,7 +4328,7 @@
    "generated": 651938,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 19.976,
+   "timeMs": 20.201,
    "ebf": null,
    "dstar": null
   },
@@ -4348,7 +4348,7 @@
    "generated": 1058754,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 32.352,
+   "timeMs": 35.906,
    "ebf": null,
    "dstar": null
   },
@@ -4368,7 +4368,7 @@
    "generated": 61479,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.071,
+   "timeMs": 2.611,
    "ebf": null,
    "dstar": null
   },
@@ -4384,11 +4384,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 40165376,
-   "generated": 40165376,
+   "expanded": 36069376,
+   "generated": 36069376,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.375,
+   "timeMs": 1000.036,
    "ebf": null,
    "dstar": null
   },
@@ -4408,7 +4408,7 @@
    "generated": 263676,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 9.259,
+   "timeMs": 10.555,
    "ebf": null,
    "dstar": null
   },
@@ -4428,7 +4428,7 @@
    "generated": 741126,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 23.31,
+   "timeMs": 23.94,
    "ebf": null,
    "dstar": null
   },
@@ -4448,7 +4448,7 @@
    "generated": 27742,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.808,
+   "timeMs": 0.924,
    "ebf": null,
    "dstar": null
   },
@@ -4464,11 +4464,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 40132608,
-   "generated": 40132608,
+   "expanded": 35487744,
+   "generated": 35487744,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.829,
+   "timeMs": 1000.731,
    "ebf": null,
    "dstar": null
   },
@@ -4488,7 +4488,7 @@
    "generated": 63358,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.154,
+   "timeMs": 3.051,
    "ebf": null,
    "dstar": null
   },
@@ -4508,7 +4508,7 @@
    "generated": 287140,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 10.753,
+   "timeMs": 10.77,
    "ebf": null,
    "dstar": null
   },
@@ -4528,7 +4528,7 @@
    "generated": 516159,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 16.446,
+   "timeMs": 17.616,
    "ebf": null,
    "dstar": null
   },
@@ -4544,11 +4544,11 @@
    "length": 21,
    "phase1": 12,
    "phase2": 9,
-   "expanded": 34127872,
-   "generated": 34127872,
+   "expanded": 38215680,
+   "generated": 38215680,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1006.727,
+   "timeMs": 1002.32,
    "ebf": null,
    "dstar": null
   },
@@ -4568,7 +4568,7 @@
    "generated": 13181,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.443,
+   "timeMs": 0.467,
    "ebf": null,
    "dstar": null
   },
@@ -4584,11 +4584,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 35618816,
-   "generated": 35618816,
+   "expanded": 35504128,
+   "generated": 35504128,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.159,
+   "timeMs": 1001.419,
    "ebf": null,
    "dstar": null
   },
@@ -4608,7 +4608,7 @@
    "generated": 59875,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.405,
+   "timeMs": 2.777,
    "ebf": null,
    "dstar": null
   },
@@ -4628,7 +4628,7 @@
    "generated": 3782818,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 112.219,
+   "timeMs": 115.407,
    "ebf": null,
    "dstar": null
   },
@@ -4648,7 +4648,7 @@
    "generated": 335124,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 10.224,
+   "timeMs": 12.067,
    "ebf": null,
    "dstar": null
   },
@@ -4668,7 +4668,7 @@
    "generated": 4193031,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 129.602,
+   "timeMs": 132.736,
    "ebf": null,
    "dstar": null
   },
@@ -4688,7 +4688,7 @@
    "generated": 195539,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.733,
+   "timeMs": 8.224,
    "ebf": null,
    "dstar": null
   },
@@ -4708,7 +4708,7 @@
    "generated": 11775276,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 297.581,
+   "timeMs": 325.64,
    "ebf": null,
    "dstar": null
   },
@@ -4728,7 +4728,7 @@
    "generated": 373205,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 12.122,
+   "timeMs": 13.207,
    "ebf": null,
    "dstar": null
   },
@@ -4748,7 +4748,7 @@
    "generated": 1331255,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 39.058,
+   "timeMs": 42.201,
    "ebf": null,
    "dstar": null
   },
@@ -4768,7 +4768,7 @@
    "generated": 90940,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.858,
+   "timeMs": 3.067,
    "ebf": null,
    "dstar": null
   },
@@ -4788,7 +4788,7 @@
    "generated": 4831995,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 173.634,
+   "timeMs": 133.321,
    "ebf": null,
    "dstar": null
   },
@@ -4808,7 +4808,7 @@
    "generated": 83754,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.198,
+   "timeMs": 2.93,
    "ebf": null,
    "dstar": null
   },
@@ -4828,7 +4828,7 @@
    "generated": 4812340,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 169.368,
+   "timeMs": 131.998,
    "ebf": null,
    "dstar": null
   },
@@ -4848,7 +4848,7 @@
    "generated": 84497,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.127,
+   "timeMs": 2.777,
    "ebf": null,
    "dstar": null
   },
@@ -4868,7 +4868,7 @@
    "generated": 13004547,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 332.732,
+   "timeMs": 360.447,
    "ebf": null,
    "dstar": null
   },
@@ -4888,7 +4888,7 @@
    "generated": 426564,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 14.012,
+   "timeMs": 15.735,
    "ebf": null,
    "dstar": null
   },
@@ -4908,7 +4908,7 @@
    "generated": 2253132,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 61.967,
+   "timeMs": 67.081,
    "ebf": null,
    "dstar": null
   },
@@ -4928,7 +4928,7 @@
    "generated": 958899,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 25.793,
+   "timeMs": 26.709,
    "ebf": null,
    "dstar": null
   },
@@ -4948,7 +4948,7 @@
    "generated": 7469255,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 193.712,
+   "timeMs": 202.477,
    "ebf": null,
    "dstar": null
   },
@@ -4968,7 +4968,7 @@
    "generated": 384851,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 11.035,
+   "timeMs": 11.191,
    "ebf": null,
    "dstar": null
   },
@@ -4988,7 +4988,7 @@
    "generated": 708182,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 20.657,
+   "timeMs": 22.802,
    "ebf": null,
    "dstar": null
   },
@@ -5008,7 +5008,7 @@
    "generated": 189103,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.395,
+   "timeMs": 6.217,
    "ebf": null,
    "dstar": null
   },
@@ -5028,7 +5028,7 @@
    "generated": 1483248,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 42.447,
+   "timeMs": 39.757,
    "ebf": null,
    "dstar": null
   },
@@ -5048,7 +5048,7 @@
    "generated": 66652,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.385,
+   "timeMs": 2.325,
    "ebf": null,
    "dstar": null
   },
@@ -5068,7 +5068,7 @@
    "generated": 20718091,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 588.581,
+   "timeMs": 544.688,
    "ebf": null,
    "dstar": null
   },
@@ -5088,7 +5088,7 @@
    "generated": 149141,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.89,
+   "timeMs": 5.753,
    "ebf": null,
    "dstar": null
   },
@@ -5108,7 +5108,7 @@
    "generated": 8376340,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 237.925,
+   "timeMs": 246.472,
    "ebf": null,
    "dstar": null
   },
@@ -5128,7 +5128,7 @@
    "generated": 48756,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.575,
+   "timeMs": 2.119,
    "ebf": null,
    "dstar": null
   },
@@ -5148,7 +5148,7 @@
    "generated": 1274814,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 32.565,
+   "timeMs": 38.176,
    "ebf": null,
    "dstar": null
   },
@@ -5168,7 +5168,7 @@
    "generated": 55425,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.6,
+   "timeMs": 1.701,
    "ebf": null,
    "dstar": null
   },
@@ -5188,7 +5188,7 @@
    "generated": 204440,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.638,
+   "timeMs": 7.017,
    "ebf": null,
    "dstar": null
   },
@@ -5208,7 +5208,7 @@
    "generated": 29107,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.847,
+   "timeMs": 1.003,
    "ebf": null,
    "dstar": null
   },
@@ -5228,7 +5228,7 @@
    "generated": 29107,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.734,
+   "timeMs": 0.871,
    "ebf": null,
    "dstar": null
   },
@@ -5248,7 +5248,7 @@
    "generated": 82054,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.091,
+   "timeMs": 2.42,
    "ebf": null,
    "dstar": null
   },
@@ -5268,7 +5268,7 @@
    "generated": 7390536,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 181.951,
+   "timeMs": 195.008,
    "ebf": null,
    "dstar": null
   },
@@ -5288,7 +5288,7 @@
    "generated": 12822,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.414,
+   "timeMs": 0.507,
    "ebf": null,
    "dstar": null
   },
@@ -5308,7 +5308,7 @@
    "generated": 98785,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.564,
+   "timeMs": 2.986,
    "ebf": null,
    "dstar": null
   },
@@ -5328,7 +5328,7 @@
    "generated": 34852,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.04,
+   "timeMs": 1.356,
    "ebf": null,
    "dstar": null
   },
@@ -5348,7 +5348,7 @@
    "generated": 349456,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 8.387,
+   "timeMs": 9.994,
    "ebf": null,
    "dstar": null
   },
@@ -5368,7 +5368,7 @@
    "generated": 218169,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.661,
+   "timeMs": 6.758,
    "ebf": null,
    "dstar": null
   },
@@ -5384,11 +5384,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 38199296,
-   "generated": 38199296,
+   "expanded": 37412864,
+   "generated": 37412864,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1006.802,
+   "timeMs": 1003.994,
    "ebf": null,
    "dstar": null
   },
@@ -5408,7 +5408,7 @@
    "generated": 57757,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.855,
+   "timeMs": 2.849,
    "ebf": null,
    "dstar": null
   },
@@ -5428,7 +5428,7 @@
    "generated": 1187304,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 42.513,
+   "timeMs": 39.151,
    "ebf": null,
    "dstar": null
   },
@@ -5448,7 +5448,7 @@
    "generated": 22004,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.81,
+   "timeMs": 0.779,
    "ebf": null,
    "dstar": null
   },
@@ -5468,7 +5468,7 @@
    "generated": 29518743,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 727.04,
+   "timeMs": 792.682,
    "ebf": null,
    "dstar": null
   },
@@ -5488,7 +5488,7 @@
    "generated": 199722,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.74,
+   "timeMs": 8.622,
    "ebf": null,
    "dstar": null
   },
@@ -5508,7 +5508,7 @@
    "generated": 4022242,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 107.465,
+   "timeMs": 118.029,
    "ebf": null,
    "dstar": null
   },
@@ -5528,7 +5528,7 @@
    "generated": 250325,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 7.889,
+   "timeMs": 7.836,
    "ebf": null,
    "dstar": null
   },
@@ -5548,7 +5548,7 @@
    "generated": 1048706,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 31.281,
+   "timeMs": 30.564,
    "ebf": null,
    "dstar": null
   },
@@ -5568,7 +5568,7 @@
    "generated": 26179,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.74,
+   "timeMs": 0.747,
    "ebf": null,
    "dstar": null
   },
@@ -5588,7 +5588,7 @@
    "generated": 26179,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.607,
+   "timeMs": 0.601,
    "ebf": null,
    "dstar": null
   },
@@ -5608,7 +5608,7 @@
    "generated": 22558,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.881,
+   "timeMs": 0.9,
    "ebf": null,
    "dstar": null
   },
@@ -5628,7 +5628,7 @@
    "generated": 174111,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.925,
+   "timeMs": 5.867,
    "ebf": null,
    "dstar": null
   },
@@ -5648,7 +5648,7 @@
    "generated": 77308,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.578,
+   "timeMs": 2.534,
    "ebf": null,
    "dstar": null
   },
@@ -5664,11 +5664,11 @@
    "length": 21,
    "phase1": 10,
    "phase2": 11,
-   "expanded": 39346176,
-   "generated": 39346176,
+   "expanded": 33398784,
+   "generated": 33398784,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1003.751,
+   "timeMs": 1002.011,
    "ebf": null,
    "dstar": null
   },
@@ -5688,7 +5688,7 @@
    "generated": 39186,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.518,
+   "timeMs": 1.725,
    "ebf": null,
    "dstar": null
   },
@@ -5708,7 +5708,7 @@
    "generated": 3909638,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 104.43,
+   "timeMs": 115.048,
    "ebf": null,
    "dstar": null
   },
@@ -5728,7 +5728,7 @@
    "generated": 99821,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.149,
+   "timeMs": 3.341,
    "ebf": null,
    "dstar": null
   },
@@ -5744,11 +5744,11 @@
    "length": 21,
    "phase1": 12,
    "phase2": 9,
-   "expanded": 35774464,
-   "generated": 35774464,
+   "expanded": 35028992,
+   "generated": 35028992,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.838,
+   "timeMs": 1000.919,
    "ebf": null,
    "dstar": null
   },
@@ -5768,7 +5768,7 @@
    "generated": 426229,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 13.325,
+   "timeMs": 14.546,
    "ebf": null,
    "dstar": null
   },
@@ -5788,7 +5788,7 @@
    "generated": 2471350,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 74.346,
+   "timeMs": 73.536,
    "ebf": null,
    "dstar": null
   },
@@ -5808,7 +5808,7 @@
    "generated": 322856,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 10.872,
+   "timeMs": 8.963,
    "ebf": null,
    "dstar": null
   },
@@ -5828,7 +5828,7 @@
    "generated": 1220759,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 32.889,
+   "timeMs": 34.753,
    "ebf": null,
    "dstar": null
   },
@@ -5848,7 +5848,7 @@
    "generated": 81604,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.552,
+   "timeMs": 2.666,
    "ebf": null,
    "dstar": null
   },
@@ -5868,7 +5868,7 @@
    "generated": 14128940,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 369.11,
+   "timeMs": 365.47,
    "ebf": null,
    "dstar": null
   },
@@ -5888,7 +5888,7 @@
    "generated": 119876,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.539,
+   "timeMs": 4.48,
    "ebf": null,
    "dstar": null
   },
@@ -5904,11 +5904,11 @@
    "length": 21,
    "phase1": 12,
    "phase2": 9,
-   "expanded": 39395328,
-   "generated": 39395328,
+   "expanded": 39665664,
+   "generated": 39665664,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1001.139,
+   "timeMs": 1002.982,
    "ebf": null,
    "dstar": null
   },
@@ -5928,7 +5928,7 @@
    "generated": 116105,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.771,
+   "timeMs": 4.271,
    "ebf": null,
    "dstar": null
   },
@@ -5944,11 +5944,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 38920192,
-   "generated": 38920192,
+   "expanded": 40501248,
+   "generated": 40501248,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1001.512,
+   "timeMs": 1002.985,
    "ebf": null,
    "dstar": null
   },
@@ -5968,7 +5968,7 @@
    "generated": 97636,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.933,
+   "timeMs": 3.805,
    "ebf": null,
    "dstar": null
   },
@@ -5988,7 +5988,7 @@
    "generated": 7288455,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 184.181,
+   "timeMs": 187.788,
    "ebf": null,
    "dstar": null
   },
@@ -6008,7 +6008,7 @@
    "generated": 177062,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.402,
+   "timeMs": 6.37,
    "ebf": null,
    "dstar": null
   },
@@ -6028,7 +6028,7 @@
    "generated": 9499850,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 229.24,
+   "timeMs": 226.911,
    "ebf": null,
    "dstar": null
   },
@@ -6048,7 +6048,7 @@
    "generated": 89676,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.735,
+   "timeMs": 3.031,
    "ebf": null,
    "dstar": null
   },
@@ -6068,7 +6068,7 @@
    "generated": 1229955,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 33.865,
+   "timeMs": 35.041,
    "ebf": null,
    "dstar": null
   },
@@ -6108,7 +6108,7 @@
    "generated": 6705342,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 171.678,
+   "timeMs": 168.155,
    "ebf": null,
    "dstar": null
   },
@@ -6128,7 +6128,7 @@
    "generated": 117199,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.914,
+   "timeMs": 3.782,
    "ebf": null,
    "dstar": null
   },
@@ -6148,7 +6148,7 @@
    "generated": 7555928,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 201.799,
+   "timeMs": 189.843,
    "ebf": null,
    "dstar": null
   },
@@ -6168,7 +6168,7 @@
    "generated": 142157,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.554,
+   "timeMs": 3.997,
    "ebf": null,
    "dstar": null
   },
@@ -6188,7 +6188,7 @@
    "generated": 3447037,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 94.091,
+   "timeMs": 87.802,
    "ebf": null,
    "dstar": null
   },
@@ -6208,7 +6208,7 @@
    "generated": 354786,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 11.391,
+   "timeMs": 11.905,
    "ebf": null,
    "dstar": null
   },
@@ -6228,7 +6228,7 @@
    "generated": 1309638,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 38.205,
+   "timeMs": 44.351,
    "ebf": null,
    "dstar": null
   },
@@ -6248,7 +6248,7 @@
    "generated": 67734,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.049,
+   "timeMs": 2.324,
    "ebf": null,
    "dstar": null
   },
@@ -6268,7 +6268,7 @@
    "generated": 116938,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.995,
+   "timeMs": 4.121,
    "ebf": null,
    "dstar": null
   },
@@ -6288,7 +6288,7 @@
    "generated": 558719,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 15.002,
+   "timeMs": 16.476,
    "ebf": null,
    "dstar": null
   },
@@ -6308,7 +6308,7 @@
    "generated": 611171,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 17.897,
+   "timeMs": 17.484,
    "ebf": null,
    "dstar": null
   },
@@ -6328,7 +6328,7 @@
    "generated": 45478,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.598,
+   "timeMs": 1.419,
    "ebf": null,
    "dstar": null
   },
@@ -6348,7 +6348,7 @@
    "generated": 7404784,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 211.416,
+   "timeMs": 204.969,
    "ebf": null,
    "dstar": null
   },
@@ -6368,7 +6368,7 @@
    "generated": 152974,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.075,
+   "timeMs": 4.804,
    "ebf": null,
    "dstar": null
   },
@@ -6388,7 +6388,7 @@
    "generated": 3979889,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 111.036,
+   "timeMs": 116.863,
    "ebf": null,
    "dstar": null
   },
@@ -6408,7 +6408,7 @@
    "generated": 20712,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.943,
+   "timeMs": 0.805,
    "ebf": null,
    "dstar": null
   },
@@ -6424,11 +6424,11 @@
    "length": 21,
    "phase1": 10,
    "phase2": 11,
-   "expanded": 37928960,
-   "generated": 37928960,
+   "expanded": 36159488,
+   "generated": 36159488,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1004.637,
+   "timeMs": 1000.141,
    "ebf": null,
    "dstar": null
   },
@@ -6448,7 +6448,7 @@
    "generated": 138188,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.069,
+   "timeMs": 5.116,
    "ebf": null,
    "dstar": null
   },
@@ -6468,7 +6468,7 @@
    "generated": 13380845,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 351.463,
+   "timeMs": 368.386,
    "ebf": null,
    "dstar": null
   },
@@ -6488,7 +6488,7 @@
    "generated": 16254,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.479,
+   "timeMs": 0.531,
    "ebf": null,
    "dstar": null
   },
@@ -6508,7 +6508,7 @@
    "generated": 3304751,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 80.961,
+   "timeMs": 86.13,
    "ebf": null,
    "dstar": null
   },
@@ -6528,7 +6528,7 @@
    "generated": 129588,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.019,
+   "timeMs": 4.224,
    "ebf": null,
    "dstar": null
   },
@@ -6548,7 +6548,7 @@
    "generated": 250277,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 7.172,
+   "timeMs": 7.22,
    "ebf": null,
    "dstar": null
   },
@@ -6568,7 +6568,7 @@
    "generated": 65546,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.882,
+   "timeMs": 2.081,
    "ebf": null,
    "dstar": null
   },
@@ -6588,7 +6588,7 @@
    "generated": 289099,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 8.834,
+   "timeMs": 9.175,
    "ebf": null,
    "dstar": null
   },
@@ -6608,7 +6608,7 @@
    "generated": 639550,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 17.573,
+   "timeMs": 18.094,
    "ebf": null,
    "dstar": null
   },
@@ -6628,7 +6628,7 @@
    "generated": 770221,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 20.634,
+   "timeMs": 22.627,
    "ebf": null,
    "dstar": null
   },
@@ -6648,7 +6648,7 @@
    "generated": 82094,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.41,
+   "timeMs": 2.394,
    "ebf": null,
    "dstar": null
   },
@@ -6668,7 +6668,7 @@
    "generated": 10588455,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 292.232,
+   "timeMs": 282.254,
    "ebf": null,
    "dstar": null
   },
@@ -6688,7 +6688,7 @@
    "generated": 103525,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.3,
+   "timeMs": 4.065,
    "ebf": null,
    "dstar": null
   },
@@ -6708,7 +6708,7 @@
    "generated": 528404,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 16.321,
+   "timeMs": 18.127,
    "ebf": null,
    "dstar": null
   },
@@ -6728,7 +6728,7 @@
    "generated": 335705,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 9.425,
+   "timeMs": 10.945,
    "ebf": null,
    "dstar": null
   },
@@ -6748,7 +6748,7 @@
    "generated": 1237018,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 35.862,
+   "timeMs": 34.768,
    "ebf": null,
    "dstar": null
   },
@@ -6768,7 +6768,7 @@
    "generated": 707074,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 18.551,
+   "timeMs": 19.01,
    "ebf": null,
    "dstar": null
   },
@@ -6788,7 +6788,7 @@
    "generated": 2350664,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 65.863,
+   "timeMs": 71.255,
    "ebf": null,
    "dstar": null
   },
@@ -6808,7 +6808,7 @@
    "generated": 208878,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 5.93,
+   "timeMs": 6.137,
    "ebf": null,
    "dstar": null
   },
@@ -6824,11 +6824,11 @@
    "length": 21,
    "phase1": 13,
    "phase2": 8,
-   "expanded": 39174144,
-   "generated": 39174144,
+   "expanded": 38846464,
+   "generated": 38846464,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.992,
+   "timeMs": 1000.998,
    "ebf": null,
    "dstar": null
   },
@@ -6848,7 +6848,7 @@
    "generated": 857688,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 28.256,
+   "timeMs": 28.966,
    "ebf": null,
    "dstar": null
   },
@@ -6868,7 +6868,7 @@
    "generated": 8998737,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 249.401,
+   "timeMs": 247.151,
    "ebf": null,
    "dstar": null
   },
@@ -6888,7 +6888,7 @@
    "generated": 453993,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 13.086,
+   "timeMs": 14.249,
    "ebf": null,
    "dstar": null
   },
@@ -6904,11 +6904,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 36249600,
-   "generated": 36249600,
+   "expanded": 37527552,
+   "generated": 37527552,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1005.292,
+   "timeMs": 1001.182,
    "ebf": null,
    "dstar": null
   },
@@ -6928,7 +6928,7 @@
    "generated": 447666,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 13.258,
+   "timeMs": 14.383,
    "ebf": null,
    "dstar": null
   },
@@ -6948,7 +6948,7 @@
    "generated": 1252320,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 38.197,
+   "timeMs": 40.574,
    "ebf": null,
    "dstar": null
   },
@@ -6968,7 +6968,7 @@
    "generated": 332316,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 13.113,
+   "timeMs": 11.135,
    "ebf": null,
    "dstar": null
   },
@@ -6988,7 +6988,7 @@
    "generated": 3052757,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 84.881,
+   "timeMs": 91.133,
    "ebf": null,
    "dstar": null
   },
@@ -7008,7 +7008,7 @@
    "generated": 31154,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.892,
+   "timeMs": 0.988,
    "ebf": null,
    "dstar": null
   },
@@ -7028,7 +7028,7 @@
    "generated": 5693696,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 136.677,
+   "timeMs": 150.222,
    "ebf": null,
    "dstar": null
   },
@@ -7048,7 +7048,7 @@
    "generated": 403071,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 11.091,
+   "timeMs": 12.766,
    "ebf": null,
    "dstar": null
   },
@@ -7068,7 +7068,7 @@
    "generated": 13539070,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 333.97,
+   "timeMs": 370.233,
    "ebf": null,
    "dstar": null
   },
@@ -7088,7 +7088,7 @@
    "generated": 58214,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.699,
+   "timeMs": 2.133,
    "ebf": null,
    "dstar": null
   },
@@ -7108,7 +7108,7 @@
    "generated": 8943830,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 214.04,
+   "timeMs": 238.988,
    "ebf": null,
    "dstar": null
   },
@@ -7128,7 +7128,7 @@
    "generated": 135461,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.144,
+   "timeMs": 4.919,
    "ebf": null,
    "dstar": null
   },
@@ -7148,7 +7148,7 @@
    "generated": 157530,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.364,
+   "timeMs": 5.106,
    "ebf": null,
    "dstar": null
   },
@@ -7168,7 +7168,7 @@
    "generated": 1993976,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 56.303,
+   "timeMs": 61.599,
    "ebf": null,
    "dstar": null
   },
@@ -7188,7 +7188,7 @@
    "generated": 9237315,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 271.119,
+   "timeMs": 274.581,
    "ebf": null,
    "dstar": null
   },
@@ -7208,7 +7208,7 @@
    "generated": 933748,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 27.614,
+   "timeMs": 29.39,
    "ebf": null,
    "dstar": null
   },
@@ -7228,7 +7228,7 @@
    "generated": 13447990,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 361.573,
+   "timeMs": 363.008,
    "ebf": null,
    "dstar": null
   },
@@ -7248,7 +7248,7 @@
    "generated": 141956,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.761,
+   "timeMs": 4.288,
    "ebf": null,
    "dstar": null
   },
@@ -7268,7 +7268,7 @@
    "generated": 144602,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.923,
+   "timeMs": 3.908,
    "ebf": null,
    "dstar": null
   },
@@ -7288,7 +7288,7 @@
    "generated": 307196,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 8.401,
+   "timeMs": 8.516,
    "ebf": null,
    "dstar": null
   },
@@ -7308,7 +7308,7 @@
    "generated": 2307966,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 66.784,
+   "timeMs": 67.155,
    "ebf": null,
    "dstar": null
   },
@@ -7328,7 +7328,7 @@
    "generated": 136141,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.031,
+   "timeMs": 3.778,
    "ebf": null,
    "dstar": null
   },
@@ -7348,7 +7348,7 @@
    "generated": 642735,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 16.732,
+   "timeMs": 18.417,
    "ebf": null,
    "dstar": null
   },
@@ -7368,7 +7368,7 @@
    "generated": 24107,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.77,
+   "timeMs": 0.884,
    "ebf": null,
    "dstar": null
   },
@@ -7388,7 +7388,7 @@
    "generated": 355186,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 9.618,
+   "timeMs": 10.553,
    "ebf": null,
    "dstar": null
   },
@@ -7408,7 +7408,7 @@
    "generated": 715334,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 19.473,
+   "timeMs": 21.662,
    "ebf": null,
    "dstar": null
   },
@@ -7424,11 +7424,11 @@
    "length": 21,
    "phase1": 12,
    "phase2": 9,
-   "expanded": 39321600,
-   "generated": 39321600,
+   "expanded": 39649280,
+   "generated": 39649280,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.129,
+   "timeMs": 1000.395,
    "ebf": null,
    "dstar": null
   },
@@ -7448,7 +7448,7 @@
    "generated": 79095,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.867,
+   "timeMs": 2.961,
    "ebf": null,
    "dstar": null
   },
@@ -7464,11 +7464,11 @@
    "length": 21,
    "phase1": 10,
    "phase2": 11,
-   "expanded": 37871616,
-   "generated": 37871616,
+   "expanded": 38125568,
+   "generated": 38125568,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1001.53,
+   "timeMs": 1000.107,
    "ebf": null,
    "dstar": null
   },
@@ -7488,7 +7488,7 @@
    "generated": 104934,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 4.541,
+   "timeMs": 4.185,
    "ebf": null,
    "dstar": null
   },
@@ -7508,7 +7508,7 @@
    "generated": 1040761,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 28.706,
+   "timeMs": 26.892,
    "ebf": null,
    "dstar": null
   },
@@ -7528,7 +7528,7 @@
    "generated": 201904,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.759,
+   "timeMs": 5.964,
    "ebf": null,
    "dstar": null
   },
@@ -7548,7 +7548,7 @@
    "generated": 461962,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 15.242,
+   "timeMs": 13.205,
    "ebf": null,
    "dstar": null
   },
@@ -7568,7 +7568,7 @@
    "generated": 77926,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.677,
+   "timeMs": 2.361,
    "ebf": null,
    "dstar": null
   },
@@ -7588,7 +7588,7 @@
    "generated": 6782401,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 181.555,
+   "timeMs": 176.191,
    "ebf": null,
    "dstar": null
   },
@@ -7608,7 +7608,7 @@
    "generated": 215839,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.739,
+   "timeMs": 6.037,
    "ebf": null,
    "dstar": null
   },
@@ -7624,11 +7624,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 38518784,
-   "generated": 38518784,
+   "expanded": 38641664,
+   "generated": 38641664,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1013.611,
+   "timeMs": 1000.633,
    "ebf": null,
    "dstar": null
   },
@@ -7648,7 +7648,7 @@
    "generated": 796307,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 25.412,
+   "timeMs": 22.997,
    "ebf": null,
    "dstar": null
   },
@@ -7668,7 +7668,7 @@
    "generated": 2964153,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 82.825,
+   "timeMs": 83.835,
    "ebf": null,
    "dstar": null
   },
@@ -7688,7 +7688,7 @@
    "generated": 131074,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 3.875,
+   "timeMs": 4.405,
    "ebf": null,
    "dstar": null
   },
@@ -7708,7 +7708,7 @@
    "generated": 1098334,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 30.049,
+   "timeMs": 28.838,
    "ebf": null,
    "dstar": null
   },
@@ -7728,7 +7728,7 @@
    "generated": 17500,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.495,
+   "timeMs": 0.515,
    "ebf": null,
    "dstar": null
   },
@@ -7744,11 +7744,11 @@
    "length": 21,
    "phase1": 11,
    "phase2": 10,
-   "expanded": 38330368,
-   "generated": 38330368,
+   "expanded": 37552128,
+   "generated": 37552128,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1000.085,
+   "timeMs": 1012.446,
    "ebf": null,
    "dstar": null
   },
@@ -7768,7 +7768,7 @@
    "generated": 174100,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 6.612,
+   "timeMs": 6.42,
    "ebf": null,
    "dstar": null
   },
@@ -7788,7 +7788,7 @@
    "generated": 2206976,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 56.28,
+   "timeMs": 60.728,
    "ebf": null,
    "dstar": null
   },
@@ -7808,7 +7808,7 @@
    "generated": 10736,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.473,
+   "timeMs": 0.519,
    "ebf": null,
    "dstar": null
   },
@@ -7828,7 +7828,7 @@
    "generated": 81147,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 2.488,
+   "timeMs": 2.846,
    "ebf": null,
    "dstar": null
   },
@@ -7848,7 +7848,7 @@
    "generated": 853582,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 25.57,
+   "timeMs": 27.763,
    "ebf": null,
    "dstar": null
   },
@@ -7864,11 +7864,11 @@
    "length": 21,
    "phase1": 10,
    "phase2": 11,
-   "expanded": 38150144,
-   "generated": 38150144,
+   "expanded": 36519936,
+   "generated": 36519936,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1004.364,
+   "timeMs": 1005.694,
    "ebf": null,
    "dstar": null
   },
@@ -7888,7 +7888,7 @@
    "generated": 17280,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 0.83,
+   "timeMs": 1.143,
    "ebf": null,
    "dstar": null
   },
@@ -7908,7 +7908,7 @@
    "generated": 41223,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 1.663,
+   "timeMs": 2.084,
    "ebf": null,
    "dstar": null
   },
@@ -7928,7 +7928,7 @@
    "generated": 753864,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 22.585,
+   "timeMs": 32.559,
    "ebf": null,
    "dstar": null
   },
@@ -7948,7 +7948,7 @@
    "generated": 1096242,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 33.813,
+   "timeMs": 35.741,
    "ebf": null,
    "dstar": null
   },
@@ -7968,7 +7968,7 @@
    "generated": 253900,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 7.147,
+   "timeMs": 7.105,
    "ebf": null,
    "dstar": null
   },
@@ -7988,7 +7988,7 @@
    "generated": 21292139,
    "discovered": null,
    "peakStored": null,
-   "timeMs": 612.99,
+   "timeMs": 562.02,
    "ebf": null,
    "dstar": null
   }

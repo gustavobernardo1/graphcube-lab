@@ -1,0 +1,118 @@
+\section{Modelagem matemática}\label{sec:modelagem}
+
+\subsection{O objeto desenhado pelo GraphCube}\label{sec:graphcube}
+Analisamos o código-fonte do GraphCube (Vue~3 + Three.js; commit \texttt{46f3da5})~\cite{laguna2024}. O repositório não declara licença; por isso nenhum código ou recurso foi reutilizado, apenas a ideia visual, com atribuição. O desenho consiste em nove círculos --- três centros, cada um com três raios concêntricos --- e 54 pontos coloridos. A leitura do código (tabelas \texttt{intersection.json} e \texttt{getLocationCube}) mostra que:
+\begin{itemize}[nosep]
+\item cada \emph{centro} corresponde a um eixo do cubo e cada \emph{raio} a uma camada perpendicular a ele (incluindo as fatias centrais);
+\item cada \emph{ponto} é uma \emph{posição de adesivo}, colorida pela cor do adesivo que a ocupa, e pertence a exatamente dois círculos;
+\item arrastar um ponto ao longo de um círculo executa um giro daquela camada, permutando os 12 adesivos do anel (e, para faces externas, os 8 adesivos não centrais da face).
+\end{itemize}
+O objeto é, portanto, um \emph{diagrama de incidência} entre posições de adesivos e camadas. Um estado completo do cubo corresponde a uma \emph{coloração} desse diagrama, não a um vértice; não há grafo de estados nem de Cayley no projeto original. Identificamos ainda limitações de engenharia relevantes: ausência de modelo de estado independente da tela (estado guardado como coordenadas em pixels, comparadas por igualdade de ponto flutuante), coordenadas digitadas à mão, clonagem da cena 3D a cada quadro e ausência de testes. A análise completa está em \texttt{docs/01-analise-graphcube-original.md}.
+
+\subsection{Adesivos e movimentos a partir da geometria}
+Fixamos eixos $x\to$R (direita), $y\to$U (cima), $z\to$F (frente).
+\begin{definition}[Adesivos]
+Para $n\in\{2,3\}$, seja $C_n=\{-(n-1),-(n-3),\dots,n-1\}$. Um \emph{adesivo} é um par $(p,u)$ com $u\in\{\pm e_1,\pm e_2,\pm e_3\}$ e $p\in C_n^3$ tal que $p\cdot u=n-1$. O conjunto $\Omega_n$ das posições tem $6n^2$ elementos ($24$ e $54$), indexados na ordem URFDLB, cada face lida por linhas como vista de fora (para $n=3$, a mesma ordem usada por Kociemba~\cite{kociembaweb}).
+\end{definition}
+Seja $R_a$ a rotação de $-90^\circ$ em torno do vetor unitário $a$ (sentido horário visto da ponta de $a$). Pela fórmula de Rodrigues com $\theta=-\pi/2$,
+\begin{equation}
+R_a(v) = -(a\times v) + a\,(a\cdot v).
+\end{equation}
+\begin{definition}[Giro]
+Para a face X com normal externa $u_X$, o giro horário X age em $\Omega_n$ por
+$\sigma_X(p,u)=(R_{u_X}p,\,R_{u_X}u)$ se $p\cdot u_X=n-1$ e $\sigma_X(p,u)=(p,u)$ caso contrário. Fatias (M, E, S) e rotações globais (x, y, z) são definidas da mesma forma com as camadas $p\cdot u=0$ e todas as camadas, respectivamente.
+\end{definition}
+\noindent Como $R_a$ é uma isometria que preserva $C_n^3$ e o conjunto de normais, $\sigma_X$ é de fato uma permutação de $\Omega_n$. Todas as tabelas do software --- permutações dos 18 giros, decomposição em cantos e arestas, diagrama estrutural --- são \emph{derivadas} dessa definição. As tabelas de facelets de Kociemba são usadas apenas como oráculo nos testes, e são reproduzidas exatamente\ver.
+
+\subsection{Estados e convenção de composição}
+\begin{definition}[Estado]
+Um estado é uma bijeção $s:\Omega_n\to\Omega_n$, em que $s(i)$ é o rótulo (posição original) do adesivo que ocupa a posição $i$. O estado resolvido é a identidade $e$.
+\end{definition}
+Executar o giro X move o adesivo da posição $i$ para $\sigma_X(i)$; o novo estado $s'$ satisfaz $s'(\sigma_X(i))=s(i)$, isto é, $s'=s\circ\sigma_X^{-1}$. Definindo o \emph{elemento} do giro como $m_X:=\sigma_X^{-1}$, com o produto~\eqref{eq:produto}:
+\begin{proposition}[Palavras como produtos]\label{prop:hom}\proj
+Executar o giro X no estado $s$ produz $s\cdot m_X$. Consequentemente, a palavra $w=X_1X_2\cdots X_k$, \emph{lida e executada da esquerda para a direita}, leva $e$ ao estado $s_w=m_{X_1}\cdot m_{X_2}\cdots m_{X_k}$, e $s_{ww'}=s_w\cdot s_{w'}$.
+\end{proposition}
+\begin{proof}
+$(s\cdot m_X)(i)=s(\sigma_X^{-1}(i))$, que é exatamente $s'(i)$. Por indução em $k$, executar $w$ a partir de $s$ dá $s\cdot m_{X_1}\cdots m_{X_k}$; com $s=e$ obtemos $s_w$, e a concatenação corresponde ao produto por associatividade.
+\end{proof}
+\noindent Em particular, o estado e o elemento do grupo são o mesmo objeto, e o conjunto dos estados alcançáveis é o grupo $G_n=\langle m_X\rangle$. A identidade é $e$; o inverso de um giro é $m_X^{-1}=m_X^3$ (pois $\sigma_X^4=\mathrm{id}$); a associatividade é a da composição de funções; o inverso de uma palavra é $(X_1\cdots X_k)^{-1}=X_k^{-1}\cdots X_1^{-1}$. Todas essas propriedades são verificadas por testes de propriedade em palavras aleatórias.
+
+\begin{example}\label{ex:ordens}\ver
+Cada giro de face é um produto de cinco 4-ciclos disjuntos em $\Omega_3$ (12 adesivos do anel e 8 da face), logo tem ordem 4 e sinal $-1$ em $\Sym(\Omega_3)$. Calculamos $o(\mv{R U})=105$, $o(\mv{R U R' U'})=6$ e $o(\mv{R U2 D' B D'})=1260$, a maior ordem de um elemento de $G$~\cite{joyner2008}. O comutador $[\mv R,\mv U]=\mv{R U R' U'}$ troca dois pares de cantos e realiza um 3-ciclo de arestas; $\mv R$ e $\mv L$ comutam.
+\end{example}
+
+\subsection{Representação por cubinhos e legalidade}
+Para $n=3$ com centros fixos, cada estado é determinado por $(\sigma,x,\tau,y)$: $\sigma\in S_8$ e $\tau\in S_{12}$ dizem qual canto/aresta ocupa cada posição, $x\in\mathbb{Z}_3^8$ e $y\in\mathbb{Z}_2^{12}$ as torções e inversões em relação a um adesivo de referência (o adesivo U/D para cantos; U/D ou F/B para arestas). Com a mesma convenção, o produto é o semidireto
+\begin{equation}
+(\sigma,x)\cdot(\sigma',x')=(\sigma\sigma',\;x\circ\sigma'+x'),
+\end{equation}
+e análogo para arestas. A conversão adesivos$\to$cubinhos implementada é um homomorfismo injetivo (verificado em 100 pares aleatórios)\ver.
+
+\begin{theorem}[Primeira Lei da Cubologia]\label{thm:lei}\lit
+Um quádruplo $(\sigma,x,\tau,y)$ é alcançável se e somente se $\sgn\sigma=\sgn\tau$, $\sum_i x_i\equiv0\pmod 3$ e $\sum_j y_j\equiv0\pmod 2$. Portanto
+\begin{equation}
+|G| = \frac{8!\cdot3^8\cdot12!\cdot2^{12}}{2\cdot3\cdot2} = \num{43252003274489856000}.
+\end{equation}
+\end{theorem}
+\begin{proof}[Esboço]
+\emph{Necessidade:} cada giro de face realiza um 4-ciclo nos cantos e um 4-ciclo nas arestas, ambos ímpares, preservando $\sgn\sigma\cdot\sgn\tau$; e cada giro adiciona torções/inversões cuja soma é $0$ (verificável na tabela de cada giro). \emph{Suficiência:} comutadores e conjugados realizam 3-ciclos de cantos e de arestas, a torção oposta de dois cantos e a inversão de duas arestas; essas operações geram o subgrupo descrito~\cite[cap.~11]{joyner2008}.
+\end{proof}
+\noindent No software, a necessidade é testada em 300 estados alcançáveis; a suficiência é \emph{amostrada}: estados uniformes do conjunto descrito no \cref{thm:lei} são todos resolvidos pelo método de duas fases (\cref{sec:res-cube3}). A ordem $|G|$ é \emph{verificada} independentemente por Schreier--Sims\ver{} (\cref{sec:res-validacao}).
+
+\paragraph{O \cube{2} e o referencial canônico.} O \cube{2} não tem centros: estados que diferem por uma rotação global são fisicamente indistinguíveis. As 24 rotações agem simplesmente transitivamente sobre os pares (posição, orientação) de um canto; logo, para cada estado $s$ existe uma única rotação $\rho$ tal que $s\cdot\rho$ tem o canto DBL na posição DBL com torção 0\proj. Esses estados formam $G_2=\langle\mv U,\mv R,\mv F\rangle$, de ordem $7!\cdot3^6=\num{3674160}$\lit\ver, que identificamos com o espaço de estados do \cube{2}. Uma solução $w$ de $t=s\cdot\rho$ no referencial canônico corresponde à solução física $\rho\,w\,\rho^{-1}$ de $s$, obtida conjugando cada giro (\texttt{fromCanonicalFrame}); o mesmo mecanismo normaliza estados do \cube{3} após fatias ou rotações (os centros determinam $\rho$).
+
+\subsection{Três grafos distintos}\label{sec:tres-grafos}
+\begin{definition}\label{def:tres}
+Seja $S$ um conjunto de giros com $S=S^{-1}$.
+\begin{enumerate}[nosep,label=(\alph*)]
+\item O \emph{grafo estrutural} $\mathcal I_n$ é o grafo bipartido de incidência entre $\Omega_n$ e o conjunto $\mathcal L_n$ das $3n$ camadas, com $\omega\sim L$ se $\omega$ pertence ao anel de $L$, isto é, a uma camada não paralela à sua face.
+\item O \emph{grafo de estados} $\Gamma(S)$ tem como vértices as configurações alcançáveis (no referencial canônico) e arestas $\{s,s\cdot m\}$, $m\in S$.
+\item O \emph{grafo de Cayley} $\Cay(\langle S\rangle,S)$ tem como vértices os elementos do subgrupo $\langle S\rangle$.
+\end{enumerate}
+\end{definition}
+Em $\mathcal I_3$ cada posição tem grau 2 e cada camada tem grau 12; o grafo tem $54+9$ vértices e independe do estado. Já $\Gamma(S)$ e $\Cay$ têm, para $S$ gerando $G$, $4{,}3\cdot10^{19}$ vértices.
+\begin{proposition}\label{prop:iso}\lit
+Se $\langle S\rangle=G$, então $g\mapsto e\cdot g$ é um isomorfismo de $\Cay(G,S)$ em $\Gamma(S)$. Em geral, $\Gamma(S)$ restrito à componente de $e$ é $\Cay(\langle S\rangle,S)$.
+\end{proposition}
+\begin{proof}
+Pela \cref{prop:hom}, estado e elemento coincidem e a aresta $\{s,s\cdot m\}$ de $\Gamma(S)$ é a aresta $\{g,gm\}$ de $\Cay$.
+\end{proof}
+A distinção entre (b) e (c), portanto, não é de isomorfismo, mas de \emph{uso}: na interface, o grafo de estados é centrado no estado atual, normalizado por rotações globais, acompanha a trajetória do usuário (incluindo fatias, convertidas em pares de giros, p.ex.\ $\mv M\equiv\mv R\,\mv L'$ a menos de rotação) e é explorado localmente; o grafo de Cayley é centrado na identidade, com $S$ escolhido livremente, e serve para estudar subgrupos. Um ciclo fechado pelo usuário no grafo de estados é uma relação (por exemplo $\mv R^4=e$ ou $(\mv{R U R' U'})^6=e$), detectada quando a palavra percorrida não se reduz livremente à palavra vazia.
+
+\subsection{Construção exata do diagrama estrutural}\label{sec:estrutural}
+Sejam $C_x, C_y, C_z$ os vértices de um triângulo equilátero de lado $D$ e, para cada eixo $a$, $n$ círculos concêntricos em $C_a$ com raios $r_1<\dots<r_n$, um por camada.
+\begin{proposition}\label{prop:estrutural}\proj
+Se $r_n-r_1<D<2r_1$, então dois círculos de famílias diferentes se cortam em exatamente dois pontos, simétricos em relação à reta $C_aC_b$. As posições $\omega=(p,u)$ com $u$ paralelo ao terceiro eixo $c$ e camadas $(p_a,p_b)$ fixadas são exatamente duas (uma em cada face $\pm c$), e podem ser colocadas uma em cada ponto de interseção. Com essa colocação, todo adesivo está exatamente sobre os círculos das suas duas camadas, e cada círculo contém os $4n$ adesivos do seu anel.
+\end{proposition}
+\begin{proof}
+Dois círculos de raios $r,r'$ com centros a distância $D$ se cortam em dois pontos sse $|r-r'|<D<r+r'$, o que segue da hipótese. Para $c$ e $(p_a,p_b)$ fixados, as posições com normal $\pm e_c$ são $p=(p_a,p_b,\pm(n-1))$ (nas coordenadas apropriadas), exatamente duas. Associando a face $+c$ ao ponto mais próximo de $C_c$ e a face $-c$ ao outro, a aplicação é injetiva; a contagem por círculo segue de que o anel de uma camada tem $4n$ adesivos.
+\end{proof}
+\noindent Usamos $D=360$ e raios $(290,350,410)$ para $n=3$ --- os mesmos valores do GraphCube --- e $(305,385)$ para $n=2$. Os testes verificam que cada adesivo dista menos de $10^{-9}$ dos seus dois círculos e que a menor distância entre pontos é maior que 15 unidades. As seis faces aparecem como aglomerados $n\times n$ em interseções de famílias de círculos (\cref{fig:interface}).
+
+\subsection{Heurísticas admissíveis por projeção}
+\begin{proposition}[PDBs são consistentes]\label{prop:pdb}\lit
+Seja $\pi:V(\Gamma)\to V'$ uma aplicação tal que, para toda aresta $\{s,s m\}$ de $\Gamma$, $\pi(sm)=\pi(s)$ ou $\{\pi(s),\pi(sm)\}$ é aresta de um grafo $\Gamma'$. Então $h(s)=d_{\Gamma'}(\pi(s),\pi(e))$ satisfaz $h(s)\le d_\Gamma(s,e)$ e $|h(s)-h(sm)|\le1$. O máximo de heurísticas consistentes é consistente.
+\end{proposition}
+\begin{proof}
+A imagem por $\pi$ de um caminho de comprimento $\ell$ de $s$ a $e$ é um passeio de comprimento $\le\ell$ de $\pi(s)$ a $\pi(e)$ em $\Gamma'$; logo $h(s)\le d(s,e)$. Para uma aresta $\{s,sm\}$, $\pi(s)$ e $\pi(sm)$ estão a distância $\le1$ em $\Gamma'$, e pela desigualdade triangular $|h(s)-h(sm)|\le1$. Para o máximo: se $h_1(s)\ge h_2(s)$, então $\max(h_1,h_2)(s)=h_1(s)\le h_1(sm)+1\le\max(h_1,h_2)(sm)+1$.
+\end{proof}
+\noindent As projeções usadas são coordenadas do estado: no \cube{2}, só as torções (729 classes) ou só a permutação dos 7 cantos livres (5040); no \cube{3}, (torção dos cantos, posições das 4 arestas da camada E) com \num{1082565} classes, (inversão das arestas, posições E) com \num{1013760}, e a permutação dos cantos com \num{40320}. Como cada giro age sobre as coordenadas por uma tabela (o que é verificado por teste), a hipótese da \cref{prop:pdb} vale e $h_{\max}$ e $h_{\mathrm{PDB}}$ são admissíveis e consistentes. A heurística por contagem de peças também é consistente:
+\begin{proposition}\label{prop:pec}\proj
+Seja $k(s)$ o número de cantos (ou arestas) fora de posição ou de orientação. Então $h_{\mathrm{pec}}(s)=\lceil k(s)/4\rceil$ é admissível e consistente.
+\end{proposition}
+\begin{proof}
+Um giro de face move exatamente 4 cantos e 4 arestas, logo $|k(s)-k(sm)|\le4$ e $|h_{\mathrm{pec}}(s)-h_{\mathrm{pec}}(sm)|\le1$. Como $h_{\mathrm{pec}}(e)=0$, somando ao longo de um caminho mínimo obtemos $h_{\mathrm{pec}}(s)\le d(s,e)$.
+\end{proof}
+\noindent Note que no \cube{2}, com 7 cantos livres, $h_{\mathrm{pec}}\le2$: a heurística é consistente, mas pouco informativa, o que os experimentos confirmam.
+
+\subsection{Poda de sequências e corretude}
+Em busca com detecção de repetidos usamos a poda \emph{de mesma camada}: após o movimento $\ell$, proíbe-se $m$ se $\ell m\in\{e\}\cup S$.
+\begin{proposition}\label{prop:poda}\proj
+Com essa poda, BFS, BFS bidirecional e A$^*$ continuam encontrando caminhos mínimos.
+\end{proposition}
+\begin{proof}
+Seja $z$ um estado e $w\to z$ a última aresta de um caminho mínimo, com rótulo $a$; seja $\ell$ o último movimento do caminho armazenado até $w$, com pai $y$. Se a aresta fosse podada, $z=y\cdot(\ell a)$ com $\ell a\in\{e\}\cup S$, logo $d(z)\le d(y)+1=d(w)<d(z)$, contradição. Portanto toda aresta final de caminho mínimo é examinada.
+\end{proof}
+\noindent No IDA$^*$ (busca em árvore) acrescentamos a poda \emph{canônica} de faces opostas, que comutam: proíbe-se, por exemplo, \mv{U} logo após \mv{D}. Como todo elemento possui uma palavra mínima em que pares de faces opostas aparecem na ordem fixada, a otimalidade se mantém. Essa segunda poda \emph{não} é segura com detecção de repetidos baseada no último movimento armazenado, e por isso não é usada em BFS/A$^*$.
+
+\paragraph{Término da busca bidirecional.} Expandimos camadas completas, sempre do lado de menor fronteira. Se, após completar a camada $k_f+1$ do lado direto, houver encontros com o lado reverso (de profundidade máxima $k_b$), todo encontro tem comprimento $k_f+1+k_b$, que é mínimo: como não houve encontro antes, $d>k_f+k_b$.

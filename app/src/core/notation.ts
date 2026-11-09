@@ -105,6 +105,22 @@ export function simplifyAlg(ms: readonly Move[]): Move[] {
   return out;
 }
 
+/**
+ * Reduction in the FREE group on the generators: cancels only adjacent pairs
+ * g·g⁻¹ (R R' or R2 R2). A closed walk in a Cayley/state graph is a backtracking
+ * (trivial) walk iff its word freely reduces to the empty word; otherwise it
+ * witnesses a genuine relation such as R⁴ = e.
+ */
+export function freeReduce(ms: readonly Move[]): Move[] {
+  const out: Move[] = [];
+  for (const m of ms) {
+    const last = out[out.length - 1];
+    if (last && last.base === m.base && (last.amount + m.amount) % 4 === 0) out.pop();
+    else out.push({ ...m });
+  }
+  return out;
+}
+
 /** Group element (position→sticker permutation) of a move sequence. */
 export function algToPerm(p: Puzzle, ms: readonly Move[]): Uint8Array {
   let s = identity(p.size);

@@ -1,12 +1,12 @@
 check,object,computed,literature,source,match,timeMs
-group-order,G (3×3×3),43252003274489856000,43252003274489856000,"Joyner 2008; Rokicki et al. 2014",true,6.54
-group-order,"⟨R,U⟩ (3×3×3)",73483200,73483200,Joyner 2008 / Jaap Scherphuis,true,0.527
-group-order,"⟨U2,D2,R2,L2,F2,B2⟩ (3×3×3)",663552,663552,Joyner 2008 (squares group),true,0.477
-group-order,"H = ⟨U,D,R2,L2,F2,B2⟩",19508428800,19508428800,Kociemba (8!·8!·4!/2),true,1.3
-group-order,"⟨R2,U2⟩ (3×3×3)",12,12,dihedral D₆,true,0.02
-group-order,"G₂ = ⟨U,R,F⟩ (2×2×2)",3674160,3674160,7!·3⁶,true,0.173
-group-order,"⟨R,U⟩ (2×2×2)",29160,29160,Jaap Scherphuis,true,0.063
-distance-distribution-2x2-HTM,d=0,1,1,"OEIS A079761/A079762; Scherphuis",true,409.409
+group-order,G (3×3×3),43252003274489856000,43252003274489856000,"Joyner 2008; Rokicki et al. 2014",true,7.728
+group-order,"⟨R,U⟩ (3×3×3)",73483200,73483200,Joyner 2008 / Jaap Scherphuis,true,0.858
+group-order,"⟨U2,D2,R2,L2,F2,B2⟩ (3×3×3)",663552,663552,Joyner 2008 (squares group),true,0.333
+group-order,"H = ⟨U,D,R2,L2,F2,B2⟩",19508428800,19508428800,Kociemba (8!·8!·4!/2),true,1.055
+group-order,"⟨R2,U2⟩ (3×3×3)",12,12,dihedral D₆,true,0.029
+group-order,"G₂ = ⟨U,R,F⟩ (2×2×2)",3674160,3674160,7!·3⁶,true,0.367
+group-order,"⟨R,U⟩ (2×2×2)",29160,29160,Jaap Scherphuis,true,0.125
+distance-distribution-2x2-HTM,d=0,1,1,"OEIS A079761/A079762; Scherphuis",true,414.27
 distance-distribution-2x2-HTM,d=1,9,9,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-HTM,d=2,54,54,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-HTM,d=3,321,321,"OEIS A079761/A079762; Scherphuis",true,
@@ -18,7 +18,7 @@ distance-distribution-2x2-HTM,d=8,870072,870072,"OEIS A079761/A079762; Scherphui
 distance-distribution-2x2-HTM,d=9,1887748,1887748,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-HTM,d=10,623800,623800,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-HTM,d=11,2644,2644,"OEIS A079761/A079762; Scherphuis",true,
-distance-distribution-2x2-QTM,d=0,1,1,"OEIS A079761/A079762; Scherphuis",true,332
+distance-distribution-2x2-QTM,d=0,1,1,"OEIS A079761/A079762; Scherphuis",true,331.464
 distance-distribution-2x2-QTM,d=1,6,6,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-QTM,d=2,27,27,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-QTM,d=3,120,120,"OEIS A079761/A079762; Scherphuis",true,
@@ -33,4 +33,4 @@ distance-distribution-2x2-QTM,d=11,1350852,1350852,"OEIS A079761/A079762; Scherp
 distance-distribution-2x2-QTM,d=12,782536,782536,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-QTM,d=13,90280,90280,"OEIS A079761/A079762; Scherphuis",true,
 distance-distribution-2x2-QTM,d=14,276,276,"OEIS A079761/A079762; Scherphuis",true,
-two-phase-tables,move+pruning tables (3×3×3),built,,,true,1167.872
+two-phase-tables,move+pruning tables (3×3×3),built,,,true,1309.634

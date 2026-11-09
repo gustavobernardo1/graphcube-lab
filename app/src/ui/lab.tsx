@@ -10,7 +10,7 @@ import { applyMove, invertMove, parseAlg, type Move } from '../core/notation';
 import { mulberry32, randomScramble } from '../core/random';
 import { StateGraph, type CycleInfo } from '../graph/stateGraph';
 import type { CubeRenderer } from '../viz3d/CubeRenderer';
-import { simplifyAlg } from '../core/notation';
+import { freeReduce } from '../core/notation';
 
 export type Mode = 'explore' | 'solve' | 'investigate';
 
@@ -93,7 +93,7 @@ export function LabProvider({ children }: { children: ReactNode }) {
         s = applyMove(P, s, m);
         if (r && opts.animate !== false) r.animate(m, s, sp);
         const c = g.recordMove(s);
-        if (c && simplifyAlg(c.word.map((w) => parseAlg(w)[0])).length > 0) cycle = c;
+        if (c && freeReduce(c.word.map((w) => parseAlg(w)[0])).length > 0) cycle = c;
       }
       r?.paint(s);
       live.current.state = s;

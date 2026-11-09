@@ -4,7 +4,7 @@ import {
   equals, isPermutation, rankPerm, unrankPerm, power,
 } from '../src/core/perm';
 import { getPuzzle, faceletString, isSolvedUpToRotation } from '../src/core/geometry';
-import { parseAlg, algToPerm, invertAlg, simplifyAlg, formatAlg, htmLength, qtmLength } from '../src/core/notation';
+import { parseAlg, algToPerm, invertAlg, simplifyAlg, formatAlg, htmLength, qtmLength, freeReduce } from '../src/core/notation';
 import { toCubie, toFacelet, cubieMultiply, cubieEquals, cubieInverse, invariants, cubieTables, cubieSolved } from '../src/core/cubie';
 import { mulberry32, randomScramble } from '../src/core/random';
 import { symmetryData, canonicalFrame, fromCanonicalFrame, generatorStabilizer, conjugateMove } from '../src/core/symmetry';
@@ -127,6 +127,11 @@ describe('identity, inverses, orders, composition (3×3×3)', () => {
     expect(equals(alg3('x'), alg3("R M' L'"))).toBe(true);
     expect(equals(alg3('y'), alg3("U E' D'"))).toBe(true);
     expect(equals(alg3('z'), alg3("F S B'"))).toBe(true);
+  });
+  it('free reduction keeps genuine relations', () => {
+    expect(freeReduce(parseAlg("R U U' R'"))).toEqual([]);
+    expect(freeReduce(parseAlg('R2 R2'))).toEqual([]);
+    expect(freeReduce(parseAlg('R R R R')).length).toBe(4);
   });
   it('sequence metrics', () => {
     const w = parseAlg("R U2 R' x");
