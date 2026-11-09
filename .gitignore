@@ -16,3 +16,6 @@ paper/*.toc
 paper/*.synctex.gz
 experiments/analysis/__pycache__/
 .cache/
+
+# backups locais do repositório (git bundle)
+*.bundle
