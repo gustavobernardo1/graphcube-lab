@@ -4,7 +4,7 @@ import {
   equals, isPermutation, rankPerm, unrankPerm, power,
 } from '../src/core/perm';
 import { getPuzzle, faceletString, isSolvedUpToRotation } from '../src/core/geometry';
-import { parseAlg, algToPerm, invertAlg, simplifyAlg, formatAlg, applyAlg, htmLength, qtmLength } from '../src/core/notation';
+import { parseAlg, algToPerm, invertAlg, simplifyAlg, formatAlg, htmLength, qtmLength } from '../src/core/notation';
 import { toCubie, toFacelet, cubieMultiply, cubieEquals, cubieInverse, invariants, cubieTables, cubieSolved } from '../src/core/cubie';
 import { mulberry32, randomScramble } from '../src/core/random';
 import { symmetryData, canonicalFrame, fromCanonicalFrame, generatorStabilizer, conjugateMove } from '../src/core/symmetry';
