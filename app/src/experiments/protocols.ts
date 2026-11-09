@@ -54,7 +54,7 @@ function meta(id: string, title: string, p: CommonParams, params: Record<string,
     gitCommit: p.gitCommit ?? null,
     startedAt,
     durationMs: Math.round(performance.now() - t0),
-    seed: p.seed ?? 'graphcube',
+    seed: p.seed ?? 'n/a (determinístico)',
     params,
     moveCountConvention: convention,
     limits,
@@ -164,6 +164,7 @@ export function e1Growth(p: CommonParams & { lengths?: number[]; samples?: numbe
   const startedAt = new Date().toISOString();
   const seed = p.seed ?? 'e1';
   const rng = mulberry32(seed);
+  p = { ...p, seed };
   const lengths = p.lengths ?? Array.from({ length: p.quick ? 13 : 21 }, (_, i) => i);
   const samples = p.samples ?? (p.quick ? 6 : 30);
   const M = cube2();
@@ -197,7 +198,8 @@ export function e1Growth(p: CommonParams & { lengths?: number[]; samples?: numbe
 export function e2Algorithms(p: CommonParams & { depths?: number[]; samples?: number } = {}, progress: Progress = () => {}): ExperimentOutput {
   const t0 = performance.now();
   const startedAt = new Date().toISOString();
-  const rng = mulberry32(p.seed ?? 'e2');
+  p = { ...p, seed: p.seed ?? 'e2' };
+  const rng = mulberry32(p.seed!);
   const depths = p.depths ?? (p.quick ? [2, 4, 6, 8] : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
   const samples = p.samples ?? (p.quick ? 4 : 20);
   const M = cube2();
@@ -227,7 +229,8 @@ export function e2Algorithms(p: CommonParams & { depths?: number[]; samples?: nu
 export function e3Heuristics(p: CommonParams & { depths?: number[]; samples?: number } = {}, progress: Progress = () => {}): ExperimentOutput {
   const t0 = performance.now();
   const startedAt = new Date().toISOString();
-  const rng = mulberry32(p.seed ?? 'e3');
+  p = { ...p, seed: p.seed ?? 'e3' };
+  const rng = mulberry32(p.seed!);
   const depths = p.depths ?? (p.quick ? [3, 6, 8] : [2, 4, 6, 7, 8, 9, 10, 11]);
   const samples = p.samples ?? (p.quick ? 3 : 15);
   const M = cube2();
@@ -256,7 +259,8 @@ export function e3Heuristics(p: CommonParams & { depths?: number[]; samples?: nu
 export function e3bCube3(p: CommonParams & { lengths?: number[]; samples?: number; randomStates?: number } = {}, progress: Progress = () => {}): ExperimentOutput {
   const t0 = performance.now();
   const startedAt = new Date().toISOString();
-  const rng = mulberry32(p.seed ?? 'e3b');
+  p = { ...p, seed: p.seed ?? 'e3b' };
+  const rng = mulberry32(p.seed!);
   const lengths = p.lengths ?? (p.quick ? [4, 6, 8] : [2, 4, 6, 7, 8, 9, 10, 11, 12]);
   const samples = p.samples ?? (p.quick ? 2 : 10);
   const randomStates = p.randomStates ?? (p.quick ? 5 : 100);
