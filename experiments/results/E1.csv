@@ -1,0 +1,1261 @@
+sample,scrambleLength,dstar,scramble,algorithm,heuristic,success,status,length,expanded,generated,discovered,peakStored,timeMs,ebf
+0,0,0,,BFS,none,true,solved,0,0,0,1,0,7.408,
+0,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.804,
+1,0,0,,BFS,none,true,solved,0,0,0,1,0,6.671,
+1,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,8.712,
+2,0,0,,BFS,none,true,solved,0,0,0,1,0,5.653,
+2,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.599,
+3,0,0,,BFS,none,true,solved,0,0,0,1,0,6.272,
+3,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,5.626,
+4,0,0,,BFS,none,true,solved,0,0,0,1,0,9.703,
+4,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.269,
+5,0,0,,BFS,none,true,solved,0,0,0,1,0,2.921,
+5,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.858,
+6,0,0,,BFS,none,true,solved,0,0,0,1,0,1.326,
+6,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.025,
+7,0,0,,BFS,none,true,solved,0,0,0,1,0,7.277,
+7,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.913,
+8,0,0,,BFS,none,true,solved,0,0,0,1,0,6.055,
+8,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.979,
+9,0,0,,BFS,none,true,solved,0,0,0,1,0,1.375,
+9,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.837,
+10,0,0,,BFS,none,true,solved,0,0,0,1,0,1.499,
+10,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.706,
+11,0,0,,BFS,none,true,solved,0,0,0,1,0,5.321,
+11,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,4.115,
+12,0,0,,BFS,none,true,solved,0,0,0,1,0,6.506,
+12,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.44,
+13,0,0,,BFS,none,true,solved,0,0,0,1,0,1.562,
+13,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,2.835,
+14,0,0,,BFS,none,true,solved,0,0,0,1,0,1.637,
+14,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.201,
+15,0,0,,BFS,none,true,solved,0,0,0,1,0,3.032,
+15,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,4.172,
+16,0,0,,BFS,none,true,solved,0,0,0,1,0,1.376,
+16,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,7.833,
+17,0,0,,BFS,none,true,solved,0,0,0,1,0,1.505,
+17,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.441,
+18,0,0,,BFS,none,true,solved,0,0,0,1,0,2.34,
+18,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.353,
+19,0,0,,BFS,none,true,solved,0,0,0,1,0,6.62,
+19,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.289,
+20,0,0,,BFS,none,true,solved,0,0,0,1,0,1.494,
+20,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,5.964,
+21,0,0,,BFS,none,true,solved,0,0,0,1,0,1.528,
+21,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.543,
+22,0,0,,BFS,none,true,solved,0,0,0,1,0,5.892,
+22,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,4.614,
+23,0,0,,BFS,none,true,solved,0,0,0,1,0,6.623,
+23,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,3.263,
+24,0,0,,BFS,none,true,solved,0,0,0,1,0,1.451,
+24,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.067,
+25,0,0,,BFS,none,true,solved,0,0,0,1,0,1.387,
+25,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,6.748,
+26,0,0,,BFS,none,true,solved,0,0,0,1,0,4.575,
+26,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,4.356,
+27,0,0,,BFS,none,true,solved,0,0,0,1,0,6.42,
+27,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,5.122,
+28,0,0,,BFS,none,true,solved,0,0,0,1,0,1.771,
+28,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,8.139,
+29,0,0,,BFS,none,true,solved,0,0,0,1,0,1.453,
+29,0,0,,BFS bidirecional,none,true,solved,0,0,0,1,0,10.541,
+0,1,1,F,BFS,none,true,solved,1,1,9,10,10,7.991,9
+0,1,1,F,BFS bidirecional,none,true,solved,1,1,9,11,11,6.087,9
+1,1,1,R2,BFS,none,true,solved,1,1,5,6,6,7.008,5
+1,1,1,R2,BFS bidirecional,none,true,solved,1,1,9,11,11,3.612,9
+2,1,1,F',BFS,none,true,solved,1,1,7,8,8,2.446,7
+2,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,5.771,9
+3,1,1,U,BFS,none,true,solved,1,1,3,4,4,1.841,3
+3,1,1,U,BFS bidirecional,none,true,solved,1,1,9,11,11,3.4,9
+4,1,1,R2,BFS,none,true,solved,1,1,5,6,6,1.753,5
+4,1,1,R2,BFS bidirecional,none,true,solved,1,1,9,11,11,3.388,9
+5,1,1,R2,BFS,none,true,solved,1,1,5,6,6,6.08,5
+5,1,1,R2,BFS bidirecional,none,true,solved,1,1,9,11,11,4.019,9
+6,1,1,F',BFS,none,true,solved,1,1,7,8,8,1.611,7
+6,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,3.508,9
+7,1,1,U2,BFS,none,true,solved,1,1,2,3,3,1.699,2
+7,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,3.558,9
+8,1,1,F,BFS,none,true,solved,1,1,9,10,10,6.971,9
+8,1,1,F,BFS bidirecional,none,true,solved,1,1,9,11,11,4.01,9
+9,1,1,U,BFS,none,true,solved,1,1,3,4,4,1.506,3
+9,1,1,U,BFS bidirecional,none,true,solved,1,1,9,11,11,6.952,9
+10,1,1,F',BFS,none,true,solved,1,1,7,8,8,5.139,7
+10,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,7.814,9
+11,1,1,R',BFS,none,true,solved,1,1,4,5,5,7.03,4
+11,1,1,R',BFS bidirecional,none,true,solved,1,1,9,11,11,6.404,9
+12,1,1,U2,BFS,none,true,solved,1,1,2,3,3,7.059,2
+12,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,5.694,9
+13,1,1,U2,BFS,none,true,solved,1,1,2,3,3,1.896,2
+13,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,6.409,9
+14,1,1,U2,BFS,none,true,solved,1,1,2,3,3,1.546,2
+14,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,7.591,9
+15,1,1,U2,BFS,none,true,solved,1,1,2,3,3,7.682,2
+15,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,5.925,9
+16,1,1,F2,BFS,none,true,solved,1,1,8,9,9,6.742,8
+16,1,1,F2,BFS bidirecional,none,true,solved,1,1,9,11,11,5.734,9
+17,1,1,R2,BFS,none,true,solved,1,1,5,6,6,1.981,5
+17,1,1,R2,BFS bidirecional,none,true,solved,1,1,9,11,11,3.38,9
+18,1,1,F',BFS,none,true,solved,1,1,7,8,8,1.706,7
+18,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,3.857,9
+19,1,1,F',BFS,none,true,solved,1,1,7,8,8,3.591,7
+19,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,5.77,9
+20,1,1,F2,BFS,none,true,solved,1,1,8,9,9,1.467,8
+20,1,1,F2,BFS bidirecional,none,true,solved,1,1,9,11,11,9.183,9
+21,1,1,R,BFS,none,true,solved,1,1,6,7,7,1.558,6
+21,1,1,R,BFS bidirecional,none,true,solved,1,1,9,11,11,3.639,9
+22,1,1,U,BFS,none,true,solved,1,1,3,4,4,3.96,3
+22,1,1,U,BFS bidirecional,none,true,solved,1,1,9,11,11,3.967,9
+23,1,1,R2,BFS,none,true,solved,1,1,5,6,6,7.926,5
+23,1,1,R2,BFS bidirecional,none,true,solved,1,1,9,11,11,5.055,9
+24,1,1,U',BFS,none,true,solved,1,1,1,2,2,1.487,1
+24,1,1,U',BFS bidirecional,none,true,solved,1,1,9,11,11,7.468,9
+25,1,1,F',BFS,none,true,solved,1,1,7,8,8,5.733,7
+25,1,1,F',BFS bidirecional,none,true,solved,1,1,9,11,11,10.689,9
+26,1,1,U,BFS,none,true,solved,1,1,3,4,4,6.743,3
+26,1,1,U,BFS bidirecional,none,true,solved,1,1,9,11,11,5.181,9
+27,1,1,U2,BFS,none,true,solved,1,1,2,3,3,6.497,2
+27,1,1,U2,BFS bidirecional,none,true,solved,1,1,9,11,11,5.116,9
+28,1,1,R',BFS,none,true,solved,1,1,4,5,5,1.881,4
+28,1,1,R',BFS bidirecional,none,true,solved,1,1,9,11,11,5.843,9
+29,1,1,R',BFS,none,true,solved,1,1,4,5,5,1.371,4
+29,1,1,R',BFS bidirecional,none,true,solved,1,1,9,11,11,5.747,9
+0,2,2,R2 F,BFS,none,true,solved,2,10,62,63,63,5.807,7.39
+0,2,2,R2 F,BFS bidirecional,none,true,solved,2,2,18,20,20,4.355,3.772
+1,2,2,F2 U,BFS,none,true,solved,2,4,26,27,27,5.244,4.623
+1,2,2,F2 U,BFS bidirecional,none,true,solved,2,2,18,20,20,4.796,3.772
+2,2,2,F2 R',BFS,none,true,solved,2,5,32,33,33,2.061,5.179
+2,2,2,F2 R',BFS bidirecional,none,true,solved,2,2,18,20,20,3.524,3.772
+3,2,2,F R2,BFS,none,true,solved,2,6,39,40,40,1.731,5.765
+3,2,2,F R2,BFS bidirecional,none,true,solved,2,2,18,20,20,3.114,3.772
+4,2,2,F' R,BFS,none,true,solved,2,7,43,44,44,2.588,6.076
+4,2,2,F' R,BFS bidirecional,none,true,solved,2,2,18,20,20,6.257,3.772
+5,2,2,R2 U2,BFS,none,true,solved,2,3,17,18,18,1.512,3.653
+5,2,2,R2 U2,BFS bidirecional,none,true,solved,2,2,18,20,20,7.51,3.772
+6,2,2,R F2,BFS,none,true,solved,2,9,57,58,58,5.991,7.066
+6,2,2,R F2,BFS bidirecional,none,true,solved,2,2,18,20,20,5.579,3.772
+7,2,2,U' R,BFS,none,true,solved,2,7,40,41,41,8.456,5.844
+7,2,2,U' R,BFS bidirecional,none,true,solved,2,2,18,20,20,5.05,3.772
+8,2,2,U R2,BFS,none,true,solved,2,6,36,37,37,2.243,5.521
+8,2,2,U R2,BFS bidirecional,none,true,solved,2,2,18,20,20,8.755,3.772
+9,2,2,R U',BFS,none,true,solved,2,2,12,13,13,2.125,3
+9,2,2,R U',BFS bidirecional,none,true,solved,2,2,18,20,20,4.653,3.772
+10,2,2,U R,BFS,none,true,solved,2,7,42,43,43,7.939,6
+10,2,2,U R,BFS bidirecional,none,true,solved,2,2,18,20,20,5.298,3.772
+11,2,2,U' F,BFS,none,true,solved,2,10,58,59,59,7.018,7.132
+11,2,2,U' F,BFS bidirecional,none,true,solved,2,2,18,20,20,5.142,3.772
+12,2,2,R' F,BFS,none,true,solved,2,10,61,62,62,1.553,7.326
+12,2,2,R' F,BFS bidirecional,none,true,solved,2,2,18,20,20,6.608,3.772
+13,2,2,F2 U2,BFS,none,true,solved,2,3,20,21,21,1.536,4
+13,2,2,F2 U2,BFS bidirecional,none,true,solved,2,2,18,20,20,8.164,3.772
+14,2,2,R F,BFS,none,true,solved,2,10,63,64,64,7.653,7.453
+14,2,2,R F,BFS bidirecional,none,true,solved,2,2,18,20,20,5.553,3.772
+15,2,2,R' U',BFS,none,true,solved,2,2,10,11,11,6.963,2.702
+15,2,2,R' U',BFS bidirecional,none,true,solved,2,2,18,20,20,5.034,3.772
+16,2,2,R U2,BFS,none,true,solved,2,3,18,19,19,1.629,3.772
+16,2,2,R U2,BFS bidirecional,none,true,solved,2,2,18,20,20,7.281,3.772
+17,2,2,R F,BFS,none,true,solved,2,10,63,64,64,1.626,7.453
+17,2,2,R F,BFS bidirecional,none,true,solved,2,2,18,20,20,8.575,3.772
+18,2,2,R2 F',BFS,none,true,solved,2,8,50,51,51,6.967,6.589
+18,2,2,R2 F',BFS bidirecional,none,true,solved,2,2,18,20,20,6.035,3.772
+19,2,2,R U,BFS,none,true,solved,2,4,24,25,25,8.166,4.424
+19,2,2,R U,BFS bidirecional,none,true,solved,2,2,18,20,20,3.391,3.772
+20,2,2,R2 U',BFS,none,true,solved,2,2,11,12,12,1.371,2.854
+20,2,2,R2 U',BFS bidirecional,none,true,solved,2,2,18,20,20,6.693,3.772
+21,2,2,R' F2,BFS,none,true,solved,2,9,55,56,56,1.649,6.933
+21,2,2,R' F2,BFS bidirecional,none,true,solved,2,2,18,20,20,7.214,3.772
+22,2,2,R' U',BFS,none,true,solved,2,2,10,11,11,7.624,2.702
+22,2,2,R' U',BFS bidirecional,none,true,solved,2,2,18,20,20,4.101,3.772
+23,2,2,R' U',BFS,none,true,solved,2,2,10,11,11,5.788,2.702
+23,2,2,R' U',BFS bidirecional,none,true,solved,2,2,18,20,20,4.926,3.772
+24,2,2,U R2,BFS,none,true,solved,2,6,36,37,37,1.7,5.521
+24,2,2,U R2,BFS bidirecional,none,true,solved,2,2,18,20,20,3.21,3.772
+25,2,2,R' F2,BFS,none,true,solved,2,9,55,56,56,2.123,6.933
+25,2,2,R' F2,BFS bidirecional,none,true,solved,2,2,18,20,20,3.758,3.772
+26,2,2,R F,BFS,none,true,solved,2,10,63,64,64,4.269,7.453
+26,2,2,R F,BFS bidirecional,none,true,solved,2,2,18,20,20,3.264,3.772
+27,2,2,U' F2,BFS,none,true,solved,2,9,52,53,53,1.458,6.728
+27,2,2,U' F2,BFS bidirecional,none,true,solved,2,2,18,20,20,7.509,3.772
+28,2,2,F R,BFS,none,true,solved,2,7,45,46,46,1.542,6.227
+28,2,2,F R,BFS bidirecional,none,true,solved,2,2,18,20,20,3.4,3.772
+29,2,2,U R,BFS,none,true,solved,2,7,42,43,43,1.721,6
+29,2,2,U R,BFS bidirecional,none,true,solved,2,2,18,20,20,4.408,3.772
+0,3,3,U2 F U2,BFS,none,true,solved,3,22,131,132,132,6.766,4.705
+0,3,3,U2 F U2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.153,3.778
+1,3,3,U2 F' R',BFS,none,true,solved,3,32,191,192,192,1.474,5.39
+1,3,3,U2 F' R',BFS bidirecional,none,true,solved,3,11,72,74,74,5.517,3.778
+2,3,3,U R' F2,BFS,none,true,solved,3,56,336,335,335,1.612,6.589
+2,3,3,U R' F2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.26,3.778
+3,3,3,U2 R2 F',BFS,none,true,solved,3,51,305,305,305,7.341,6.367
+3,3,3,U2 R2 F',BFS bidirecional,none,true,solved,3,11,72,74,74,4.262,3.778
+4,3,3,U' R' U2,BFS,none,true,solved,3,17,100,101,101,6.339,4.264
+4,3,3,U' R' U2,BFS bidirecional,none,true,solved,3,11,72,74,74,5.747,3.778
+5,3,3,F' U2 R2,BFS,none,true,solved,3,36,217,217,217,1.818,5.641
+5,3,3,F' U2 R2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.114,3.778
+6,3,3,R' F2 U',BFS,none,true,solved,3,15,91,92,92,1.825,4.12
+6,3,3,R' F2 U',BFS bidirecional,none,true,solved,3,11,72,74,74,3.674,3.778
+7,3,3,F' U F',BFS,none,true,solved,3,49,295,295,295,4.504,6.292
+7,3,3,F' U F',BFS bidirecional,none,true,solved,3,11,72,74,74,3.381,3.778
+8,3,3,U2 R2 F2,BFS,none,true,solved,3,57,341,340,340,1.564,6.623
+8,3,3,U2 R2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,8.811,3.778
+9,3,3,F' R' F,BFS,none,true,solved,3,62,373,371,371,1.567,6.836
+9,3,3,F' R' F,BFS bidirecional,none,true,solved,3,11,72,74,74,3.533,3.778
+10,3,3,F' R2 U',BFS,none,true,solved,3,12,73,74,74,1.88,3.798
+10,3,3,F' R2 U',BFS bidirecional,none,true,solved,3,11,72,74,74,4.744,3.778
+11,3,3,F' R2 F2,BFS,none,true,solved,3,57,343,342,342,8.633,6.637
+11,3,3,F' R2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.372,3.778
+12,3,3,U' R2 U2,BFS,none,true,solved,3,18,106,107,107,1.73,4.356
+12,3,3,U' R2 U2,BFS bidirecional,none,true,solved,3,11,72,74,74,7.013,3.778
+13,3,3,R2 U R,BFS,none,true,solved,3,43,257,257,257,1.55,5.992
+13,3,3,R2 U R,BFS bidirecional,none,true,solved,3,11,72,74,74,3.387,3.778
+14,3,3,U2 R2 F2,BFS,none,true,solved,3,57,341,340,340,8.622,6.623
+14,3,3,U2 R2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,4.585,3.778
+15,3,3,R F R,BFS,none,true,solved,3,46,279,279,279,7.126,6.169
+15,3,3,R F R,BFS bidirecional,none,true,solved,3,11,72,74,74,5.053,3.778
+16,3,3,F R2 F',BFS,none,true,solved,3,51,309,309,309,1.753,6.396
+16,3,3,F R2 F',BFS bidirecional,none,true,solved,3,11,72,74,74,7.11,3.778
+17,3,3,U' F2 R2,BFS,none,true,solved,3,39,232,232,232,1.521,5.777
+17,3,3,U' F2 R2,BFS bidirecional,none,true,solved,3,11,72,74,74,8.569,3.778
+18,3,3,F' R2 U2,BFS,none,true,solved,3,18,109,110,110,6.184,4.401
+18,3,3,F' R2 U2,BFS bidirecional,none,true,solved,3,11,72,74,74,9.649,3.778
+19,3,3,U' R' F',BFS,none,true,solved,3,50,298,298,298,6.613,6.315
+19,3,3,U' R' F',BFS bidirecional,none,true,solved,3,11,72,74,74,3.356,3.778
+20,3,3,F2 U F2,BFS,none,true,solved,3,55,332,331,331,2.737,6.561
+20,3,3,F2 U F2,BFS bidirecional,none,true,solved,3,11,72,74,74,6.483,3.778
+21,3,3,F' R2 F,BFS,none,true,solved,3,63,379,377,377,1.591,6.874
+21,3,3,F' R2 F,BFS bidirecional,none,true,solved,3,11,72,74,74,3.492,3.778
+22,3,3,F2 R U,BFS,none,true,solved,3,25,152,153,153,6.942,4.965
+22,3,3,F2 R U,BFS bidirecional,none,true,solved,3,11,72,74,74,4.147,3.778
+23,3,3,R F' R,BFS,none,true,solved,3,44,267,267,267,6.704,6.074
+23,3,3,R F' R,BFS bidirecional,none,true,solved,3,11,72,74,74,4.496,3.778
+24,3,3,R2 F2 R',BFS,none,true,solved,3,33,200,201,201,1.398,5.479
+24,3,3,R2 F2 R',BFS bidirecional,none,true,solved,3,11,72,74,74,5.628,3.778
+25,3,3,U R2 F2,BFS,none,true,solved,3,57,342,341,341,1.556,6.63
+25,3,3,U R2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,7.06,3.778
+26,3,3,U2 R' U,BFS,none,true,solved,3,23,137,138,138,6.855,4.782
+26,3,3,U2 R' U,BFS bidirecional,none,true,solved,3,11,72,74,74,7.875,3.778
+27,3,3,R U2 F2,BFS,none,true,solved,3,54,324,324,324,1.507,6.504
+27,3,3,R U2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.343,3.778
+28,3,3,F2 U F,BFS,none,true,solved,3,61,368,366,366,2.249,6.803
+28,3,3,F2 U F,BFS bidirecional,none,true,solved,3,11,72,74,74,3.279,3.778
+29,3,3,R2 U2 R2,BFS,none,true,solved,3,18,107,108,108,6.259,4.371
+29,3,3,R2 U2 R2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.926,3.778
+0,4,4,R2 U F2 U,BFS,none,true,solved,4,163,977,959,959,1.801,5.308
+0,4,4,R2 U F2 U,BFS bidirecional,none,true,solved,4,20,126,128,128,3.182,3.041
+1,4,4,F' U' R' U,BFS,none,true,solved,4,137,823,811,811,3.176,5.072
+1,4,4,F' U' R' U,BFS bidirecional,none,true,solved,4,20,126,128,128,3.737,3.041
+2,4,4,R' F U' R2,BFS,none,true,solved,4,214,1285,1262,1262,3.069,5.707
+2,4,4,R' F U' R2,BFS bidirecional,none,true,solved,4,20,126,128,128,2.954,3.041
+3,4,4,R F U F,BFS,none,true,solved,4,367,2205,2128,2128,1.533,6.577
+3,4,4,R F U F,BFS bidirecional,none,true,solved,4,20,126,128,128,4.493,3.041
+4,4,4,U R U2 F',BFS,none,true,solved,4,288,1728,1678,1678,1.413,6.17
+4,4,4,U R U2 F',BFS bidirecional,none,true,solved,4,20,126,128,128,3.026,3.041
+5,4,4,F2 R' F2 R',BFS,none,true,solved,4,200,1202,1180,1180,2.102,5.607
+5,4,4,F2 R' F2 R',BFS bidirecional,none,true,solved,4,20,126,128,128,3.578,3.041
+6,4,4,R2 U2 F2 U,BFS,none,true,solved,4,162,971,956,956,4.671,5.3
+6,4,4,R2 U2 F2 U,BFS bidirecional,none,true,solved,4,20,126,128,128,2.97,3.041
+7,4,4,U R F R,BFS,none,true,solved,4,279,1674,1625,1625,1.498,6.118
+7,4,4,U R F R,BFS bidirecional,none,true,solved,4,20,126,128,128,5.349,3.041
+8,4,4,F' U' F2 R,BFS,none,true,solved,4,268,1609,1564,1564,1.346,6.055
+8,4,4,F' U' F2 R,BFS bidirecional,none,true,solved,4,20,126,128,128,2.945,3.041
+9,4,4,U' R U R,BFS,none,true,solved,4,258,1546,1501,1501,5.606,5.992
+9,4,4,U' R U R,BFS bidirecional,none,true,solved,4,20,126,128,128,3.956,3.041
+10,4,4,U' R' U F,BFS,none,true,solved,4,362,2170,2093,2093,7.196,6.549
+10,4,4,U' R' U F,BFS bidirecional,none,true,solved,4,20,126,128,128,4.921,3.041
+11,4,4,F2 U2 F' U2,BFS,none,true,solved,4,120,722,714,714,1.594,4.898
+11,4,4,F2 U2 F' U2,BFS bidirecional,none,true,solved,4,20,126,128,128,8.112,3.041
+12,4,4,F U F2 R,BFS,none,true,solved,4,270,1623,1577,1577,1.709,6.069
+12,4,4,F U F2 R,BFS bidirecional,none,true,solved,4,20,126,128,128,3.41,3.041
+13,4,4,U' R F R2,BFS,none,true,solved,4,243,1456,1415,1415,6.049,5.898
+13,4,4,U' R F R2,BFS bidirecional,none,true,solved,4,20,126,128,128,4.102,3.041
+14,4,4,F2 R F2 R,BFS,none,true,solved,4,273,1640,1591,1591,7.056,6.086
+14,4,4,F2 R F2 R,BFS bidirecional,none,true,solved,4,20,126,128,128,4.868,3.041
+15,4,4,F R2 U2 F,BFS,none,true,solved,4,357,2145,2071,2071,1.456,6.529
+15,4,4,F R2 U2 F,BFS bidirecional,none,true,solved,4,20,126,128,128,6.766,3.041
+16,4,4,F2 U2 F' U',BFS,none,true,solved,4,84,506,503,503,1.334,4.454
+16,4,4,F2 U2 F' U',BFS bidirecional,none,true,solved,4,20,126,128,128,7.473,3.041
+17,4,4,R2 U R' F',BFS,none,true,solved,4,300,1799,1748,1748,7.869,6.235
+17,4,4,R2 U R' F',BFS bidirecional,none,true,solved,4,20,126,128,128,4.492,3.041
+18,4,4,F2 R F U2,BFS,none,true,solved,4,136,818,806,806,6.948,5.064
+18,4,4,F2 R F U2,BFS bidirecional,none,true,solved,4,20,126,128,128,4.886,3.041
+19,4,4,F' U' F R',BFS,none,true,solved,4,203,1219,1196,1196,1.762,5.628
+19,4,4,F' U' F R',BFS bidirecional,none,true,solved,4,20,126,128,128,5.702,3.041
+20,4,4,R2 F U R',BFS,none,true,solved,4,190,1142,1121,1121,2.978,5.532
+20,4,4,R2 F U R',BFS bidirecional,none,true,solved,4,20,126,128,128,9.347,3.041
+21,4,4,R F U2 R',BFS,none,true,solved,4,184,1107,1086,1086,5.951,5.487
+21,4,4,R F U2 R',BFS bidirecional,none,true,solved,4,20,126,128,128,7.733,3.041
+22,4,4,U F U F2,BFS,none,true,solved,4,332,1992,1929,1929,7.336,6.404
+22,4,4,U F U F2,BFS bidirecional,none,true,solved,4,20,126,128,128,4.345,3.041
+23,4,4,U2 R2 F2 R,BFS,none,true,solved,4,272,1631,1585,1585,1.862,6.077
+23,4,4,U2 R2 F2 R,BFS bidirecional,none,true,solved,4,20,126,128,128,5.808,3.041
+24,4,4,R U F2 R,BFS,none,true,solved,4,270,1620,1574,1574,1.593,6.066
+24,4,4,R U F2 R,BFS bidirecional,none,true,solved,4,20,126,128,128,4.689,3.041
+25,4,4,R F2 U' R,BFS,none,true,solved,4,248,1491,1450,1450,2.233,5.935
+25,4,4,R F2 U' R,BFS bidirecional,none,true,solved,4,20,126,128,128,3.281,3.041
+26,4,4,U R U' R,BFS,none,true,solved,4,246,1476,1435,1435,4.451,5.919
+26,4,4,U R U' R,BFS bidirecional,none,true,solved,4,20,126,128,128,3.373,3.041
+27,4,4,F R2 U R,BFS,none,true,solved,4,257,1545,1500,1500,1.639,5.991
+27,4,4,F R2 U R,BFS bidirecional,none,true,solved,4,20,126,128,128,5.487,3.041
+28,4,4,F' R' F' U,BFS,none,true,solved,4,158,949,934,934,1.527,5.267
+28,4,4,F' R' F' U,BFS bidirecional,none,true,solved,4,20,126,128,128,4.202,3.041
+29,4,4,F' R U' R2,BFS,none,true,solved,4,211,1267,1244,1244,1.843,5.686
+29,4,4,F' R U' R2,BFS bidirecional,none,true,solved,4,20,126,128,128,3.322,3.041
+0,5,5,U' F U' R' U2,BFS,none,true,solved,5,604,3622,3479,3479,4.279,4.921
+0,5,5,U' F U' R' U2,BFS bidirecional,none,true,solved,5,74,450,449,449,3.711,3.146
+1,5,5,U2 F2 R' F U',BFS,none,true,solved,5,585,3509,3370,3370,1.589,4.889
+1,5,5,U2 F2 R' F U',BFS bidirecional,none,true,solved,5,74,450,449,449,5.266,3.146
+2,5,5,F' U2 F U F',BFS,none,true,solved,5,1730,10381,9571,9571,3.055,6.135
+2,5,5,F' U2 F U F',BFS bidirecional,none,true,solved,5,74,450,449,449,4.294,3.146
+3,5,5,U R U2 F2 R',BFS,none,true,solved,5,1167,7002,6526,6526,3.457,5.651
+3,5,5,U R U2 F2 R',BFS bidirecional,none,true,solved,5,74,450,449,449,3.496,3.146
+4,5,5,U' F U2 F2 U',BFS,none,true,solved,5,539,3232,3109,3109,4.915,4.805
+4,5,5,U' F U2 F2 U',BFS bidirecional,none,true,solved,5,74,450,449,449,3.995,3.146
+5,5,5,F' R2 U2 R U,BFS,none,true,solved,5,884,5305,4983,4983,2.766,5.332
+5,5,5,F' R2 U2 R U,BFS bidirecional,none,true,solved,5,74,450,449,449,5.166,3.146
+6,5,5,R U2 R U F2,BFS,none,true,solved,5,1911,11466,10557,10557,4.862,6.263
+6,5,5,R U2 R U F2,BFS bidirecional,none,true,solved,5,74,450,449,449,3.785,3.146
+7,5,5,R2 F' U' R' U,BFS,none,true,solved,5,811,4868,4599,4599,2.17,5.237
+7,5,5,R2 F' U' R' U,BFS bidirecional,none,true,solved,5,74,450,449,449,3.909,3.146
+8,5,5,R U' F U2 F,BFS,none,true,solved,5,2087,12522,11511,11511,4.183,6.379
+8,5,5,R U' F U2 F,BFS bidirecional,none,true,solved,5,74,450,449,449,3.942,3.146
+9,5,5,U F' R F' U,BFS,none,true,solved,5,946,5676,5337,5337,2.157,5.408
+9,5,5,U F' R F' U,BFS bidirecional,none,true,solved,5,74,450,449,449,8.052,3.146
+10,5,5,F R F2 U2 F',BFS,none,true,solved,5,1692,10155,9362,9362,3.686,6.107
+10,5,5,F R F2 U2 F',BFS bidirecional,none,true,solved,5,74,450,449,449,9.573,3.146
+11,5,5,U R' U' R2 F2,BFS,none,true,solved,5,1967,11802,10873,10873,8.683,6.301
+11,5,5,U R' U' R2 F2,BFS bidirecional,none,true,solved,5,74,450,449,449,6.267,3.146
+12,5,5,F' R2 U F2 U',BFS,none,true,solved,5,541,3247,3124,3124,8.606,4.809
+12,5,5,F' R2 U F2 U',BFS bidirecional,none,true,solved,5,74,450,449,449,3.747,3.146
+13,5,5,U R F2 U' R2,BFS,none,true,solved,5,1258,7548,7033,7033,2.287,5.741
+13,5,5,U R F2 U' R2,BFS bidirecional,none,true,solved,5,74,450,449,449,7.615,3.146
+14,5,5,R F2 R' F U,BFS,none,true,solved,5,1003,6021,5632,5632,3.014,5.476
+14,5,5,R F2 R' F U,BFS bidirecional,none,true,solved,5,74,450,449,449,8.764,3.146
+15,5,5,F2 U' R' F2 U2,BFS,none,true,solved,5,755,4532,4297,4297,7.134,5.159
+15,5,5,F2 U' R' F2 U2,BFS bidirecional,none,true,solved,5,74,450,449,449,6.184,3.146
+16,5,5,R2 U' R F2 R2,BFS,none,true,solved,5,1381,8285,7730,7730,7.438,5.853
+16,5,5,R2 U' R F2 R2,BFS bidirecional,none,true,solved,5,74,450,449,449,4.993,3.146
+17,5,5,U2 F U' F2 R,BFS,none,true,solved,5,1566,9395,8728,8728,2.232,6.009
+17,5,5,U2 F U' F2 R,BFS bidirecional,none,true,solved,5,74,450,449,449,7.262,3.146
+18,5,5,R U' F2 R F2,BFS,none,true,solved,5,2014,12084,11140,11140,2.225,6.332
+18,5,5,R U' F2 R F2,BFS bidirecional,none,true,solved,5,74,450,449,449,9.034,3.146
+19,5,5,U2 F' U R F',BFS,none,true,solved,5,1820,10919,10034,10034,8.564,6.2
+19,5,5,U2 F' U R F',BFS bidirecional,none,true,solved,5,74,450,449,449,5.81,3.146
+20,5,5,U R U2 F' U2,BFS,none,true,solved,5,712,4272,4064,4064,7.364,5.095
+20,5,5,U R U2 F' U2,BFS bidirecional,none,true,solved,5,74,450,449,449,3.499,3.146
+21,5,5,R' U' F2 R' F,BFS,none,true,solved,5,2153,12916,11847,11847,2.314,6.42
+21,5,5,R' U' F2 R' F,BFS bidirecional,none,true,solved,5,74,450,449,449,7.214,3.146
+22,5,5,F U R U R',BFS,none,true,solved,5,1101,6609,6171,6171,1.816,5.583
+22,5,5,F U R U R',BFS bidirecional,none,true,solved,5,74,450,449,449,7.214,3.146
+23,5,5,F' U R' U R',BFS,none,true,solved,5,1089,6535,6102,6102,7.336,5.57
+23,5,5,F' U R' U R',BFS bidirecional,none,true,solved,5,74,450,449,449,3.81,3.146
+24,5,3,F2 R' F2 U2 F2,BFS,none,true,solved,3,45,269,269,269,5.658,6.09
+24,5,3,F2 R' F2 U2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,5.419,3.778
+25,5,5,F' U F' R U2,BFS,none,true,solved,5,688,4129,3930,3930,1.957,5.059
+25,5,5,F' U F' R U2,BFS bidirecional,none,true,solved,5,74,450,449,449,3.417,3.146
+26,5,5,F2 R' U R2 F',BFS,none,true,solved,5,1782,10694,9831,9831,2.521,6.173
+26,5,5,F2 R' U R2 F',BFS bidirecional,none,true,solved,5,74,450,449,449,4.255,3.146
+27,5,5,U R U2 R' U,BFS,none,true,solved,5,816,4896,4626,4626,3.977,5.243
+27,5,5,U R U2 R' U,BFS bidirecional,none,true,solved,5,74,450,449,449,4.493,3.146
+28,5,5,U F U2 F2 U',BFS,none,true,solved,5,539,3234,3111,3111,1.619,4.805
+28,5,5,U F U2 F2 U',BFS bidirecional,none,true,solved,5,74,450,449,449,8.799,3.146
+29,5,3,U2 F2 R' F2 U2,BFS,none,true,solved,3,58,350,348,348,1.448,6.684
+29,5,3,U2 F2 R' F2 U2,BFS bidirecional,none,true,solved,3,11,72,74,74,3.473,3.778
+0,6,6,U2 R F' R' F2 R,BFS,none,true,solved,6,8801,52805,45567,45567,10.169,5.94
+0,6,6,U2 R F' R' F2 R,BFS bidirecional,none,true,solved,6,128,774,770,770,11.054,2.818
+1,6,4,F' U2 R2 U2 R2 F',BFS,none,true,solved,4,287,1723,1673,1673,1.537,6.165
+1,6,4,F' U2 R2 U2 R2 F',BFS bidirecional,none,true,solved,4,20,126,128,128,3.081,3.041
+2,6,6,R2 U F' R' U' R',BFS,none,true,solved,6,5720,34319,30026,30026,3.42,5.514
+2,6,6,R2 U F' R' U' R',BFS bidirecional,none,true,solved,6,128,774,770,770,3.969,2.818
+3,6,6,U2 F2 R' F' R' U,BFS,none,true,solved,6,4703,28217,24988,24988,6.54,5.33
+3,6,6,U2 F2 R' F' R' U,BFS bidirecional,none,true,solved,6,128,774,770,770,3.66,2.818
+4,6,6,U' R2 U' F' U' F',BFS,none,true,solved,6,9123,54736,47093,47093,6.268,5.977
+4,6,6,U' R2 U' F' U' F',BFS bidirecional,none,true,solved,6,128,774,770,770,8.885,2.818
+5,6,6,U2 F2 R' F' U2 R2,BFS,none,true,solved,6,7161,42965,37411,37411,3.872,5.732
+5,6,6,U2 F2 R' F' U2 R2,BFS bidirecional,none,true,solved,6,128,774,770,770,4.027,2.818
+6,6,6,R U R F U R,BFS,none,true,solved,6,8498,50988,44063,44063,12.436,5.904
+6,6,6,R U R F U R,BFS bidirecional,none,true,solved,6,128,774,770,770,5.919,2.818
+7,6,6,R' F' U F2 U2 R',BFS,none,true,solved,6,6034,36205,31685,31685,10.314,5.565
+7,6,6,R' F' U F2 U2 R',BFS bidirecional,none,true,solved,6,128,774,770,770,5.285,2.818
+8,6,6,F' U' F R' U R',BFS,none,true,solved,6,6117,36703,32133,32133,3.749,5.578
+8,6,6,F' U' F R' U R',BFS bidirecional,none,true,solved,6,128,774,770,770,7.431,2.818
+9,6,4,U F U2 R F R',BFS,none,true,solved,4,358,2151,2077,2077,1.679,6.534
+9,6,4,U F U2 R F R',BFS bidirecional,none,true,solved,4,20,126,128,128,9.131,3.041
+10,6,6,U' R' U2 F U2 R,BFS,none,true,solved,6,5998,35986,31489,31489,10.424,5.559
+10,6,6,U' R' U2 F U2 R,BFS bidirecional,none,true,solved,6,128,774,770,770,6.627,2.818
+11,6,6,F R' F2 R' U2 R2,BFS,none,true,solved,6,7100,42603,37091,37091,11.203,5.724
+11,6,6,F R' F2 R' U2 R2,BFS bidirecional,none,true,solved,6,128,774,770,770,4.846,2.818
+12,6,6,U2 F' U F' U' F,BFS,none,true,solved,6,11310,67859,57952,57952,5.887,6.202
+12,6,6,U2 F' U F' U' F,BFS bidirecional,none,true,solved,6,128,774,770,770,7.344,2.818
+13,6,6,U' R2 U' F' U2 F',BFS,none,true,solved,6,9304,55822,48025,48025,4.492,5.997
+13,6,6,U' R2 U' F' U2 F',BFS bidirecional,none,true,solved,6,128,774,770,770,9.181,2.818
+14,6,6,U2 F U' R U' R2,BFS,none,true,solved,6,6940,41639,36260,36260,10.96,5.701
+14,6,6,U2 F U' R U' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,5.967,2.818
+15,6,6,U' R U2 F U R,BFS,none,true,solved,6,7282,43691,38057,38057,11.146,5.749
+15,6,6,U' R U2 F U R,BFS bidirecional,none,true,solved,6,128,774,770,770,4.112,2.818
+16,6,5,R2 F2 U2 F2 U' R2,BFS,none,true,solved,5,1314,7883,7360,7360,4.317,5.793
+16,6,5,R2 F2 U2 F2 U' R2,BFS bidirecional,none,true,solved,5,74,450,449,449,6.983,3.146
+17,6,6,U2 R' F' U2 F' R,BFS,none,true,solved,6,8551,51305,44304,44304,5.021,5.91
+17,6,6,U2 R' F' U2 F' R,BFS bidirecional,none,true,solved,6,128,774,770,770,3.649,2.818
+18,6,6,F R2 F' R' F R',BFS,none,true,solved,6,6789,40737,35539,35539,4.431,5.68
+18,6,6,F R2 F' R' F R',BFS bidirecional,none,true,solved,6,128,774,770,770,4.026,2.818
+19,6,6,R U2 R2 U' R2 F,BFS,none,true,solved,6,11922,71532,60904,60904,14.438,6.259
+19,6,6,R U2 R2 U' R2 F,BFS bidirecional,none,true,solved,6,128,774,770,770,3.696,2.818
+20,6,6,F R U2 R2 U F',BFS,none,true,solved,6,9065,54393,46792,46792,5.675,5.97
+20,6,6,F R U2 R2 U F',BFS bidirecional,none,true,solved,6,128,774,770,770,6.237,2.818
+21,6,6,U R2 U' R F2 R',BFS,none,true,solved,6,6634,39804,34761,34761,3.59,5.657
+21,6,6,U R2 U' R F2 R',BFS bidirecional,none,true,solved,6,128,774,770,770,3.632,2.818
+22,6,4,F R U2 F2 U2 R',BFS,none,true,solved,4,233,1399,1367,1367,3.396,5.836
+22,6,4,F R U2 F2 U2 R',BFS bidirecional,none,true,solved,4,20,126,128,128,4.026,3.041
+23,6,6,R F' R' U2 F2 R,BFS,none,true,solved,6,8735,52413,45216,45216,12.274,5.932
+23,6,6,R F' R' U2 F2 R,BFS bidirecional,none,true,solved,6,128,774,770,770,5.337,2.818
+24,6,6,U2 F2 R2 F' U' F2,BFS,none,true,solved,6,10271,61625,52816,52816,6.083,6.1
+24,6,6,U2 F2 R2 F' U' F2,BFS bidirecional,none,true,solved,6,128,774,770,770,7.907,2.818
+25,6,5,U F' R F2 U2 F2,BFS,none,true,solved,5,1169,7014,6537,6537,1.788,5.653
+25,6,5,U F' R F2 U2 F2,BFS bidirecional,none,true,solved,5,74,450,449,449,7.653,3.146
+26,6,6,U R2 U R F2 R',BFS,none,true,solved,6,6645,39870,34822,34822,11.287,5.658
+26,6,6,U R2 U R F2 R',BFS bidirecional,none,true,solved,6,128,774,770,770,6.332,2.818
+27,6,6,U R U' R F U',BFS,none,true,solved,6,3415,20490,18415,18415,9.952,5.042
+27,6,6,U R U' R F U',BFS bidirecional,none,true,solved,6,128,774,770,770,3.814,2.818
+28,6,6,R2 F2 U F R F2,BFS,none,true,solved,6,11180,67082,57325,57325,5.743,6.19
+28,6,6,R2 F2 U F R F2,BFS bidirecional,none,true,solved,6,128,774,770,770,7.601,2.818
+29,6,6,R' F' R' F' U' R2,BFS,none,true,solved,6,6990,41941,36513,36513,5.475,5.708
+29,6,6,R' F' R' F' U' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,9.526,2.818
+0,7,7,U' F R' U' F' R2 U,BFS,none,true,solved,7,25806,154834,126725,126725,27.916,5.353
+0,7,7,U' F R' U' F' R2 U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.991,2.912
+1,7,7,U R U2 R F' R' F2,BFS,none,true,solved,7,54766,328597,257455,257455,41.061,5.981
+1,7,7,U R U2 R F' R' F2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,12.313,2.912
+2,7,7,R' F' R2 F U2 F' U',BFS,none,true,solved,7,15798,94789,79697,79697,11.323,4.978
+2,7,7,R' F' R2 F U2 F' U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,6.152,2.912
+3,7,7,R F' R2 F U2 F U',BFS,none,true,solved,7,17888,107331,89759,89759,10.966,5.07
+3,7,7,R F' R2 F U2 F U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,7.74,2.912
+4,7,6,U2 R2 F2 U2 F' U' R2,BFS,none,true,solved,6,7062,42374,36886,36886,3.722,5.718
+4,7,6,U2 R2 F2 U2 F' U' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,4.516,2.818
+5,7,7,F2 U R' F2 U F' R',BFS,none,true,solved,7,33429,200576,161664,161664,16.073,5.561
+5,7,7,F2 U R' F2 U F' R',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.439,2.912
+6,7,7,U2 F' U' R2 U F' R,BFS,none,true,solved,7,44409,266453,211335,211335,24.692,5.799
+6,7,7,U2 F' U' R2 U F' R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.328,2.912
+7,7,7,F' U2 F' R2 F' U R,BFS,none,true,solved,7,43770,262621,208547,208547,23.875,5.787
+7,7,7,F' U2 F' R2 F' U R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.773,2.912
+8,7,7,R2 F U' R U' F2 R',BFS,none,true,solved,7,33997,203984,164161,164161,18.551,5.575
+8,7,7,R2 F U' R U' F2 R',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,6.287,2.912
+9,7,6,U2 F2 U R2 U2 R2 F2,BFS,none,true,solved,6,10371,62225,53323,53323,7.176,6.11
+9,7,6,U2 F2 U R2 U2 R2 F2,BFS bidirecional,none,true,solved,6,128,774,770,770,3.599,2.818
+10,7,3,F' U2 R2 U2 F' U2 F2,BFS,none,true,solved,3,57,341,340,340,1.584,6.623
+10,7,3,F' U2 R2 U2 F' U2 F2,BFS bidirecional,none,true,solved,3,11,72,74,74,8.909,3.778
+11,7,7,F' R F2 U F2 U' R',BFS,none,true,solved,7,30677,184063,148765,148765,14.303,5.491
+11,7,7,F' R F2 U F2 U' R',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,9.192,2.912
+12,7,7,F' R U2 R' F' U R2,BFS,none,true,solved,7,38330,229981,184343,184343,21.446,5.675
+12,7,7,F' R U2 R' F' U R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,24.167,2.912
+13,7,7,U' R2 U2 F2 R' U R',BFS,none,true,solved,7,32105,192628,155521,155521,17.203,5.528
+13,7,7,U' R2 U2 F2 R' U R',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.332,2.912
+14,7,7,U' F2 R' F' U2 F' R2,BFS,none,true,solved,7,38938,233626,187078,187078,35.068,5.688
+14,7,7,U' F2 R' F' U2 F' R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,28.031,2.912
+15,7,7,U2 R U F2 U' F U,BFS,none,true,solved,7,29174,175043,142053,142053,13.767,5.451
+15,7,7,U2 R U F2 U' F U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.764,2.912
+16,7,7,F U R2 F2 R' U F,BFS,none,true,solved,7,59284,355707,277130,277130,51.199,6.051
+16,7,7,F U R2 F2 R' U F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,22.947,2.912
+17,7,7,F' U2 F2 R2 F' U2 F2,BFS,none,true,solved,7,53711,322267,252807,252807,38.91,5.963
+17,7,7,F' U2 F2 R2 F' U2 F2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.207,2.912
+18,7,7,R F' U2 F' R' U F2,BFS,none,true,solved,7,54046,324279,254251,254251,65.16,5.969
+18,7,7,R F' U2 F' R' U F2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.878,2.912
+19,7,7,R2 F' U F' R' U' F2,BFS,none,true,solved,7,52313,313880,246527,246527,42.858,5.94
+19,7,7,R2 F' U F' R' U' F2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.066,2.912
+20,7,7,U F' R F R F2 U2,BFS,none,true,solved,7,18593,111560,93002,93002,22.796,5.1
+20,7,7,U F' R F R F2 U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,6.704,2.912
+21,7,6,R' U F2 U R2 U R2,BFS,none,true,solved,6,3080,18480,16648,16648,5.027,4.952
+21,7,6,R' U F2 U R2 U R2,BFS bidirecional,none,true,solved,6,128,774,770,770,3.865,2.818
+22,7,4,F R U2 F2 U2 R' F2,BFS,none,true,solved,4,129,777,765,765,3.231,4.995
+22,7,4,F R U2 F2 U2 R' F2,BFS bidirecional,none,true,solved,4,20,126,128,128,8.834,3.041
+23,7,7,F' R F2 U R2 U' R,BFS,none,true,solved,7,41618,249709,199005,199005,26.387,5.744
+23,7,7,F' R F2 U R2 U' R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.162,2.912
+24,7,6,R2 F' R U' F' R2 U2,BFS,none,true,solved,6,2837,17022,15427,15427,12.092,4.882
+24,7,6,R2 F' R U' F' R2 U2,BFS bidirecional,none,true,solved,6,128,774,770,770,5.076,2.818
+25,7,7,F' U R2 F U F' R2,BFS,none,true,solved,7,38042,228253,183059,183059,30.341,5.668
+25,7,7,F' U R2 F U F' R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,17.718,2.912
+26,7,5,F' U2 F2 U R2 U2 R,BFS,none,true,solved,5,648,3887,3718,3718,2.392,4.995
+26,7,5,F' U2 F2 U R2 U2 R,BFS bidirecional,none,true,solved,5,74,450,449,449,5.523,3.146
+27,7,7,R' U' F' R2 U' R U,BFS,none,true,solved,7,23758,142548,117290,117290,19.546,5.288
+27,7,7,R' U' F' R2 U' R U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,7.8,2.912
+28,7,5,R F' U2 R2 U2 F2 U',BFS,none,true,solved,5,518,3106,2993,2993,6.818,4.764
+28,7,5,R F' U2 R2 U2 F2 U',BFS bidirecional,none,true,solved,5,74,450,449,449,4.072,3.146
+29,7,7,F2 U' R2 F' R2 F' U',BFS,none,true,solved,7,16264,97586,81882,81882,11.181,4.999
+29,7,7,F2 U' R2 F' R2 F' U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.448,2.912
+0,8,5,U' F U2 F2 R F2 U2 R,BFS,none,true,solved,5,512,3072,2959,2959,1.657,4.753
+0,8,5,U' F U2 F2 R F2 U2 R,BFS bidirecional,none,true,solved,5,74,450,449,449,4.382,3.146
+1,8,8,F U2 F2 R2 F' U' F2 U2,BFS,none,true,solved,8,112076,672459,498306,498306,82,5.211
+1,8,8,F U2 F2 R2 F' U' F2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.475,2.711
+2,8,7,U' F R' F2 R' U2 F2 U',BFS,none,true,solved,7,26972,161830,132053,132053,26.969,5.388
+2,8,7,U' F R' F2 R' U2 F2 U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.094,2.912
+3,8,7,U F' R' U2 R U R U2,BFS,none,true,solved,7,25687,154122,126163,126163,22.348,5.349
+3,8,7,U F' R' U2 R U R U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.416,2.912
+4,8,7,F2 U2 R U2 F U' F' U,BFS,none,true,solved,7,20823,124936,103636,103636,28.006,5.186
+4,8,7,F2 U2 R U2 F U' F' U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,4.566,2.912
+5,8,8,R' F' R U' R U' F2 R,BFS,none,true,solved,8,214297,1285783,891708,891708,164.784,5.664
+5,8,8,R' F' R U' R U' F2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.016,2.711
+6,8,8,U2 F' R U' R U2 R' F,BFS,none,true,solved,8,280500,1682999,1128450,1128450,215.308,5.863
+6,8,8,U2 F' R U' R U2 R' F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.093,2.711
+7,8,8,R' U F R2 F' R U F2,BFS,none,true,solved,8,254945,1529672,1039755,1039755,212.713,5.791
+7,8,8,R' U F R2 F' R U F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.265,2.711
+8,8,5,R U2 R2 U2 R U' R' U',BFS,none,true,solved,5,1229,7373,6869,6869,4.521,5.713
+8,8,5,R U2 R2 U2 R U' R' U',BFS bidirecional,none,true,solved,5,74,450,449,449,10.31,3.146
+9,8,8,F R2 U2 R' U2 F' U' R',BFS,none,true,solved,8,135229,811373,589978,589978,115.822,5.338
+9,8,8,F R2 U2 R' U2 F' U' R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,21.448,2.711
+10,8,8,R U' F2 R' F2 R2 U2 R',BFS,none,true,solved,8,151528,909168,653203,653203,147.969,5.417
+10,8,8,R U' F2 R' F2 R2 U2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.82,2.711
+11,8,8,R' F U2 F' U2 F' U2 F2,BFS,none,true,solved,8,228940,1373641,944774,944774,188.752,5.712
+11,8,8,R' F U2 F' U2 F' U2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.141,2.711
+12,8,7,F2 U R F2 R U R2 U',BFS,none,true,solved,7,59143,354859,276562,276562,63.496,6.049
+12,8,7,F2 U R F2 R U R2 U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,12.626,2.912
+13,8,8,U R' F U2 F' R' U2 F,BFS,none,true,solved,8,270914,1625484,1095830,1095830,228.796,5.837
+13,8,8,U R' F U2 F' R' U2 F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.082,2.711
+14,8,8,U2 F R' U R' U' R2 U2,BFS,none,true,solved,8,97923,587537,440371,440371,69.857,5.121
+14,8,8,U2 F R' U R' U' R2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.954,2.711
+15,8,6,R' F' R' U' F2 R F2 U,BFS,none,true,solved,6,6764,40584,35408,35408,6.175,5.676
+15,8,6,R' F' R' U' F2 R F2 U,BFS bidirecional,none,true,solved,6,128,774,770,770,4.363,2.818
+16,8,7,F R2 U2 F U F U R,BFS,none,true,solved,7,16081,96489,80984,80984,9.054,4.991
+16,8,7,F R2 U2 F U F U R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,4.117,2.912
+17,8,8,U2 R2 U' F' U F' R' U,BFS,none,true,solved,8,122717,736301,540909,540909,94.211,5.272
+17,8,8,U2 R2 U' F' U F' R' U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.644,2.711
+18,8,6,F' R U' F2 U' R U' R2,BFS,none,true,solved,6,3291,19748,17820,17820,7.742,5.01
+18,8,6,F' R U' F2 U' R U' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,6.722,2.818
+19,8,8,R U2 R U F2 U2 F U,BFS,none,true,solved,8,134328,805968,586237,586237,118.196,5.334
+19,8,8,R U2 R U F2 U2 F U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.175,2.711
+20,8,8,F2 R F R2 U' R' U2 R,BFS,none,true,solved,8,202493,1214960,848995,848995,175.778,5.623
+20,8,8,F2 R F R2 U' R' U2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.243,2.711
+21,8,8,F' R U2 R F U R' U2,BFS,none,true,solved,8,65128,390771,301878,301878,49.335,4.858
+21,8,8,F' R U2 R F U R' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.845,2.711
+22,8,7,F R2 F2 U' F2 U' R2 U2,BFS,none,true,solved,7,19696,118177,98143,98143,13.426,5.143
+22,8,7,F R2 F2 U' F2 U' R2 U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,8.553,2.912
+23,8,8,F R2 F2 U2 F U' F R',BFS,none,true,solved,8,169144,1014865,722449,722449,156.897,5.494
+23,8,8,F R2 F2 U2 F U' F R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.582,2.711
+24,8,7,R' U2 R2 U R U' R' U',BFS,none,true,solved,7,43208,259246,206188,206188,29.585,5.776
+24,8,7,R' U2 R2 U R U' R' U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.537,2.912
+25,8,8,U2 R F R U2 F' U2 R',BFS,none,true,solved,8,152671,916025,657888,657888,134.774,5.422
+25,8,8,U2 R F R U2 F' U2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.859,2.711
+26,8,7,F' R' U' R2 U' R' F2 U,BFS,none,true,solved,7,20999,125994,104423,104423,24.069,5.192
+26,8,7,F' R' U' R2 U' R' F2 U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.285,2.912
+27,8,5,R' U2 F U2 R U' F' R',BFS,none,true,solved,5,998,5990,5601,5601,3.795,5.47
+27,8,5,R' U2 F U2 R U' F' R',BFS bidirecional,none,true,solved,5,74,450,449,449,5.785,3.146
+28,8,8,F U' R' U' R' U F2 R',BFS,none,true,solved,8,165339,992037,707153,707153,146.239,5.478
+28,8,8,F U' R' U' R' U F2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,19.421,2.711
+29,8,8,R F2 R F' R' F R U',BFS,none,true,solved,8,77797,466785,356459,356459,83.822,4.971
+29,8,8,R F2 R F' R' F R U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.538,2.711
+0,9,9,R2 F' R F R U2 R U F2,BFS,none,true,solved,9,564193,3385158,1981359,1981359,434.041,5.19
+0,9,9,R2 F' R F R U2 R U F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.56,2.785
+1,9,9,F2 U2 F' U' R F' R' U R2,BFS,none,true,solved,9,772440,4634642,2454041,2454041,502.157,5.38
+1,9,9,F2 U2 F' U' R F' R' U R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.012,2.785
+2,9,6,R' U' R U F U' R2 F U',BFS,none,true,solved,6,11142,66851,57165,57165,14.043,6.186
+2,9,6,R' U' R U F U' R2 F U',BFS bidirecional,none,true,solved,6,128,774,770,770,11.826,2.818
+3,9,5,R2 U R2 F U F' U R2 F',BFS,none,true,solved,5,1879,11274,10369,10369,3.167,6.241
+3,9,5,R2 U R2 F U F' U R2 F',BFS bidirecional,none,true,solved,5,74,450,449,449,5.307,3.146
+4,9,9,F' R' F U' R2 F' U R' U,BFS,none,true,solved,9,538399,3230395,1913657,1913657,428.41,5.163
+4,9,9,F' R' F U' R2 F' U R' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.308,2.785
+5,9,9,F2 R U2 R' F U R' U' R,BFS,none,true,solved,9,833038,4998230,2567477,2567477,568.016,5.426
+5,9,9,F2 R U2 R' F U R' U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.434,2.785
+6,9,9,F2 R' U F R' U F R U2,BFS,none,true,solved,9,295700,1774202,1180035,1180035,234.21,4.821
+6,9,9,F2 R' U F R' U F R U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.681,2.785
+7,9,6,R F R U R' F2 U R' U2,BFS,none,true,solved,6,11468,68807,58753,58753,8.116,6.217
+7,9,6,R F R U R' F2 U R' U2,BFS bidirecional,none,true,solved,6,128,774,770,770,4.517,2.818
+8,9,8,R' U R2 F R2 U2 F2 U' R,BFS,none,true,solved,8,167460,1004758,715828,715828,125.287,5.487
+8,9,8,R' U R2 F R2 U2 F2 U' R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.675,2.711
+9,9,9,R' U2 R' F U F' R F' R2,BFS,none,true,solved,9,802078,4812466,2510757,2510757,543.26,5.403
+9,9,9,R' U2 R' F U F' R F' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.577,2.785
+10,9,9,U F' R F' R2 U R2 U R2,BFS,none,true,solved,9,774824,4648944,2458714,2458714,570.896,5.381
+10,9,9,U F' R F' R2 U R2 U R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.041,2.785
+11,9,9,F U F' R2 U2 R' U2 F U',BFS,none,true,solved,9,403798,2422791,1530077,1530077,302.051,4.996
+11,9,9,F U F' R2 U2 R' U2 F U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.862,2.785
+12,9,6,R' F R' F2 R' U' R' F' R',BFS,none,true,solved,6,7091,42544,37037,37037,6.644,5.722
+12,9,6,R' F R' F2 R' U' R' F' R',BFS bidirecional,none,true,solved,6,128,774,770,770,4.074,2.818
+13,9,9,U' F' U R2 F2 U2 F' U' R,BFS,none,true,solved,9,293643,1761861,1172825,1172825,223.558,4.817
+13,9,9,U' F' U R2 F2 U2 F' U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.629,2.785
+14,9,7,F2 R' U2 R U F' R' U R2,BFS,none,true,solved,7,40792,244753,195435,195435,23.992,5.727
+14,9,7,F2 R' U2 R U F' R' U R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,27.507,2.912
+15,9,7,U' F U F U' F U R U,BFS,none,true,solved,7,28147,168881,137293,137293,15.812,5.422
+15,9,7,U' F U F U' F U R U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.122,2.912
+16,9,6,R' U R U R U R F2 U',BFS,none,true,solved,6,3192,19152,17275,17275,9.249,4.983
+16,9,6,R' U R U R U R F2 U',BFS bidirecional,none,true,solved,6,128,774,770,770,9.804,2.818
+17,9,9,R' U' F2 U' R U' F' U' R2,BFS,none,true,solved,9,358739,2152432,1387947,1387947,326.041,4.929
+17,9,9,R' U' F2 U' R U' F' U' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.031,2.785
+18,9,8,U R' F2 U' F R F2 U2 R,BFS,none,true,solved,8,82587,495521,376461,376461,60.473,5.01
+18,9,8,U R' F2 U' F R F2 U2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.909,2.711
+19,9,8,U R F' R' F2 R' F' R' F2,BFS,none,true,solved,8,236027,1416162,970819,970819,170.045,5.734
+19,9,8,U R F' R' F2 R' F' R' F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.06,2.711
+20,9,9,F' R' U F2 R' U2 F U' R,BFS,none,true,solved,9,841000,5046001,2582231,2582231,623.312,5.432
+20,9,9,F' R' U F2 R' U2 F U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.547,2.785
+21,9,5,F2 U2 F U2 F2 R' F2 U2 F,BFS,none,true,solved,5,1824,10946,10059,10059,7.22,6.203
+21,9,5,F2 U2 F U2 F2 R' F2 U2 F,BFS bidirecional,none,true,solved,5,74,450,449,449,12.094,3.146
+22,9,7,R2 U F U2 R2 U2 F2 R F,BFS,none,true,solved,7,60113,360677,280426,280426,51.578,6.063
+22,9,7,R2 U F U2 R2 U2 F2 R F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.8,2.912
+23,9,7,R F' U2 R2 F' R2 F U2 R,BFS,none,true,solved,7,54926,329555,258113,258113,65.318,5.983
+23,9,7,R F' U2 R2 F' R2 F U2 R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,6.156,2.912
+24,9,8,U' F2 R F' U F2 R2 U2 R,BFS,none,true,solved,8,66133,396800,306054,306054,58.149,4.868
+24,9,8,U' F2 R F' U F2 R2 U2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,7.069,2.711
+25,9,7,F2 U' R U2 F' U2 R' U2 F2,BFS,none,true,solved,7,47570,285422,225006,225006,26.666,5.858
+25,9,7,F2 U' R U2 F' U2 R' U2 F2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.059,2.912
+26,9,9,U' F2 R2 U2 R F R2 U' R',BFS,none,true,solved,9,634663,3807978,2155549,2155549,451.504,5.26
+26,9,9,U' F2 R2 U2 R F R2 U' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.607,2.785
+27,9,8,U R2 F U R' U R F R,BFS,none,true,solved,8,240293,1441758,986429,986429,187.652,5.748
+27,9,8,U R2 F U R' U R F R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.02,2.711
+28,9,8,R' U2 R2 F R' F' U2 R' U,BFS,none,true,solved,8,141886,851314,615877,615877,107.796,5.371
+28,9,8,R' U2 R2 F R' F' U2 R' U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.809,2.711
+29,9,8,U' R' F2 R2 U F2 U2 F R',BFS,none,true,solved,8,160413,962476,688176,688176,156.041,5.457
+29,9,8,U' R' F2 R2 U F2 U2 F R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.72,2.711
+0,10,9,R U2 F R2 U2 F' U F' R U2,BFS,none,true,solved,9,465697,2794181,1713235,1713235,351.795,5.078
+0,10,9,R U2 F R2 U2 F' U F' R U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.246,2.785
+1,10,8,U2 F' R F' R U' R' F2 U' F,BFS,none,true,solved,8,134358,806147,586364,586364,91.984,5.334
+1,10,8,U2 F' R F' R U' R' F2 U' F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.516,2.711
+2,10,8,U' R F' U F U F' U2 R' F2,BFS,none,true,solved,8,94218,565306,424864,424864,76.712,5.095
+2,10,8,U' R F' U F U F' U2 R' F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.335,2.711
+3,10,9,U' R2 U R2 U2 F2 R' F R U,BFS,none,true,solved,9,356500,2138999,1380949,1380949,278.454,4.925
+3,10,9,U' R2 U R2 U2 F2 R' F R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,25.411,2.785
+4,10,10,F' R' U2 R F2 U' R F R2 U',BFS,none,true,solved,10,1312827,7876963,3209372,3209372,744.266,4.78
+4,10,10,F' R' U2 R F2 U' R F R2 U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.403,2.643
+5,10,10,R U2 R2 U' F' R2 U R' F' U',BFS,none,true,solved,10,1313641,7881849,3210100,3210100,701.364,4.78
+5,10,10,R U2 R2 U' F' R2 U R' F' U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.27,2.643
+6,10,9,R2 F' U2 F2 U' F' R2 U2 R F',BFS,none,true,solved,9,458375,2750249,1692390,1692390,375.136,5.069
+6,10,9,R2 F' U2 F2 U' F' R2 U2 R F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.548,2.785
+7,10,7,F U F' R' F' U' F' U F2 U,BFS,none,true,solved,7,25081,150488,123234,123234,18.208,5.33
+7,10,7,F U F' R' F' U' F' U F2 U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.337,2.912
+8,10,9,U' R U' R2 U R' U F' U2 F2,BFS,none,true,solved,9,1011293,6067759,2859313,2859313,608.187,5.547
+8,10,9,U' R U' R2 U R' U F' U2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.325,2.785
+9,10,9,R2 U F2 R U2 F' R' U' F U2,BFS,none,true,solved,9,475702,2854215,1741139,1741139,364.427,5.09
+9,10,9,R2 U F2 R U2 F' R' U' F U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.017,2.785
+10,10,8,F R2 U' R U R2 F2 R2 U2 R',BFS,none,true,solved,8,156395,938373,672902,672902,131.218,5.439
+10,10,8,F R2 U' R U R2 F2 R2 U2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.454,2.711
+11,10,8,F R F2 U R' F2 R' F' U R,BFS,none,true,solved,8,139322,835934,606205,606205,111.312,5.359
+11,10,8,F R F2 U R' F2 R' F' U R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.459,2.711
+12,10,9,R U2 F U R' F2 U' F U2 R',BFS,none,true,solved,9,680916,4085499,2261585,2261585,468.979,5.303
+12,10,9,R U2 F U R' F2 U' F U2 R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.654,2.785
+13,10,7,F R U' F R F U2 F2 U R2,BFS,none,true,solved,7,50473,302841,238004,238004,45.113,5.909
+13,10,7,F R U' F R F U2 F2 U R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,22.587,2.912
+14,10,9,F2 R' U' R2 U' F2 R' U' R F,BFS,none,true,solved,9,375334,2252004,1441414,1441414,282.371,4.954
+14,10,9,F2 R' U' R2 U' F2 R' U' R F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,28.364,2.785
+15,10,9,F R' F' U' R2 F2 U2 F R' U,BFS,none,true,solved,9,810562,4863372,2526277,2526277,527.12,5.409
+15,10,9,F R' F' U' R2 F2 U2 F R' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.642,2.785
+16,10,7,F2 R' U R F U' F2 R' F' U,BFS,none,true,solved,7,12965,77792,65870,65870,15.256,4.834
+16,10,7,F2 R' U R F U' F2 R' F' U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,12.592,2.912
+17,10,7,R' F U' F2 U2 F2 U R U F,BFS,none,true,solved,7,29733,178397,144551,144551,14.45,5.466
+17,10,7,R' F U' F2 U2 F2 U R U F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.044,2.912
+18,10,8,R2 F' U' R' F' R' F' U2 F' U',BFS,none,true,solved,8,79158,474948,361829,361829,50.332,4.982
+18,10,8,R2 F' U' R' F' R' F' U2 F' U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,21.517,2.711
+19,10,9,U2 F U2 F2 R U2 R U' F2 U2,BFS,none,true,solved,9,468092,2808555,1719771,1719771,350.105,5.081
+19,10,9,U2 F U2 F2 R U2 R U' F2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.683,2.785
+20,10,8,R U R2 U F2 U' F2 U F2 U',BFS,none,true,solved,8,211920,1271521,883094,883094,173.177,5.656
+20,10,8,R U R2 U F2 U' F2 U F2 U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.763,2.711
+21,10,9,R' F' U2 F2 R' F' R' U2 F2 R,BFS,none,true,solved,9,353493,2120956,1371571,1371571,259.767,4.92
+21,10,9,R' F' U2 F2 R' F' R' U2 F2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.301,2.785
+22,10,8,F' R2 F R U2 F U2 R2 U' R',BFS,none,true,solved,8,157452,944713,676803,676803,106.221,5.444
+22,10,8,F' R2 F R U2 F U2 R2 U' R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.958,2.711
+23,10,9,F' U R2 F' R2 U' F' R F2 U',BFS,none,true,solved,9,366121,2196729,1412119,1412119,306.834,4.94
+23,10,9,F' U R2 F' R2 U' F' R F2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.368,2.785
+24,10,8,R' F2 R' F2 U2 R U F U F2,BFS,none,true,solved,8,161580,969482,692975,692975,113.623,5.462
+24,10,8,R' F2 R' F2 U2 R U F U F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.877,2.711
+25,10,9,F R U' R2 U' F2 U F R' U,BFS,none,true,solved,9,329652,1977914,1294184,1294184,230.222,4.881
+25,10,9,F R U' R2 U' F2 U F R' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.576,2.785
+26,10,9,U2 R' F2 U' R2 U R' U2 F' U',BFS,none,true,solved,9,460178,2761066,1697578,1697578,429.444,5.071
+26,10,9,U2 R' F2 U' R2 U R' U2 F' U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.037,2.785
+27,10,6,R' U' R' U2 F' R' F R2 F2 U,BFS,none,true,solved,6,3159,18956,17092,17092,9.752,4.974
+27,10,6,R' U' R' U2 F' R' F R2 F2 U,BFS bidirecional,none,true,solved,6,128,774,770,770,11.144,2.818
+28,10,8,R2 F R U F' U F2 R2 F' U,BFS,none,true,solved,8,206645,1239869,864201,864201,154.018,5.637
+28,10,8,R2 F R U F' U F2 R2 F' U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.462,2.711
+29,10,9,U' F U2 F' U2 R F U2 R2 U2,BFS,none,true,solved,9,695992,4175951,2294908,2294908,478.234,5.316
+29,10,9,U' F U2 F' U2 R F U2 R2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.96,2.785
+0,11,8,R2 F' R2 U2 R F' U' R U' F' R',BFS,none,true,solved,8,206450,1238699,863536,863536,152.919,5.637
+0,11,8,R2 F' R2 U2 R F' U' R U' F' R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.654,2.711
+1,11,9,U' R U2 R U R' F U' R2 U' R2,BFS,none,true,solved,9,1107769,6646614,2984850,2984850,657.508,5.605
+1,11,9,U' R U2 R U R' F U' R2 U' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.496,2.785
+2,11,9,R U F2 U2 F2 U F2 R F' U2 R2,BFS,none,true,solved,9,362717,2176304,1400964,1400964,292.006,4.935
+2,11,9,R U F2 U2 F2 U F2 R F' U2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.529,2.785
+3,11,9,R U R2 U2 R2 F2 U R' U2 R F2,BFS,none,true,solved,9,781773,4690637,2472122,2472122,562.347,5.387
+3,11,9,R U R2 U2 R2 F2 U R' U2 R F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.138,2.785
+4,11,7,F U F2 R2 F R U R2 F R2 U,BFS,none,true,solved,7,25497,152985,125227,125227,16.605,5.343
+4,11,7,F U F2 R2 F R U R2 F R2 U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.119,2.912
+5,11,9,F' U F' U R2 U F' U2 F' U' R2,BFS,none,true,solved,9,314154,1884927,1242597,1242597,212.724,4.854
+5,11,9,F' U F' U R2 U F' U2 F' U' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.717,2.785
+6,11,9,F2 U2 F2 R' F U2 R' U F R2 F2,BFS,none,true,solved,9,642981,3857884,2175221,2175221,460.392,5.268
+6,11,9,F2 U2 F2 R' F U2 R' U F R2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.942,2.785
+7,11,8,R U' F' U R' U2 R' F2 U2 F2 R,BFS,none,true,solved,8,180587,1083522,766685,766685,150.614,5.541
+7,11,8,R U' F' U R' U2 R' F2 U2 F2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.741,2.711
+8,11,9,U2 R2 F' R2 F' U F' R2 U R' U2,BFS,none,true,solved,9,791610,4749660,2491023,2491023,527.062,5.395
+8,11,9,U2 R2 F' R2 F' U F' R2 U R' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.116,2.785
+9,11,7,F' R' F2 U2 R' U F' R F' U F,BFS,none,true,solved,7,50531,303185,238257,238257,46.281,5.91
+9,11,7,F' R' F2 U2 R' U F' R F' U F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.543,2.912
+10,11,7,R U2 F' R' F' U R2 F2 R' F U',BFS,none,true,solved,7,23873,143241,117757,117757,13.465,5.292
+10,11,7,R U2 F' R' F' U R2 F2 R' F U',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,9.242,2.912
+11,11,8,U' R2 F2 R2 F' R2 U2 R F U R2,BFS,none,true,solved,8,192790,1156738,812898,812898,154.552,5.587
+11,11,8,U' R2 F2 R2 F' R2 U2 R F U R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.577,2.711
+12,11,6,R2 U' R2 U' R F2 U F U' R' F2,BFS,none,true,solved,6,4620,27719,24566,24566,5.002,5.313
+12,11,6,R2 U' R2 U' R F2 U F U' R' F2,BFS bidirecional,none,true,solved,6,128,774,770,770,7.091,2.818
+13,11,8,F U' F' U F' U2 R2 F U R2 F,BFS,none,true,solved,8,108787,652724,484952,484952,76.842,5.191
+13,11,8,F U' F' U F' U2 R2 F U R2 F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.21,2.711
+14,11,8,R2 U2 R2 U2 R U' R U R2 U2 F2,BFS,none,true,solved,8,251091,1506545,1025619,1025619,211.692,5.78
+14,11,8,R2 U2 R2 U2 R U' R U R2 U2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.292,2.711
+15,11,8,R F2 U' F' R U R' U2 R U R,BFS,none,true,solved,8,157897,947380,678613,678613,117.188,5.446
+15,11,8,R F2 U' F' R U R' U2 R U R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.55,2.711
+16,11,9,U' R F' U2 R' F' R U R F' R',BFS,none,true,solved,9,704252,4225510,2312879,2312879,494.419,5.323
+16,11,9,U' R F' U2 R' F' R U R F' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.615,2.785
+17,11,10,U F2 U R' F2 U F R U2 R2 U2,BFS,none,true,solved,10,1323437,7940625,3219610,3219610,744.75,4.784
+17,11,10,U F2 U R' F2 U F R U2 R2 U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.581,2.643
+18,11,9,U F2 U R2 F' U' R' F2 U2 R' U2,BFS,none,true,solved,9,359410,2156458,1390001,1390001,251.23,4.93
+18,11,9,U F2 U R2 F' U' R' F2 U2 R' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.568,2.785
+19,11,8,F2 R U' R U R2 F U' F2 R2 U2,BFS,none,true,solved,8,123575,741449,544238,544238,104.131,5.277
+19,11,8,F2 R U' R U R2 F U' F2 R2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,20.987,2.711
+20,11,9,R U R' F R' U' F2 R' U F2 R,BFS,none,true,solved,9,884886,5309319,2660602,2660602,635.965,5.464
+20,11,9,R U R' F R' U' F2 R' U F2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.366,2.785
+21,11,6,U2 F U R2 F R F R F' R U',BFS,none,true,solved,6,3452,20712,18580,18580,5.503,5.051
+21,11,6,U2 F U R2 F R F R F' R U',BFS bidirecional,none,true,solved,6,128,774,770,770,12.449,2.818
+22,11,7,F' U F2 R U F' U' F R' U' R2,BFS,none,true,solved,7,17183,103099,86264,86264,7.208,5.04
+22,11,7,F' U F2 R U F' U' F R' U' R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,6.408,2.912
+23,11,8,R' F' R U R' U' F' R2 U R2 F',BFS,none,true,solved,8,247527,1485164,1012802,1012802,180.17,5.77
+23,11,8,R' F' R U R' U' F' R2 U R2 F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.744,2.711
+24,11,9,R F2 R' F' R F2 U2 R F' R' F',BFS,none,true,solved,9,837180,5023078,2575281,2575281,665.897,5.429
+24,11,9,R F2 R' F' R F2 U2 R F' R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.795,2.785
+25,11,10,R2 U R' U R' U R2 U' R2 F U2,BFS,none,true,solved,10,1986373,11918239,3574309,3574309,989.88,4.988
+25,11,10,R2 U R' U R' U R2 U' R2 F U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.842,2.643
+26,11,9,R2 F R2 U2 F' R F' U' R2 F U2,BFS,none,true,solved,9,524183,3145096,1875548,1875548,438.987,5.147
+26,11,9,R2 F R2 U2 F' R F' U' R2 F U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.644,2.785
+27,11,8,F' U R' F2 R U' R' F2 U' F' R',BFS,none,true,solved,8,282856,1697139,1136494,1136494,198.172,5.869
+27,11,8,F' U R' F2 R U' R' F2 U' F' R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.046,2.711
+28,11,9,R' F U2 F R2 F' U' R' U' R2 U2,BFS,none,true,solved,9,1048435,6290612,2909572,2909572,657.589,5.57
+28,11,9,R' F U2 F R2 F' U' R' U' R2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.383,2.785
+29,11,7,F2 U R' F' R2 U' F U' F2 R2 F',BFS,none,true,solved,7,59806,358839,279253,279253,51.091,6.059
+29,11,7,F2 U R' F' R2 U' F U' F2 R2 F',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,15.949,2.912
+0,12,10,R2 U2 R' U F' U R2 U' F U' R U2,BFS,none,true,solved,10,1294747,7768482,3192665,3192665,728.859,4.773
+0,12,10,R2 U2 R' U F' U R2 U' F U' R U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,19.47,2.643
+1,12,7,F' R U2 F' U F2 U F2 U' F2 U' F,BFS,none,true,solved,7,24595,147573,121063,121063,23.152,5.315
+1,12,7,F' R U2 F' U F2 U F2 U' F2 U' F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.397,2.912
+2,12,10,R' F2 R U F2 U2 F2 U' F U' R2 F,BFS,none,true,solved,10,1857820,11146919,3535265,3535265,821.518,4.954
+2,12,10,R' F2 R U F2 U2 F2 U' F U' R2 F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,19.082,2.643
+3,12,10,F R' U' R2 U F2 R' F2 U R F U',BFS,none,true,solved,10,1325110,7950659,3221160,3221160,671.095,4.785
+3,12,10,F R' U' R2 U F2 R' F2 U R F U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.389,2.643
+4,12,9,U R' U' F' R U' R F2 U' F' U R2,BFS,none,true,solved,9,718822,4312930,2344287,2344287,443.373,5.336
+4,12,9,U R' U' F' R U' R F2 U' F' U R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.972,2.785
+5,12,7,R F R2 U2 R2 F2 U2 R F' U2 F' R',BFS,none,true,solved,7,59627,357761,278483,278483,36.721,6.056
+5,12,7,R F R2 U2 R2 F2 U2 R F' U2 F' R',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.444,2.912
+6,12,8,F R2 F' U R F' U2 R2 F2 R2 U2 R2,BFS,none,true,solved,8,264235,1585413,1072380,1072380,179.16,5.818
+6,12,8,F R2 F' U R F' U2 R2 F2 R2 U2 R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.434,2.711
+7,12,7,R F2 U F' R F R F U2 F R2 U,BFS,none,true,solved,7,46631,279784,221009,221009,50.254,5.841
+7,12,7,R F2 U F' R F R F U2 F R2 U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.15,2.912
+8,12,6,F2 U2 F R2 U F2 R F2 U' R' F U',BFS,none,true,solved,6,4038,24226,21617,21617,4.995,5.191
+8,12,6,F2 U2 F R2 U F2 R F2 U' R' F U',BFS bidirecional,none,true,solved,6,128,774,770,770,8.396,2.818
+9,12,5,F' R' U' R' U R2 U2 F2 R2 U' R2 F2,BFS,none,true,solved,5,2176,13056,11967,11967,3.137,6.434
+9,12,5,F' R' U' R' U R2 U2 F2 R2 U' R2 F2,BFS bidirecional,none,true,solved,5,74,450,449,449,3.947,3.146
+10,12,8,R' U' R F' R U2 F2 R2 U2 F' U2 F2,BFS,none,true,solved,8,148555,891329,641126,641126,114.562,5.403
+10,12,8,R' U' R F' R U2 F2 R2 U2 F' U2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,8.339,2.711
+11,12,9,U2 F R U2 F' U2 F U' F2 R' U' F2,BFS,none,true,solved,9,595762,3574575,2061062,2061062,406.489,5.223
+11,12,9,U2 F R U2 F' U2 F U' F2 R' U' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.471,2.785
+12,12,9,F R F2 R U' R' F2 U F R2 U2 R2,BFS,none,true,solved,9,591434,3548607,2050033,2050033,413.736,5.218
+12,12,9,F R F2 R U' R' F2 U F R2 U2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,22.709,2.785
+13,12,7,F R' U R U' F R2 F2 R F R F,BFS,none,true,solved,7,34329,205976,165736,165736,22.941,5.583
+13,12,7,F R' U R U' F R2 F2 R F R F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,16.108,2.912
+14,12,9,U F U2 F' U2 R' U' F U R2 F' U2,BFS,none,true,solved,9,417072,2502434,1570076,1570076,289.215,5.014
+14,12,9,U F U2 F' U2 R' U' F U R2 F' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.435,2.785
+15,12,9,R' F' U' R F R F2 U' F R2 U F',BFS,none,true,solved,9,378338,2270028,1450709,1450709,269.745,4.959
+15,12,9,R' F' U' R F R F2 U' F R2 U F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.725,2.785
+16,12,9,F R U F2 U2 R' U2 R2 F U F R2,BFS,none,true,solved,9,457114,2742685,1688841,1688841,331.82,5.067
+16,12,9,F R U F2 U2 R' U2 R2 F U F R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.076,2.785
+17,12,9,F2 R' F R2 U2 R2 U F2 R U R U,BFS,none,true,solved,9,587929,3527576,2041315,2041315,436.599,5.215
+17,12,9,F2 R' F R2 U2 R2 U F2 R U R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.587,2.785
+18,12,6,F2 R U2 R2 U2 F' R2 U2 F2 R2 F' R2,BFS,none,true,solved,6,7913,47480,41187,41187,11.61,5.832
+18,12,6,F2 R U2 R2 U2 F' R2 U2 F2 R2 F' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,11.696,2.818
+19,12,8,U' F' R2 F' R' U' R U F2 R' F' U2,BFS,none,true,solved,8,99910,599463,448818,448818,73.454,5.134
+19,12,8,U' F' R2 F' R' U' R U F2 R' F' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.153,2.711
+20,12,9,F2 R F R2 F' U R' U' F2 U R U,BFS,none,true,solved,9,930710,5584263,2737686,2737686,568.714,5.495
+20,12,9,F2 R F R2 F' U R' U' F2 U R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.213,2.785
+21,12,8,R' F2 U2 R2 U2 R U F R2 U' R U',BFS,none,true,solved,8,91591,549548,414212,414212,69.411,5.077
+21,12,8,R' F2 U2 R2 U2 R U F R2 U' R U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.114,2.711
+22,12,9,R U' F' R' U' F' R F' R F R2 F2,BFS,none,true,solved,9,1075283,6451701,2944061,2944061,708.932,5.586
+22,12,9,R U' F' R' U' F' R F' R F R2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.533,2.785
+23,12,9,R' F' U F R' F2 R F' U2 R U R',BFS,none,true,solved,9,401907,2411444,1524270,1524270,270.569,4.993
+23,12,9,R' F' U F R' F2 R F' U2 R U R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.134,2.785
+24,12,9,F2 R F' R2 F' R2 F' R' F U R' F,BFS,none,true,solved,9,359006,2154039,1388752,1388752,239.722,4.929
+24,12,9,F2 R F' R2 F' R2 F' R' F U R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,24.241,2.785
+25,12,9,U' F2 U R U R' F' R F2 R2 U2 F2,BFS,none,true,solved,9,710061,4260366,2325761,2325761,467.788,5.328
+25,12,9,U' F2 U R U R' F' R F2 R2 U2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.628,2.785
+26,12,9,R' F R' U' R' F R' F R F' R' U2,BFS,none,true,solved,9,337797,2026784,1321262,1321262,243.817,4.895
+26,12,9,R' F R' U' R' F R' F R F' R' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.577,2.785
+27,12,9,F2 U' F R' F R2 U' R2 F' U R U,BFS,none,true,solved,9,685654,4113926,2271724,2271724,530.631,5.307
+27,12,9,F2 U' F R' F R2 U' R2 F' U R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.903,2.785
+28,12,9,F U' R U R2 U2 F2 R F2 U' F2 U2,BFS,none,true,solved,9,608305,3649828,2092345,2092345,446.701,5.235
+28,12,9,F U' R U R2 U2 F2 R F2 U' F2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.798,2.785
+29,12,7,F R F' R' U' R' F' U' F U F' U2,BFS,none,true,solved,7,23061,138364,113888,113888,15.746,5.265
+29,12,7,F R F' R' U' R' F' U' F U F' U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.201,2.912
+0,13,6,R2 U2 R2 F R2 U2 R2 F2 U' R U' F U2,BFS,none,true,solved,6,4385,26313,23434,23434,5.912,5.266
+0,13,6,R2 U2 R2 F R2 U2 R2 F2 U' R U' F U2,BFS bidirecional,none,true,solved,6,128,774,770,770,4.726,2.818
+1,13,9,F2 R' F2 U' F2 U' R U' R' F2 U F U,BFS,none,true,solved,9,631197,3787185,2147022,2147022,488.689,5.257
+1,13,9,F2 R' F2 U' F2 U' R U' R' F2 U F U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.348,2.785
+2,13,9,F U2 F' R U' R2 F' U F2 R' U R2 F2,BFS,none,true,solved,9,1152452,6914710,3038914,3038914,745.593,5.63
+2,13,9,F U2 F' R U' R2 F' U F2 R' U R2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.468,2.785
+3,13,9,U R' F U' F2 U' F' R2 U' F' U2 F U2,BFS,none,true,solved,9,476718,2860311,1743979,1743979,356.196,5.091
+3,13,9,U R' F U' F2 U' F' R2 U' F' U2 F U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.706,2.785
+4,13,9,R U2 R' U F R' F2 R F' R' U' R2 U2,BFS,none,true,solved,9,561382,3368293,1974206,1974206,366.169,5.187
+4,13,9,R U2 R' U F R' F2 R F' R' U' R2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.755,2.785
+5,13,10,F2 R F2 U' F2 U R2 U' R2 F' R F' R2,BFS,none,true,solved,10,2040931,12245589,3588092,3588092,971.817,5.002
+5,13,10,F2 R F2 U' F2 U R2 U' R2 F' R F' R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.838,2.643
+6,13,10,U2 R F' R2 F2 R U' R2 U' F' R2 F R,BFS,none,true,solved,10,1452716,8716297,3327959,3327959,795.636,4.83
+6,13,10,U2 R F' R2 F2 R U' R2 U' F' R2 F R,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.956,2.643
+7,13,8,R' U2 F2 U2 F2 R U F R U R' F' R,BFS,none,true,solved,8,110269,661616,490744,490744,73.651,5.2
+7,13,8,R' U2 F2 U2 F2 R U F R U R' F' R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.388,2.711
+8,13,9,F U2 F' U2 R2 F' U' R' F U' R2 U R,BFS,none,true,solved,9,630418,3782508,2145105,2145105,440.223,5.256
+8,13,9,F U2 F' U2 R2 F' U' R' F U' R2 U R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.03,2.785
+9,13,10,R F2 U2 R2 F R2 F U' F2 U2 F2 U R',BFS,none,true,solved,10,2228349,13370093,3624402,3624402,1006.192,5.047
+9,13,10,R F2 U2 R2 F R2 F U' F2 U2 F2 U R',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.43,2.643
+10,13,9,R' U' R F' U' R U' R2 F R U' R' U2,BFS,none,true,solved,9,553377,3320260,1953305,1953305,354.045,5.179
+10,13,9,R' U' R F' U' R U' R2 F R U' R' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.94,2.785
+11,13,6,F U R U2 R F' U F' U R U2 R2 F,BFS,none,true,solved,6,11076,66458,56843,56843,8.017,6.18
+11,13,6,F U R U2 R F' U F' U R U2 R2 F,BFS bidirecional,none,true,solved,6,128,774,770,770,3.984,2.818
+12,13,9,R U2 R F2 R2 F U R' U' R U2 R U',BFS,none,true,solved,9,802320,4813920,2511232,2511232,515.652,5.403
+12,13,9,R U2 R F2 R2 F U R' U' R U2 R U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.771,2.785
+13,13,8,F2 U' R U R' U' R' U2 R F2 U' R U',BFS,none,true,solved,8,227841,1367047,940577,940577,190.495,5.708
+13,13,8,F2 U' R U R' U' R' U2 R F2 U' R U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.843,2.711
+14,13,9,F2 R' U' R2 F2 U' F R' F' U' F' R U',BFS,none,true,solved,9,883750,5302500,2658538,2658538,617.068,5.463
+14,13,9,F2 R' U' R2 F2 U' F R' F' U' F' R U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.954,2.785
+15,13,8,R' F' U R' U F' R2 F R' U' F' R U2,BFS,none,true,solved,8,148925,893553,642542,642542,148.415,5.405
+15,13,8,R' F' U R' U F' R2 F R' U' F' R U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.988,2.711
+16,13,7,R' F' U F R F U R' F' R F U2 F,BFS,none,true,solved,7,59144,354867,276568,276568,40.554,6.049
+16,13,7,R' F' U F R F U R' F' R F U2 F,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,9.919,2.912
+17,13,10,U R' U2 F' R2 F' U F' U2 R U2 F U,BFS,none,true,solved,10,1603643,9621856,3423814,3423814,838.209,4.879
+17,13,10,U R' U2 F' R2 F' U F' U2 R U2 F U,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.773,2.643
+18,13,8,R2 F2 R F' R2 U' R2 U F' U2 R2 F2 U2,BFS,none,true,solved,8,66717,400301,308729,308729,47.055,4.873
+18,13,8,R2 F2 R F' R2 U' R2 U F' U2 R2 F2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.974,2.711
+19,13,10,R' U' F' U' F U' R F U2 F R F R2,BFS,none,true,solved,10,1506173,9037040,3363201,3363201,772.027,4.848
+19,13,10,R' U' F' U' F U' R F U2 F R F R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,19.165,2.643
+20,13,9,F R2 U' R' U R' U' R U' F U2 R U,BFS,none,true,solved,9,874539,5247233,2642292,2642292,557.128,5.456
+20,13,9,F R2 U' R' U R' U' R U' F U2 R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.342,2.785
+21,13,8,R U2 R F2 U R U2 R' F' U R' U2 F',BFS,none,true,solved,8,258515,1551089,1052308,1052308,188.657,5.802
+21,13,8,R U2 R F2 U R U2 R' F' U R' U2 F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,9.589,2.711
+22,13,8,F U F2 R U R F U2 R F2 U2 R' F',BFS,none,true,solved,8,279109,1674657,1123882,1123882,183.639,5.859
+22,13,8,F U F2 R U R F U2 R F2 U2 R' F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.857,2.711
+23,13,9,R2 U R' U' F2 R F' U2 F2 R U' F R,BFS,none,true,solved,9,386337,2318024,1475908,1475908,302.161,4.97
+23,13,9,R2 U R' U' F2 R F' U2 F2 R U' F R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.781,2.785
+24,13,7,F R U' F' R U2 R2 F U F R F2 R,BFS,none,true,solved,7,38761,232564,186297,186297,27.257,5.684
+24,13,7,F R U' F' R U2 R2 F U F R F2 R,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,14.194,2.912
+25,13,10,R U2 R' F' R2 U R F R2 F' R U2 R,BFS,none,true,solved,10,1385538,8313229,3275113,3275113,687.308,4.807
+25,13,10,R U2 R' F' R2 U R F R2 F' R U2 R,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,17.725,2.643
+26,13,8,R F' U' R' F' U2 F R F R F2 R F',BFS,none,true,solved,8,67322,403935,311334,311334,59.051,4.879
+26,13,8,R F' U' R' F' U2 F R F R F2 R F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.531,2.711
+27,13,8,F R2 F2 U' F' R U' R U F2 R F' U',BFS,none,true,solved,8,191094,1146564,806510,806510,145.546,5.581
+27,13,8,F R2 F2 U' F' R U' R U F2 R F' U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.635,2.711
+28,13,8,F R' F2 U' R U' F2 R' F2 R2 U2 R2 F',BFS,none,true,solved,8,92843,557061,419269,419269,84.182,5.086
+28,13,8,F R' F2 U' R U' F2 R' F2 R2 U2 R2 F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,9.966,2.711
+29,13,10,U' F' U' R' U F2 R F' U' R2 U' F2 R,BFS,none,true,solved,10,2049409,12296455,3590177,3590177,909.046,5.004
+29,13,10,U' F' U' R' U F2 R F' U' R2 U' F2 R,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.582,2.643
+0,14,9,F2 U R2 F R2 F' R U2 F' R' U2 R' F R',BFS,none,true,solved,9,467890,2807341,1719270,1719270,303.948,5.08
+0,14,9,F2 U R2 F R2 F' R U2 F' R' U2 R' F R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.275,2.785
+1,14,9,R' U' F2 R' U' R2 U2 F R F' U2 F2 R' F',BFS,none,true,solved,9,513682,3082093,1847472,1847472,409.998,5.135
+1,14,9,R' U' F2 R' U' R2 U2 F R F' U2 F2 R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,23.534,2.785
+2,14,10,F2 U2 R' U' F' R2 U' R F2 U2 F R2 F U2,BFS,none,true,solved,10,2802296,16813774,3668024,3668024,1117.859,5.167
+2,14,10,F2 U2 R' U' F' R2 U' R F2 U2 F R2 F U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.448,2.643
+3,14,9,U2 F' U F' R F' R U' R' F R' F' R U',BFS,none,true,solved,9,315909,1895456,1248562,1248562,220.984,4.857
+3,14,9,U2 F' U F' R F' R U' R' F R' F' R U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.514,2.785
+4,14,9,F2 R' F R' U R' U2 F' U' R2 U R F' U',BFS,none,true,solved,9,295199,1771192,1178391,1178391,216.3,4.82
+4,14,9,F2 R' F R' U R' U2 F' U' R2 U R F' U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,22.809,2.785
+5,14,9,F U2 F R2 F' R' U' F' U' R F2 R' F U,BFS,none,true,solved,9,603556,3621339,2080605,2080605,399.765,5.23
+5,14,9,F U2 F R2 F' R' U' F' U' R F2 R' F U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.553,2.785
+6,14,9,R U' F' R2 U' F2 U2 F' U' F2 U F2 U F2,BFS,none,true,solved,9,328369,1970214,1290063,1290063,250.362,4.879
+6,14,9,R U' F' R2 U' F2 U2 F' U' F2 U F2 U F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.953,2.785
+7,14,10,R' F' R' U' R2 U2 F' U' F2 U2 R2 F R2 F',BFS,none,true,solved,10,1921230,11527378,3556140,3556140,847.343,4.971
+7,14,10,R' F' R' U' R2 U2 F' U' F2 U2 R2 F R2 F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,17.11,2.643
+8,14,9,U R' U' F2 U' R2 U' F2 R' U R U2 R' F,BFS,none,true,solved,9,1106450,6638699,2983298,2983298,657.031,5.604
+8,14,9,U R' U' F2 U' R2 U' F2 R' U R U2 R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.295,2.785
+9,14,9,U' R2 F' U2 R U F' U2 F' U R2 U R' F',BFS,none,true,solved,9,592350,3554102,2052340,2052340,443.116,5.219
+9,14,9,U' R2 F' U2 R U F' U2 F' U R2 U R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.405,2.785
+10,14,9,R2 F2 U F2 U' F R U' R' F U2 F' R' F,BFS,none,true,solved,9,548157,3288942,1939592,1939592,410.426,5.173
+10,14,9,R2 F2 U F2 U' F R U' R' F U2 F' R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.038,2.785
+11,14,9,R U' F' R2 F2 U2 R U F U2 R2 F R' F2,BFS,none,true,solved,9,607600,3645598,2090655,2090655,430.818,5.234
+11,14,9,R U' F' R2 F2 U2 R U F U2 R2 F R' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.45,2.785
+12,14,8,U F U' F' U2 F2 U F U2 F2 U F' U2 R2,BFS,none,true,solved,8,111455,668732,495797,495797,87.511,5.207
+12,14,8,U F U' F' U2 F2 U F U2 F2 U F' U2 R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.213,2.711
+13,14,9,U R' U' F2 R2 F R U2 F2 U F2 U2 F' R2,BFS,none,true,solved,9,437381,2624287,1630827,1630827,315.029,5.041
+13,14,9,U R' U' F2 R2 F R U2 F2 U F2 U2 F' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.62,2.785
+14,14,9,U2 R' F U2 F2 R' F' U' R U' R2 U F R2,BFS,none,true,solved,9,305804,1834822,1214197,1214197,237.676,4.839
+14,14,9,U2 R' F U2 F2 R' F' U' R U' R2 U F R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.748,2.785
+15,14,10,F' R' F' R F' R' F2 U R2 F U F2 U' F,BFS,none,true,solved,10,1740593,10443559,3490942,3490942,975.404,4.921
+15,14,10,F' R' F' R F' R' F2 U R2 F U F2 U' F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.351,2.643
+16,14,9,R' F2 R' U' R2 F U R2 F' U' F R U' R',BFS,none,true,solved,9,497280,2983681,1801858,1801858,358.627,5.116
+16,14,9,R' F2 R' U' R2 F U R2 F' U' F R U' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.855,2.785
+17,14,6,U F R' F' R2 U' F' U2 R U2 R' U' R' U,BFS,none,true,solved,6,3660,21962,19657,19657,5.413,5.103
+17,14,6,U F R' F' R2 U' F' U2 R U2 R' U' R' U,BFS bidirecional,none,true,solved,6,128,774,770,770,4.662,2.818
+18,14,9,U R U F R2 U' R2 U R U F' R U F2,BFS,none,true,solved,9,678501,4071009,2256113,2256113,528.809,5.301
+18,14,9,U R U F R2 U' R2 U R U F' R U F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.989,2.785
+19,14,9,R' F2 R2 U' R2 F2 U2 R2 F2 R F' U' R2 U',BFS,none,true,solved,9,302970,1817821,1204889,1204889,279.73,4.834
+19,14,9,R' F2 R2 U' R2 F2 U2 R2 F2 R F' U' R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.299,2.785
+20,14,8,R U' F2 R' F2 U' F2 U' F R F2 U' F2 R',BFS,none,true,solved,8,164696,988179,704610,704610,128.988,5.475
+20,14,8,R U' F2 R' F2 U' F2 U' F R F2 U' F2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.14,2.711
+21,14,9,F U2 F R' U2 R2 U' R' U R' U F' R2 U',BFS,none,true,solved,9,504900,3029400,1823331,1823331,427.172,5.125
+21,14,9,F U2 F R' U2 R2 U' R' U R' U F' R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.067,2.785
+22,14,9,F' U' F U2 F2 R' F' U F U F U F' R',BFS,none,true,solved,9,366025,2196150,1411864,1411864,296.595,4.94
+22,14,9,F' U' F U2 F2 R' F' U F U F U F' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.433,2.785
+23,14,9,R F' R' U2 F R F' R2 F' U2 R F R' U,BFS,none,true,solved,9,969885,5819309,2798651,2798651,707.019,5.521
+23,14,9,R F' R' U2 F R F' R2 F' U2 R F R' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.054,2.785
+24,14,10,R' F' U' R2 U2 R2 U R F R F U2 F U',BFS,none,true,solved,10,1343582,8061492,3238156,3238156,781.692,4.792
+24,14,10,R' F' U' R2 U2 R2 U R F R F U2 F U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.972,2.643
+25,14,9,R2 F2 U R U' F U' R' F' R' F2 R U F,BFS,none,true,solved,9,802037,4812225,2510662,2510662,657.51,5.403
+25,14,9,R2 F2 U R U' F U' R' F' R' F2 R U F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.728,2.785
+26,14,8,U' R F' U F2 U2 R2 F' U R' F2 R U R,BFS,none,true,solved,8,175348,1052088,746540,746540,131.199,5.52
+26,14,8,U' R F' U F2 U2 R2 F' U R' F2 R U R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.018,2.711
+27,14,9,F' U' R' U2 F2 R F R U2 R' F2 U R U',BFS,none,true,solved,9,984415,5906492,2820852,2820852,679.156,5.53
+27,14,9,F' U' R' U2 F2 R F R U2 R' F2 U R U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.866,2.785
+28,14,8,F U' R U R2 U F2 R U2 R' U' R2 U F2,BFS,none,true,solved,8,254487,1526925,1038013,1038013,205.002,5.79
+28,14,8,F U' R U R2 U F2 R U2 R' U' R2 U F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.408,2.711
+29,14,9,U2 F2 R2 U' R U2 R' F2 U' F' U' F U' R',BFS,none,true,solved,9,746194,4477166,2401300,2401300,538.202,5.358
+29,14,9,U2 F2 R2 U' R U2 R' F2 U' F' U' F U' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.147,2.785
+0,15,8,F U' R' U2 F' R' U R' F2 U' R U F U' F,BFS,none,true,solved,8,252724,1516342,1031344,1031344,204.299,5.785
+0,15,8,F U' R' U2 F' R' U R' F2 U' R U F U' F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.503,2.711
+1,15,8,U2 R F2 R2 F' U2 F R' U F R F2 U' R' U2,BFS,none,true,solved,8,229153,1374921,945587,945587,225.273,5.713
+1,15,8,U2 R F2 R2 F' U2 F R' U F R F2 U' R' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.778,2.711
+2,15,10,R U' R' U R' F U' R' F' U2 R F2 R2 F R2,BFS,none,true,solved,10,1422469,8534815,3304946,3304946,819.394,4.82
+2,15,10,R U' R' U R' F U' R' F' U2 R F2 R2 F R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.747,2.643
+3,15,9,U2 F U' R U2 F2 U R F2 R F R U2 R2 F,BFS,none,true,solved,9,784494,4706964,2477334,2477334,575.85,5.389
+3,15,9,U2 F U' R U2 F2 U R F2 R F R U2 R2 F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.112,2.785
+4,15,9,R U F R U' R F' U2 R F2 U' R' F2 R2 U',BFS,none,true,solved,9,803692,4822152,2513559,2513559,523.323,5.404
+4,15,9,R U F R U' R F' U2 R F2 U' R' F2 R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,23.414,2.785
+5,15,8,U' R' U' F' R' U2 F2 R2 F2 R U2 R U' R F,BFS,none,true,solved,8,244239,1465437,1000920,1000920,180.176,5.76
+5,15,8,U' R' U' F' R' U2 F2 R2 F2 R U2 R U' R F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.216,2.711
+6,15,9,F2 U2 F' U R U' R' F2 R F2 R' F' U R' F2,BFS,none,true,solved,9,385574,2313446,1473380,1473380,297.852,4.969
+6,15,9,F2 U2 F' U R U' R' F2 R F2 R' F' U R' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.595,2.785
+7,15,9,R2 F' U2 F' R F' R F' R F R2 F R' F U2,BFS,none,true,solved,9,315566,1893399,1247400,1247400,243.119,4.857
+7,15,9,R2 F' U2 F' R F' R F' R F R2 F R' F U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.222,2.785
+8,15,10,U' R' U R' U F2 U2 R' F' R U' R2 U R' U',BFS,none,true,solved,10,1654516,9927098,3451329,3451329,899.142,4.895
+8,15,10,U' R' U R' U F2 U2 R' F' R U' R2 U R' U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.16,2.643
+9,15,10,U F2 R U2 R2 F' U2 F' U2 R' U' F2 R U F,BFS,none,true,solved,10,1163384,6980302,3051942,3051942,629.987,4.721
+9,15,10,U F2 R U2 R2 F' U2 F' U2 R' U' F2 R U F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.285,2.643
+10,15,6,U R' U' R2 F2 R F R' F' R U' R' U2 R U',BFS,none,true,solved,6,9342,56050,48229,48229,7.935,6.001
+10,15,6,U R' U' R2 F2 R F R' F' R U' R' U2 R U',BFS bidirecional,none,true,solved,6,128,774,770,770,10.943,2.818
+11,15,9,F U R U' F' U F' U F2 R2 F2 R2 F' U2 R2,BFS,none,true,solved,9,290672,1744035,1162494,1162494,207.58,4.811
+11,15,9,F U R U' F' U F' U F2 R2 F2 R2 F' U2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.88,2.785
+12,15,8,U2 F2 R2 U' F U R U2 F R2 U2 R2 U' R2 F2,BFS,none,true,solved,8,270366,1622194,1093834,1093834,196.049,5.835
+12,15,8,U2 F2 R2 U' F U R U2 F R2 U2 R2 U' R2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.636,2.711
+13,15,10,R' U F2 R F2 U2 F2 R2 F2 R F U2 F R2 U',BFS,none,true,solved,10,1596734,9580405,3419806,3419806,795.025,4.877
+13,15,10,R' U F2 R F2 U2 F2 R2 F2 R F U2 F R2 U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,18.916,2.643
+14,15,9,U' F2 U2 R' F U2 F R2 F' R F R2 F2 R2 U',BFS,none,true,solved,9,822429,4934577,2548249,2548249,575.872,5.418
+14,15,9,U' F2 U2 R' F U2 F R2 F' R F R2 F2 R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.559,2.785
+15,15,5,R F' R F U' R2 U R U F' U' R' F R' U2,BFS,none,true,solved,5,794,4767,4504,4504,4.526,5.214
+15,15,5,R F' R F U' R2 U R U F' U' R' F R' U2,BFS bidirecional,none,true,solved,5,74,450,449,449,12.413,3.146
+16,15,9,U F' R' U2 F R F' R2 U F' U2 R2 U F2 R,BFS,none,true,solved,9,839102,5034615,2578702,2578702,557.458,5.431
+16,15,9,U F' R' U2 F R F' R2 U F' U2 R2 U F2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.414,2.785
+17,15,9,U' F U' F2 U' F' U2 R' U2 R F2 R' U R2 U2,BFS,none,true,solved,9,993761,5962566,2834425,2834425,558.034,5.536
+17,15,9,U' F U' F2 U' F' U2 R' U2 R F2 R' U R2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.126,2.785
+18,15,9,F U' F2 U2 R' U2 F' U2 F' R2 F U F2 R2 U',BFS,none,true,solved,9,454114,2724683,1679948,1679948,312.682,5.063
+18,15,9,F U' F2 U2 R' U2 F' U2 F' R2 F U F2 R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.971,2.785
+19,15,8,F' R U2 R2 F' U2 F U' F R F2 U2 R' F R2,BFS,none,true,solved,8,154017,924104,663039,663039,97.798,5.428
+19,15,8,F' R U2 R2 F' U2 F U' F R F2 U2 R' F R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.48,2.711
+20,15,9,U R U' R U2 F2 U' F2 U2 R' U2 F U' F U',BFS,none,true,solved,9,1157745,6946473,3045067,3045067,637.224,5.633
+20,15,9,U R U' R U2 F2 U' F2 U2 R' U2 F U' F U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.217,2.785
+21,15,10,R2 U' F2 R U2 F2 R' U2 F U' F' U R' F U,BFS,none,true,solved,10,1522421,9134528,3373923,3373923,850.545,4.853
+21,15,10,R2 U' F2 R U2 F2 R' U2 F U' F' U R' F U,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.577,2.643
+22,15,10,U' R U R' U' R2 U2 R' F' U2 F' R2 F R2 F2,BFS,none,true,solved,10,1957486,11744919,3566960,3566960,937.881,4.98
+22,15,10,U' R U R' U' R2 U2 R' F' U2 F' R2 F R2 F2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,19.962,2.643
+23,15,9,R F2 U' R' U' F R U' R2 U2 R U R U' F,BFS,none,true,solved,9,1100830,6604980,2976381,2976381,755.925,5.601
+23,15,9,R F2 U' R' U' F R U' R2 U2 R U R U' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.191,2.785
+24,15,9,F2 R F U R2 F R' U R F2 R2 U R U2 R',BFS,none,true,solved,9,406926,2441554,1539663,1539663,349.604,5
+24,15,9,F2 R F U R2 F R' U R F2 R2 U R U2 R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.843,2.785
+25,15,8,R F2 R2 U R U R' F U' F U2 R' F U F,BFS,none,true,solved,8,141835,851011,615705,615705,109.422,5.371
+25,15,8,R F2 R2 U R U R' F U' F U2 R' F U F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.486,2.711
+26,15,7,F2 U2 R U' F2 R2 U F2 U2 R2 F2 R U' F U2,BFS,none,true,solved,7,17323,103939,86986,86986,14.031,5.046
+26,15,7,F2 U2 R U' F2 R2 U F2 U2 R2 F2 R U' F U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.594,2.912
+27,15,8,U2 R2 F' R2 U2 F' U F' U F2 R U R2 F2 U2,BFS,none,true,solved,8,72359,434153,333310,333310,52.283,4.925
+27,15,8,U2 R2 F' R2 U2 F' U F' U F2 R U R2 F2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.441,2.711
+28,15,8,R' F' U' F' R2 F' R U2 R U R2 U F2 R F',BFS,none,true,solved,8,97615,585690,439062,439062,83.282,5.119
+28,15,8,R' F' U' F' R2 F' R U2 R U R2 U F2 R F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.172,2.711
+29,15,9,U' F2 U' F' R F U2 R U2 R' F U2 R2 F' R,BFS,none,true,solved,9,321245,1927469,1266421,1266421,291.276,4.867
+29,15,9,U' F2 U' F' R F U2 R U2 R' F U2 R2 F' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.491,2.785
+0,16,7,R2 U' R U F U' R F2 R2 F' R' U2 F U' R F',BFS,none,true,solved,7,36378,218268,175345,175345,40.421,5.631
+0,16,7,R2 U' R U F U' R F2 R2 F' R' U2 F U' R F',BFS bidirecional,none,true,solved,7,449,2700,2617,2617,13.638,2.912
+1,16,9,U' R2 U F' R2 U2 R2 F' U2 F' R' F U2 R' F' R',BFS,none,true,solved,9,608306,3649836,2092347,2092347,511.344,5.235
+1,16,9,U' R2 U F' R2 U2 R2 F' U2 F' R' F U2 R' F' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,23.667,2.785
+2,16,8,U F2 R U' F' R2 F2 U2 R2 F' U F U' R' U R2,BFS,none,true,solved,8,101458,608750,455046,455046,64.079,5.144
+2,16,8,U F2 R U' F' R2 F2 U2 R2 F' U F U' R' U R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,25.496,2.711
+3,16,8,F' R' U' F' R' U' F R2 F' U F' R2 F2 U F U2,BFS,none,true,solved,8,263757,1582545,1070692,1070692,218.153,5.817
+3,16,8,F' R' U' F' R' U' F R2 F' U F' R2 F2 U F U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.223,2.711
+4,16,9,R2 U2 R' F' U2 F R F U F R' U R2 F2 U2 R,BFS,none,true,solved,9,464446,2786679,1709676,1709676,325.476,5.076
+4,16,9,R2 U2 R' F' U2 F R F U F R' U R2 F2 U2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.286,2.785
+5,16,9,U2 F' R' F R U F2 U' F R' F U2 R F' U R',BFS,none,true,solved,9,747228,4483371,2403358,2403358,573.285,5.359
+5,16,9,U2 F' R' F R U F2 U' F R' F U2 R F' U R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.384,2.785
+6,16,9,R2 U2 F2 U R F U' R2 F U' R2 U' R2 F U2 F',BFS,none,true,solved,9,353885,2123312,1372852,1372852,327.001,4.921
+6,16,9,R2 U2 F2 U R F U' R2 F U' R2 U' R2 F U2 F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.412,2.785
+7,16,8,U F' R' U2 R' F2 U2 R2 U2 R' F2 U' F2 R' F2 R,BFS,none,true,solved,8,149914,899483,646599,646599,103.962,5.409
+7,16,8,U F' R' U2 R' F2 U2 R2 U2 R' F2 U' F2 R' F2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.749,2.711
+8,16,10,R2 F2 U2 F2 U' R' F R2 F2 R U' F2 U' R' U2 F',BFS,none,true,solved,10,2316022,13896132,3637230,3637230,1038.137,5.067
+8,16,10,R2 F2 U2 F2 U' R' F R2 F2 R U' F2 U' R' U2 F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.198,2.643
+9,16,8,U F R F2 U F R F R F2 R2 U F' R2 U2 R2,BFS,none,true,solved,8,284679,1708073,1142717,1142717,219.127,5.874
+9,16,8,U F R F2 U F R F R F2 R2 U F' R2 U2 R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.037,2.711
+10,16,9,U' F U' F U' F' U' F R' U2 F R' U2 R2 F2 U,BFS,none,true,solved,9,947545,5685268,2764378,2764378,638.982,5.506
+10,16,9,U' F U' F U' F' U' F R' U2 F R' U2 R2 F2 U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.227,2.785
+11,16,6,R2 F2 R' F' R2 F U F R2 F R2 U R' U2 R2 F,BFS,none,true,solved,6,3762,22575,20217,20217,5.399,5.127
+11,16,6,R2 F2 R' F' R2 F U F R2 F R2 U R' U2 R2 F,BFS bidirecional,none,true,solved,6,128,774,770,770,12.528,2.818
+12,16,7,F' U' R2 U R F U F2 R2 F U F' U2 R2 F' R2,BFS,none,true,solved,7,14343,86058,72705,72705,7.194,4.907
+12,16,7,F' U' R2 U R F U F2 R2 F U F' U2 R2 F' R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,4.402,2.912
+13,16,10,R2 U' R2 F2 U2 R2 U' F' R' U' R2 U' F' U2 R' U2,BFS,none,true,solved,10,1934517,11607103,3560214,3560214,956.093,4.974
+13,16,10,R2 U' R2 F2 U2 R2 U' F' R' U' R2 U' F' U2 R' U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.754,2.643
+14,16,8,F2 R' F2 U2 F2 U2 R F2 U R2 U2 R U2 F2 R2 U',BFS,none,true,solved,8,108856,653137,485256,485256,73.588,5.191
+14,16,8,F2 R' F2 U2 F2 U2 R F2 U R2 U2 R U2 F2 R2 U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.771,2.711
+15,16,9,U' F' R2 U' F' U2 R2 F2 R U F' R F2 U2 R2 U,BFS,none,true,solved,9,851474,5108846,2601413,2601413,565.57,5.44
+15,16,9,U' F' R2 U' F' U2 R2 F2 R U F' R F2 U2 R2 U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,10.968,2.785
+16,16,9,R2 F2 U2 R2 F2 U' R U R' U R' U R2 F' R2 F,BFS,none,true,solved,9,526279,3157675,1881073,1881073,371.76,5.149
+16,16,9,R2 F2 U2 R2 F2 U' R U R' U R' U R2 F' R2 F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.797,2.785
+17,16,9,R2 F2 U2 R F U2 R2 F R' F2 U2 F' R2 F U2 F2,BFS,none,true,solved,9,496577,2979465,1799822,1799822,340.676,5.115
+17,16,9,R2 F2 U2 R F U2 R2 F R' F2 U2 F' R2 F U2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.918,2.785
+18,16,9,R F U' R U R2 U2 F R U F2 R2 F' U' R F,BFS,none,true,solved,9,467807,2806844,1719013,1719013,319.548,5.08
+18,16,9,R F U' R U R2 U2 F R U F2 R2 F' U' R F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.204,2.785
+19,16,9,F2 R2 U' R2 F2 R' F2 U F2 U' F R2 U R U R2,BFS,none,true,solved,9,1126889,6761337,3008667,3008667,764.229,5.616
+19,16,9,F2 R2 U' R2 F2 R' F2 U F2 U' F R2 U R U R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.304,2.785
+20,16,8,F2 R' U2 F2 R' F' R2 F' U2 F' R' U F' R U2 R',BFS,none,true,solved,8,262636,1575814,1066833,1066833,198.937,5.814
+20,16,8,F2 R' U2 F2 R' F' R2 F' U2 F' R' U F' R U2 R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.033,2.711
+21,16,9,U2 F' U F R2 U' F' R F' U R U2 R U R U,BFS,none,true,solved,9,414793,2488756,1563192,1563192,314.295,5.011
+21,16,9,U2 F' U F R2 U' F' R F' U R U2 R U R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.007,2.785
+22,16,10,R' F R2 F U2 F2 R F2 R' U2 R2 F2 R F2 R2 U',BFS,none,true,solved,10,1167636,7005818,3057202,3057202,661.845,4.723
+22,16,10,R' F R2 F U2 F2 R F2 R' U2 R2 F2 R F2 R2 U',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.286,2.643
+23,16,8,F' U' F2 R F' U' R' F2 R' U2 F2 U' R2 F U2 R2,BFS,none,true,solved,8,180588,1083527,766687,766687,131.081,5.541
+23,16,8,F' U' F2 R F' U' R' F2 R' U2 F2 U' R2 F U2 R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,30.979,2.711
+24,16,9,R2 F2 U F U2 F2 R2 U' R F2 U' R2 U F R U2,BFS,none,true,solved,9,984080,5904479,2820376,2820376,668.986,5.53
+24,16,9,R2 F2 U F U2 F2 R2 U' R F2 U' R2 U F R U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.635,2.785
+25,16,10,F R F R F U F2 R' F2 U' F2 U' F' U' F2 U,BFS,none,true,solved,10,2064447,12386685,3593579,3593579,923.97,5.007
+25,16,10,F R F R F U F2 R' F2 U' F2 U' F' U' F2 U,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,18.862,2.643
+26,16,10,F2 R' F U' F' U' R U' R F R' F' R2 F' R' F',BFS,none,true,solved,10,1213093,7278557,3109957,3109957,716.402,4.742
+26,16,10,F2 R' F U' F' U' R U' R F R' F' R2 F' R' F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.86,2.643
+27,16,10,U' F R2 U' F' R2 U' R' U2 R F2 R U' F2 U' F',BFS,none,true,solved,10,1381569,8289417,3271724,3271724,786.089,4.805
+27,16,10,U' F R2 U' F' R2 U' R' U2 R F2 R U' F2 U' F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.951,2.643
+28,16,9,R2 U2 R U' R' F2 R U F R2 U' F' U2 R' U2 F',BFS,none,true,solved,9,300213,1801278,1195714,1195714,227.923,4.829
+28,16,9,R2 U2 R U' R' F2 R U F R2 U' F' U2 R' U2 F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.312,2.785
+29,16,8,R' U F' U' R2 F' U' F R2 U R' F2 U2 F' R2 F2,BFS,none,true,solved,8,80290,481739,366832,366832,61.904,4.991
+29,16,8,R' U F' U' R2 F' U' F R2 U R' F2 U2 F' R2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.051,2.711
+0,17,9,U F' U R F' U2 F' R' F R' F2 R F U' R2 U2 R',BFS,none,true,solved,9,748983,4493896,2406967,2406967,506.502,5.361
+0,17,9,U F' U R F' U2 F' R' F R' F2 R F U' R2 U2 R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.904,2.785
+1,17,9,F R' U2 F U R' F2 U2 R2 U' R F' U2 F' R U2 R,BFS,none,true,solved,9,381179,2287075,1459690,1459690,281.866,4.963
+1,17,9,F R' U2 F U R' F2 U2 R2 U' R F' U2 F' R U2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.215,2.785
+2,17,9,U2 F2 R2 U' R U R F U R' U F2 U F' R F2 R,BFS,none,true,solved,9,596725,3580349,2063541,2063541,527.984,5.223
+2,17,9,U2 F2 R2 U' R U R F U R' U F2 U F' R F2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.375,2.785
+3,17,8,R F' R F' R' F2 R2 U' R' F2 R2 U' R' U2 R F2 U2,BFS,none,true,solved,8,254422,1526531,1037730,1037730,172.403,5.79
+3,17,8,R F' R F' R' F2 R2 U' R' F2 R2 U' R' U2 R F2 U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.381,2.711
+4,17,9,F' U F' U F R' U' F U R F' R F2 U2 F2 U' F',BFS,none,true,solved,9,531506,3189036,1894943,1894943,460.967,5.155
+4,17,9,F' U F' U F R' U' F U R F' R F2 U2 F2 U' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.35,2.785
+5,17,10,R' F' R' U' F R2 F' U2 R2 F2 U F U' F U2 F R,BFS,none,true,solved,10,1718360,10310160,3481240,3481240,909.38,4.914
+5,17,10,R' F' R' U' F R2 F' U2 R2 F2 U F U' F U2 F R,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.876,2.643
+6,17,8,U F' R F' U' F U R2 U2 R' F R F' U2 R' F' U2,BFS,none,true,solved,8,227484,1364906,939173,939173,148.448,5.707
+6,17,8,U F' R F' U' F U R2 U2 R' F R F' U2 R' F' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.935,2.711
+7,17,10,F R' F2 U2 F2 R2 F R U R' U' R2 F R' F2 U F,BFS,none,true,solved,10,1631743,9790457,3439569,3439569,842.49,4.888
+7,17,10,F R' F2 U2 F2 R2 F R U R' U' R2 F R' F2 U F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.402,2.643
+8,17,9,R U R' F' U F U2 F R F2 R U' R2 F' R' U2 F2,BFS,none,true,solved,9,417591,2505549,1571591,1571591,329.038,5.015
+8,17,9,R U R' F' U F U2 F R F2 R U' R2 F' R' U2 F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.616,2.785
+9,17,10,U' F' U F U' R2 F2 U F U F' R U' F2 U2 R F',BFS,none,true,solved,10,1679816,10078894,3463005,3463005,835.728,4.903
+9,17,10,U' F' U F U' R2 F2 U F U F' R U' F2 U2 R F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.973,2.643
+10,17,9,F R U2 F2 R U2 F R2 U R F2 R F U' F U' R,BFS,none,true,solved,9,754578,4527468,2418385,2418385,524.434,5.365
+10,17,9,F R U2 F2 R U2 F R2 U R F2 R F U' F U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.851,2.785
+11,17,7,F2 R F R' U' F' U2 R2 F2 R F2 U R2 U' F R' U2,BFS,none,true,solved,7,40516,243096,194158,194158,27.147,5.721
+11,17,7,F2 R F R' U' F' U2 R2 F2 R F2 U R2 U' F R' U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,11.433,2.912
+12,17,9,U' F' R' U2 F2 U R2 U2 R F' U R F' R F' U2 R2,BFS,none,true,solved,9,773840,4643043,2456831,2456831,532.129,5.381
+12,17,9,U' F' R' U2 F2 U R2 U2 R F' U R F' R F' U2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.768,2.785
+13,17,9,R2 U' F2 U R F' R U2 R U' F R F U2 F' R' F',BFS,none,true,solved,9,392779,2356672,1495995,1495995,274.787,4.98
+13,17,9,R2 U' F2 U R F' R U2 R U' F R F U2 F' R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.778,2.785
+14,17,5,U' F2 U2 F' R U F R' U2 F2 R2 U' R2 F2 R2 U' F,BFS,none,true,solved,5,2125,12750,11701,11701,4.705,6.403
+14,17,5,U' F2 U2 F' R U F R' U2 F2 R2 U' R2 F2 R2 U' F,BFS bidirecional,none,true,solved,5,74,450,449,449,6.229,3.146
+15,17,8,R2 U2 F2 R' F2 R' F2 R' F2 U F' U2 R2 U' R F' U,BFS,none,true,solved,8,111546,669278,496125,496125,86.164,5.207
+15,17,8,R2 U2 F2 R' F2 R' F2 R' F2 U F' U2 R2 U' R F' U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,20.21,2.711
+16,17,9,R U' R F R' F2 R' F U F R U R2 F U' F' U2,BFS,none,true,solved,9,1145943,6875661,3031283,3031283,656.34,5.627
+16,17,9,R U' R F R' F2 R' F U F R U R2 F U' F' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.407,2.785
+17,17,9,F U R U' F' R U2 R' U' R2 F R' F' U R' U' R2,BFS,none,true,solved,9,866941,5201648,2628917,2628917,589.423,5.451
+17,17,9,F U R U' F' R U2 R' U' R2 F R' F' U R' U' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.817,2.785
+18,17,9,F2 U R2 U2 F' U2 R U2 R' F' R' U F' R F' R2 U,BFS,none,true,solved,9,758778,4552668,2426729,2426729,444.802,5.369
+18,17,9,F2 U R2 U2 F' U2 R U2 R' F' R' U F' R F' R2 U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.293,2.785
+19,17,7,U F2 R' U F R' F' R' F U' F R' U R F2 U' R2,BFS,none,true,solved,7,29314,175883,142722,142722,17.831,5.454
+19,17,7,U F2 R' U F R' F' R' F U' F R' U R F2 U' R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,10.074,2.912
+20,17,8,F' U' R2 F' U2 R F R2 F2 U' R' U' F2 U R F U',BFS,none,true,solved,8,145673,874040,629766,629766,97.212,5.39
+20,17,8,F' U' R2 F' U2 R F R2 F2 U' R' U' F2 U R F U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.779,2.711
+21,17,8,F' R' U R2 U2 R2 F U2 R F2 U R' F2 R U F' U2,BFS,none,true,solved,8,76839,461033,352521,352521,56.164,4.963
+21,17,8,F' R' U R2 U2 R2 F U2 R F2 U R' F2 R U F' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,8.79,2.711
+22,17,8,F U' R2 U2 F' U F' U' F R' U F' R F R' F2 R,BFS,none,true,solved,8,274077,1644464,1106733,1106733,209.495,5.845
+22,17,8,F U' R2 U2 F' U F' U' F R' U F' R F R' F2 R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.308,2.711
+23,17,9,R U R2 F2 U' R U' R' F' R' U' R' U2 R2 F' R F,BFS,none,true,solved,9,648507,3891045,2188280,2188280,443.451,5.273
+23,17,9,R U R2 F2 U' R U' R' F' R' U' R' U2 R2 F' R F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.67,2.785
+24,17,8,R' U' F2 R' U' R2 F U2 R2 U R' U F U R' F R,BFS,none,true,solved,8,283211,1699265,1137751,1137751,221.402,5.87
+24,17,8,R' U' F2 R' U' R2 F U2 R2 U R' U F U R' F R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.793,2.711
+25,17,9,U F' R F R2 F' R U' F2 U2 R U F R U R' U2,BFS,none,true,solved,9,588014,3528083,2041515,2041515,467.254,5.215
+25,17,9,U F' R F R2 F' R U' F2 U2 R U F R U R' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.225,2.785
+26,17,9,R2 F' U' R2 U2 F2 R2 U2 F U' F U2 F R' F U R2,BFS,none,true,solved,9,753406,4520439,2415989,2415989,505.784,5.364
+26,17,9,R2 F' U' R2 U2 F2 R2 U2 F U' F U2 F R' F U R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.093,2.785
+27,17,7,F' R U' F2 R' F2 U2 F U' F' R' U2 F' U' F2 R' U2,BFS,none,true,solved,7,58750,352503,274858,274858,38.807,6.043
+27,17,7,F' R U' F2 R' F2 U2 F U' F' R' U2 F' U' F2 R' U2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,15.367,2.912
+28,17,9,U R2 F' U R F U2 R' U F' R F2 R F' R2 U' R,BFS,none,true,solved,9,679351,4076107,2258004,2258004,483.915,5.301
+28,17,9,U R2 F' U R F U2 R' U F' R F2 R F' R2 U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.067,2.785
+29,17,10,R' U2 F' U' R' U' R' F' R F2 U' R' F' R2 U' F2 U,BFS,none,true,solved,10,1570027,9420163,3403902,3403902,838.327,4.869
+29,17,10,R' U2 F' U' R' U' R' F' R F2 U' R' F' R2 U' F2 U,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.256,2.643
+0,18,9,R' U' R' F' R' U F2 R2 U2 R2 F' U' R' U' R2 F' R' F2,BFS,none,true,solved,9,496656,2979938,1800060,1800060,391.696,5.115
+0,18,9,R' U' R' F' R' U F2 R2 U2 R2 F' U' R' U' R2 F' R' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.276,2.785
+1,18,8,U F2 R2 U' R F' U' R F' R U' R' U' R F' U' F U2,BFS,none,true,solved,8,161685,970112,693410,693410,121.347,5.462
+1,18,8,U F2 R2 U' R F' U' R F' R U' R' U' R F' U' F U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,17.433,2.711
+2,18,9,U' F2 R F2 U R U R F' R F R2 U F' R F R2 F,BFS,none,true,solved,9,830369,4982213,2562564,2562564,559.42,5.424
+2,18,9,U' F2 R F2 U R U R F' R F R2 U F' R F R2 F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.859,2.785
+3,18,9,F' R' F U' R F2 R U2 F2 U F' U' F' R F' R F2 R',BFS,none,true,solved,9,383233,2299397,1466052,1466052,287.959,4.966
+3,18,9,F' R' F U' R F2 R U2 F2 U F' U' F' R F' R F2 R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.328,2.785
+4,18,9,R F U2 F R2 U F2 R' U2 F R' F2 R' U R2 F' R' F',BFS,none,true,solved,9,624059,3744353,2129885,2129885,466.568,5.25
+4,18,9,R F U2 F R2 U F2 R' U2 F R' F2 R' U R2 F' R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.441,2.785
+5,18,9,U2 R F' U2 R2 F U F R2 F' U R' U' R2 F2 U2 R' U',BFS,none,true,solved,9,1029186,6175116,2884139,2884139,671.423,5.558
+5,18,9,U2 R F' U2 R2 F U F R2 F' U R' U' R2 F2 U2 R' U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.286,2.785
+6,18,9,F2 U R U2 R2 F2 R F2 U' R' U' R2 U2 F' R2 F R2 U,BFS,none,true,solved,9,612200,3673201,2101716,2101716,420.665,5.239
+6,18,9,F2 U R U2 R2 F2 R F2 U' R' U' R2 U2 F' R2 F R2 U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,28.758,2.785
+7,18,9,U F R2 U' F2 R2 F' U' F2 U2 F R2 F U' F U2 R2 U',BFS,none,true,solved,9,327574,1965447,1287468,1287468,240.025,4.878
+7,18,9,U F R2 U' F2 R2 F' U' F2 U2 F R2 F U' F U2 R2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,25.015,2.785
+8,18,8,R' F U2 F2 U2 R U2 F' R' U F' U' R2 U' R U' F' R,BFS,none,true,solved,8,275999,1655993,1113356,1113356,210.57,5.851
+8,18,8,R' F U2 F2 U2 R U2 F' R' U F' U' R2 U' R U' F' R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.581,2.711
+9,18,8,R2 U2 R' F R2 F2 U F U' R' U2 R2 F' R2 F R F' U',BFS,none,true,solved,8,116450,698698,516066,516066,94.082,5.236
+9,18,8,R2 U2 R' F R2 F2 U F U' R' U2 R2 F' R2 F R F' U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.833,2.711
+10,18,9,U R' U2 F2 R F2 U2 R2 F' R' F2 R' F' U2 R' U' R U,BFS,none,true,solved,9,865920,5195521,2627029,2627029,574.369,5.45
+10,18,9,U R' U2 F2 R F2 U2 R2 F' R' F2 R' F' U2 R' U' R U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,21.972,2.785
+11,18,8,U F' U R F2 R' U2 F R F2 R U2 R U2 F2 U F U2,BFS,none,true,solved,8,192730,1156381,812677,812677,165.087,5.587
+11,18,8,U F' U R F2 R' U2 F R F2 R U2 R U2 F2 U F U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.554,2.711
+12,18,9,R U R F' U2 F U' F U2 R F R2 U' F2 R U2 R F2,BFS,none,true,solved,9,420250,2521499,1579300,1579300,361.769,5.018
+12,18,9,R U R F' U2 F U' F U2 R F R2 U' F2 R U2 R F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.908,2.785
+13,18,10,F2 R' U2 F R2 F2 R U F' U R U R F2 U2 F U R,BFS,none,true,solved,10,1476530,8859178,3344215,3344215,799.852,4.838
+13,18,10,F2 R' U2 F R2 F2 R U F' U R U R F2 U2 F U R,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,21.381,2.643
+14,18,10,U2 F U2 R' U2 R' F' U R2 F' U' R2 F R2 F2 R' U2 F2,BFS,none,true,solved,10,1256220,7537321,3155735,3155735,719.345,4.759
+14,18,10,U2 F U2 R' U2 R' F' U R2 F' U' R2 F R2 F2 R' U2 F2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.346,2.643
+15,18,9,F U2 R' U2 R2 U2 R' U2 R2 F U F R' U R' U F2 R2,BFS,none,true,solved,9,555697,3334180,1959660,1959660,347.8,5.181
+15,18,9,F U2 R' U2 R2 U2 R' U2 R2 F U F R' U R' U F2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.675,2.785
+16,18,9,U' F2 U F2 U' R F R2 F U' F U2 R2 F' R' U2 F R,BFS,none,true,solved,9,651183,3907099,2194508,2194508,432.289,5.276
+16,18,9,U' F2 U F2 U' R F R2 F U' F U2 R2 F' R' U2 F R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.551,2.785
+17,18,8,R U R' F R' U' F U F U F U2 F' R' U' R2 F U,BFS,none,true,solved,8,140814,844885,611821,611821,93.244,5.366
+17,18,8,R U R' F R' U' F U F U F U2 F' R' U' R2 F U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.697,2.711
+18,18,9,R' F' R' U' R F' U' R' U' F R' U F R2 U R2 F' R2,BFS,none,true,solved,9,516425,3098552,1854850,1854850,396.646,5.138
+18,18,9,R' F' R' U' R F' U' R' U' F R' U F R2 U R2 F' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.917,2.785
+19,18,9,R U' R2 U2 F R2 F' U F2 R' F R' F R2 U2 R F' R2,BFS,none,true,solved,9,419332,2515990,1576636,1576636,300.738,5.017
+19,18,9,R U' R2 U2 F R2 F' U F2 R' F R' F R2 U2 R F' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.153,2.785
+20,18,9,R' U' F R' F R2 U2 R2 U2 R2 F U' R2 U2 F U R F',BFS,none,true,solved,9,1046842,6281054,2907575,2907575,604.984,5.569
+20,18,9,R' U' F R' F R2 U2 R2 U2 R2 F U' R2 U2 F U R F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.403,2.785
+21,18,9,F' R U2 R2 U2 R F R F R2 U R2 U2 F' R2 U' R2 F',BFS,none,true,solved,9,399711,2398266,1517477,1517477,287.547,4.99
+21,18,9,F' R U2 R2 U2 R F R F R2 U R2 U2 F' R2 U' R2 F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.962,2.785
+22,18,9,R' U2 R2 F2 R' F U R U R' F2 U R' F' R2 U R U2,BFS,none,true,solved,9,612502,3675010,2102413,2102413,407.707,5.239
+22,18,9,R' U2 R2 F2 R' F U R U R' F2 U R' F' R2 U R U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.65,2.785
+23,18,9,F2 U F' U F R' F R' F2 U R2 U' R2 U2 R U R F,BFS,none,true,solved,9,298022,1788133,1188199,1188199,232.992,4.825
+23,18,9,F2 U F' U F R' F R' F2 U R2 U' R2 U2 R U R F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.577,2.785
+24,18,9,R F2 U2 R' F U' F2 R U' R2 F U2 R F' U R F2 R,BFS,none,true,solved,9,595532,3573190,2060515,2060515,430.399,5.222
+24,18,9,R F2 U2 R' F U' F2 R U' R2 F U2 R F' U R F2 R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.32,2.785
+25,18,8,R2 F2 U2 R2 U F' R F2 R' F R' F U2 F2 U2 F2 R2 U',BFS,none,true,solved,8,267088,1602531,1082417,1082417,194.421,5.826
+25,18,8,R2 F2 U2 R2 U F' R F2 R' F R' F U2 F2 U2 F2 R2 U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.221,2.711
+26,18,8,U R U' F' U2 F R2 U2 R U2 R U R2 U2 R' F2 R' F,BFS,none,true,solved,8,245365,1472188,1005133,1005133,185.097,5.763
+26,18,8,U R U' F' U2 F R2 U2 R U2 R U R2 U2 R' F2 R' F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.692,2.711
+27,18,8,R F' U F' R2 F R2 F' R F U R' F2 U2 F2 U2 R2 U',BFS,none,true,solved,8,156918,941511,674891,674891,125.506,5.441
+27,18,8,R F' U F' R2 F R2 F' R F U R' F2 U2 F2 U2 R2 U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,14.919,2.711
+28,18,9,U' R' F' R F2 U' F2 R F' R U R2 U2 R U R F U,BFS,none,true,solved,9,535106,3210637,1904729,1904729,410.812,5.159
+28,18,9,U' R' F' R F2 U' F2 R F' R U R2 U2 R U R F U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.694,2.785
+29,18,9,F R2 U F2 R2 U' R F2 U' R2 F U F' U R' U F2 U2,BFS,none,true,solved,9,410463,2462779,1550095,1550095,325.219,5.005
+29,18,9,F R2 U F2 R2 U' R F2 U' R2 F U F' U R' U F2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.715,2.785
+0,19,9,R' U' R' U' R' F2 U2 R F R F R2 U' R' F' U' F2 R2 F',BFS,none,true,solved,9,580394,3482363,2021946,2021946,417.911,5.207
+0,19,9,R' U' R' U' R' F2 U2 R F R F R2 U' R' F' U' F2 R2 F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.116,2.785
+1,19,9,F2 U R2 F R2 F2 R2 U2 F' R2 U' R2 U2 R' U2 F2 U2 F' U,BFS,none,true,solved,9,422481,2534886,1586125,1586125,313.372,5.022
+1,19,9,F2 U R2 F R2 F2 R2 U2 F' R2 U' R2 U2 R' U2 F2 U2 F' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.852,2.785
+2,19,9,F' U' R' F R F U R U R F U2 R2 F R' F U' R2 F,BFS,none,true,solved,9,920148,5520891,2720307,2720307,610.486,5.488
+2,19,9,F' U' R' F R F U R U R F U2 R2 F R' F U' R2 F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.898,2.785
+3,19,9,R U R' F' U2 F2 U R U2 F' U2 F R' U R2 U2 F' R' U,BFS,none,true,solved,9,700119,4200716,2304270,2304270,459.612,5.32
+3,19,9,R U R' F' U2 F2 U R U2 F' U2 F R' U R2 U2 F' R' U,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.053,2.785
+4,19,9,R U' R U R' F U R' U F R2 F2 U F' U R2 F2 R' F,BFS,none,true,solved,9,733680,4402078,2375368,2375368,498.603,5.348
+4,19,9,R U' R U R' F U R' U F R2 F2 U F' U R2 F2 R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.231,2.785
+5,19,6,U2 F' R' F U' F R2 U2 R F2 U2 R' F' R' U2 R F U' R2,BFS,none,true,solved,6,7725,46350,40251,40251,7.09,5.808
+5,19,6,U2 F' R' F U' F R2 U2 R F2 U2 R' F' R' U2 R F U' R2,BFS bidirecional,none,true,solved,6,128,774,770,770,11.111,2.818
+6,19,10,R' F2 R2 F' U' R' F U2 R F' R2 U' R2 F2 R2 F U F2 R2,BFS,none,true,solved,10,1720689,10324136,3482322,3482322,794.836,4.915
+6,19,10,R' F2 R2 F' U' R' F U2 R F' R2 U' R2 F2 R2 F U F2 R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.283,2.643
+7,19,9,R2 U F U2 R U F U F2 U F' R F2 R2 F' U R' U2 R',BFS,none,true,solved,9,574515,3447089,2007216,2007216,401.982,5.201
+7,19,9,R2 U F U2 R U F U F2 U F' R F2 R2 F' U R' U2 R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.093,2.785
+8,19,9,R' F2 U2 R' U' F R' F' U F2 R' U2 R2 U' F2 R2 U R' F2,BFS,none,true,solved,9,393256,2359539,1497366,1497366,261.654,4.981
+8,19,9,R' F2 U2 R' U' F R' F' U F2 R' U2 R2 U' F2 R2 U R' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.161,2.785
+9,19,10,F R U' F2 U R F' R2 F2 R F2 R' U' R' U' R2 F' U' F2,BFS,none,true,solved,10,1629401,9776405,3438309,3438309,905.904,4.887
+9,19,10,F R U' F2 U R F' R2 F2 R F2 R' U' R' U' R2 F' U' F2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.477,2.643
+10,19,9,F2 U2 F2 R F' U' R' U2 F' U2 R' F' R2 U R U' F' U' R2,BFS,none,true,solved,9,416610,2499659,1568678,1568678,323.459,5.013
+10,19,9,F2 U2 F2 R F' U' R' U2 F' U2 R' F' R2 U R U' F' U' R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.05,2.785
+11,19,8,F' R2 U F' U F U' F2 U2 R' F' R2 U' F2 R F U F R,BFS,none,true,solved,8,156311,937865,672514,672514,104.899,5.439
+11,19,8,F' R2 U F' U F U' F2 U2 R' F' R2 U' F2 R F U F R,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.995,2.711
+12,19,8,F' R' F' U' R' U R' U' F2 U' F2 R U2 R2 U' F' R2 F U,BFS,none,true,solved,8,71118,426706,327910,327910,59.485,4.914
+12,19,8,F' R' F' U' R' U R' U' F2 U' F2 R U2 R2 U' F' R2 F U,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,9.906,2.711
+13,19,9,R2 U' R F R2 F U R' F' R2 F R2 F' R' U' R U2 F U',BFS,none,true,solved,9,851466,5108796,2601396,2601396,546.802,5.44
+13,19,9,R2 U' R F R2 F U R' F' R2 F R2 F' R' U' R U2 F U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.651,2.785
+14,19,10,F R2 U2 F' U F' R F' U2 F2 U R2 U R' U R' F2 U F',BFS,none,true,solved,10,1214418,7286506,3111391,3111391,645.657,4.742
+14,19,10,F R2 U2 F' U F' R F' U2 F2 U R2 U R' U R' F2 U F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,21.195,2.643
+15,19,9,U' R2 F2 U F' R F2 U R' F R' U' F R' U R F' U2 F,BFS,none,true,solved,9,454815,2728892,1682105,1682105,315.799,5.064
+15,19,9,U' R2 F2 U F' R F2 U R' F R' U' F R' U R F' U2 F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.275,2.785
+16,19,10,R' U' F' U2 R' U' F R2 U F R2 F' R F2 U2 F2 U2 F R2,BFS,none,true,solved,10,2115480,12692880,3603857,3603857,979.476,5.02
+16,19,10,R' U' F' U2 R' U' F R2 U F R2 F' R F2 U2 F2 U2 F R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.631,2.643
+17,19,8,F' R2 F R2 U' R U F2 U R F R F R' F R F2 U' R2,BFS,none,true,solved,8,254862,1529175,1039437,1039437,180.602,5.791
+17,19,8,F' R2 F R2 U' R U F2 U R F R F R' F R F2 U' R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,18.085,2.711
+18,19,9,U R U' R U' R U R' F2 U' F' U' F' R F2 U' R' U F,BFS,none,true,solved,9,911301,5467809,2705240,2705240,566.297,5.482
+18,19,9,U R U' R U' R U R' F2 U' F' U' F' R F2 U' R' U F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.516,2.785
+19,19,10,F2 R' U R U' R' F R2 U F R U' F R' U' R U' F R2,BFS,none,true,solved,10,1794170,10765020,3513025,3513025,801.086,4.936
+19,19,10,F2 R' U R U' R' F R2 U F R U' F R' U' R U' F R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.36,2.643
+20,19,10,U2 R F' U F2 U2 F R F R' U2 F' U' R2 U2 F2 R' F' R2,BFS,none,true,solved,10,1357207,8143244,3250624,3250624,714.544,4.797
+20,19,10,U2 R F' U F2 U2 F R F R' U2 F' U' R2 U2 F2 R' F' R2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.358,2.643
+21,19,9,F2 U' R2 U2 R2 F' U2 R2 U2 R2 F' R2 F2 U' R F' R U' R',BFS,none,true,solved,9,897719,5386313,2682318,2682318,501.3,5.472
+21,19,9,F2 U' R2 U2 R2 F' U2 R2 U2 R2 F' R2 F2 U' R F' R U' R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.451,2.785
+22,19,10,U2 F2 R F2 U' R' F' R2 F' U F' R' U R2 U' R' F R2 F,BFS,none,true,solved,10,1689763,10138581,3467714,3467714,866.948,4.906
+22,19,10,U2 F2 R F2 U' R' F' R2 F' U F' R' U R2 U' R' F R2 F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.34,2.643
+23,19,10,U R2 F2 U2 R' U R F' R' U' F U R U F R' U R' U,BFS,none,true,solved,10,1221105,7326633,3118962,3118962,735.373,4.745
+23,19,10,U R2 F2 U2 R' U R F' R' U' F U R U F R' U R' U,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,12.759,2.643
+24,19,9,F' R' U' R F' R' F R F R2 F R F2 U2 R U R' U F',BFS,none,true,solved,9,398698,2392189,1514352,1514352,275.996,4.988
+24,19,9,F' R' U' R F' R' F R F R2 F R F2 U2 R U R' U F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.533,2.785
+25,19,8,R2 F2 R U2 F' R U2 R F' R F R F R F' R F U2 F2,BFS,none,true,solved,8,190241,1141446,803428,803428,134.322,5.578
+25,19,8,R2 F2 R U2 F' R U2 R F' R F R F R F' R F U2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,12.601,2.711
+26,19,9,R' U F R U R2 F R' U2 R2 U2 F U2 F' U2 R F2 U' R,BFS,none,true,solved,9,358376,2150258,1386761,1386761,271.876,4.928
+26,19,9,R' U F R U R2 F R' U2 R2 U2 F U2 F' U2 R F2 U' R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,15.598,2.785
+27,19,9,U2 F2 R U' F2 R' F R2 U' F R2 F2 U' F R' U R2 U R',BFS,none,true,solved,9,665780,3994680,2227854,2227854,436.733,5.289
+27,19,9,U2 F2 R U' F2 R' F R2 U' F R2 F2 U' F R' U R2 U R',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.113,2.785
+28,19,9,U2 R U2 F R' U R2 U' R U2 F U R2 F R U' R' U R,BFS,none,true,solved,9,646353,3878117,2183196,2183196,418.021,5.271
+28,19,9,U2 R U2 F R' U R2 U' R U2 F U R2 F R U' R' U R,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.113,2.785
+29,19,8,R2 F' R2 F U2 F R2 F' U2 R' F' R2 F' R' U2 F' R F' U2,BFS,none,true,solved,8,146138,876830,631519,631519,123.419,5.392
+29,19,8,R2 F' R2 F U2 F R2 F' U2 R' F' R2 F' R' U2 F' R F' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.49,2.711
+0,20,8,R2 F' U R2 F U' R' F2 U2 F' U2 F' R U2 F R2 F' R U2 F,BFS,none,true,solved,8,163118,978709,698847,698847,124.736,5.469
+0,20,8,R2 F' U R2 F U' R' F2 U2 F' U2 F' R U2 F R2 F' R U2 F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,21.009,2.711
+1,20,8,F U' F' U' R' F2 R2 U R' F2 U R U R F2 R U2 R2 U F,BFS,none,true,solved,8,219134,1314807,908991,908991,169.345,5.68
+1,20,8,F U' F' U' R' F2 R2 U R' F2 U R U R F2 R U2 R2 U F,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,16.592,2.711
+2,20,8,R U2 R' F R' F2 R U' F2 U' R2 U' F2 R U R' F' U2 R' U2,BFS,none,true,solved,8,251099,1506596,1025655,1025655,192.561,5.78
+2,20,8,R U2 R' F R' F2 R U' F2 U' R2 U' F2 R U R' F' U2 R' U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,13.222,2.711
+3,20,9,F' R F2 R F U' R' U2 F U F' U2 F' R' F U2 R2 F R' F',BFS,none,true,solved,9,299444,1796667,1193130,1193130,246.173,4.828
+3,20,9,F' R F2 R F U' R' U2 F U F' U2 F' R' F U2 R2 F R' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,17.84,2.785
+4,20,8,R2 U' R' F2 U' R F2 R' F R' F' U2 F2 R' U F R2 U' R U2,BFS,none,true,solved,8,73001,438005,335998,335998,66.723,4.93
+4,20,8,R2 U' R' F2 U' R F2 R' F R' F' U2 F2 R' U F R2 U' R U2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,10.366,2.711
+5,20,10,U' F2 R' U2 R2 F2 R F2 R2 F2 U R2 F2 R' U' R2 F' U R F,BFS,none,true,solved,10,1322644,7935867,3218815,3218815,828.631,4.784
+5,20,10,U' F2 R' U2 R2 F2 R F2 R2 F2 U R2 F2 R' U' R2 F' U R F,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,13.997,2.643
+6,20,7,U2 R F U' R2 F' R U' R2 F' R' U2 R U2 F U' R2 F' U2 R2,BFS,none,true,solved,7,23444,140664,115762,115762,15.619,5.277
+6,20,7,U2 R F U' R2 F' R U' R2 F' R' U2 R U2 F U' R2 F' U2 R2,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,12.899,2.912
+7,20,9,U' F U F' R2 F R' U2 R2 F U F R2 F U2 F2 R2 U2 F2 U2,BFS,none,true,solved,9,666333,3998001,2229122,2229122,514.68,5.29
+7,20,9,U' F U F' R2 F R' U2 R2 F U F R2 F U2 F2 R2 U2 F2 U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.475,2.785
+8,20,9,U' R' F R' U R' U R' F R F' U2 F U' R2 U F2 U2 R F2,BFS,none,true,solved,9,1010154,6060927,2857754,2857754,630.638,5.547
+8,20,9,U' R' F R' U R' U R' F R F' U2 F U' R2 U F2 U2 R F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.178,2.785
+9,20,8,U' R' F2 U' R U2 F' R F U F' U R' F2 U F2 R U' F' R',BFS,none,true,solved,8,279253,1675521,1124409,1124409,232.289,5.859
+9,20,8,U' R' F2 U' R U2 F' R F U F' U R' F2 U F2 R U' F' R',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.693,2.711
+10,20,9,U R2 U' R U' R2 F2 U R2 F2 U' F U' F' U' F U R F2 U',BFS,none,true,solved,9,597039,3582233,2064356,2064356,449.783,5.224
+10,20,9,U R2 U' R U' R2 F2 U R2 F2 U' F U' F' U' F U R F2 U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.875,2.785
+11,20,8,F2 R' F2 R U' F2 U2 R2 F U2 F' R' U' F U' R' U2 F' R2 F2,BFS,none,true,solved,8,152199,913194,656066,656066,128.826,5.42
+11,20,8,F2 R' F2 R U' F2 U2 R2 F U2 F' R' U' F U' R' U2 F' R2 F2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.719,2.711
+12,20,10,F U2 F2 U R U' R2 F' R U2 R2 U R' U2 F2 U' F2 U R F',BFS,none,true,solved,10,1740475,10442848,3490889,3490889,899.181,4.921
+12,20,10,F U2 F2 U R U' R2 F' R U2 R2 U R' U2 F2 U' F2 U R F',BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.819,2.643
+13,20,6,F R' U2 F2 U R U' R F U R' F' R' F2 R U2 R2 U2 F R',BFS,none,true,solved,6,6656,39937,34884,34884,6.903,5.66
+13,20,6,F R' U2 F2 U R U' R F U R' F' R' F2 R U2 R2 U2 F R',BFS bidirecional,none,true,solved,6,128,774,770,770,10.14,2.818
+14,20,9,U2 F' R2 F U2 F2 R2 F' U2 F2 U2 F U2 R F' R' F' U R' F,BFS,none,true,solved,9,1051882,6311291,2914128,2914128,624.772,5.572
+14,20,9,U2 F' R2 F U2 F2 R2 F' U2 F2 U2 F U2 R F' R' F' U R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,12.171,2.785
+15,20,9,U2 F U F2 U' F2 R' U2 R' U2 F' R2 F U R F2 U2 F U' F2,BFS,none,true,solved,9,704517,4227105,2313460,2313460,438.54,5.323
+15,20,9,U2 F U F2 U' F2 R' U2 R' U2 F' R2 F U R F2 U2 F U' F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,11.288,2.785
+16,20,9,U2 F2 U' F' U2 R' F' U2 R F2 U' R F2 R U2 F' U F' R U',BFS,none,true,solved,9,759822,4558932,2428789,2428789,456.192,5.369
+16,20,9,U2 F2 U' F' U2 R' F' U2 R F2 U' R F2 R U2 F' U F' R U',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,20.493,2.785
+17,20,10,R F R F R2 F U' F2 R F' U' R U' F U R2 U F' R2 F2,BFS,none,true,solved,10,1438995,8633971,3317718,3317718,757.578,4.825
+17,20,10,R F R F R2 F U' F2 R F' U' R U' F U R2 U F' R2 F2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,14.817,2.643
+18,20,9,R F' R' U' F U2 R U F U2 F' R U2 R' F R' U2 R' F2 R2,BFS,none,true,solved,9,449138,2694827,1665645,1665645,319.974,5.057
+18,20,9,R F' R' U' F U2 R U F U2 F' R U2 R' F R' U2 R' F2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.535,2.785
+19,20,9,U' F R2 F' R U2 F R U2 F U F' U' F' R' F R2 U' F2 R2,BFS,none,true,solved,9,299343,1796057,1192820,1192820,239.763,4.828
+19,20,9,U' F R2 F' R U2 F R U2 F U F' U' F' R' F R2 U' F2 R2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,18.446,2.785
+20,20,8,U R' U R' F2 U' F U2 F R2 U F' U' F2 R U2 F U2 F' R2,BFS,none,true,solved,8,283624,1701746,1139242,1139242,196.918,5.871
+20,20,8,U R' U R' F2 U' F U2 F R2 U F' U' F2 R U2 F U2 F' R2,BFS bidirecional,none,true,solved,8,770,4626,4464,4464,11.131,2.711
+21,20,9,R2 U' R2 U2 R' F2 R' F' R F2 U' R' F U' R' F' R2 F2 U' F,BFS,none,true,solved,9,994281,5965689,2835111,2835111,587.843,5.537
+21,20,9,R2 U' R2 U2 R' F2 R' F' R F2 U' R' F U' R' F' R2 F2 U' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,19.204,2.785
+22,20,10,R2 U2 R2 U F U R' U F R F' R2 F2 U F R U' R' F2 U2,BFS,none,true,solved,10,1822336,10934018,3523240,3523240,970.662,4.944
+22,20,10,R2 U2 R2 U F U R' U F R F' R2 F2 U F R U' R' F2 U2,BFS bidirecional,none,true,solved,10,4464,26790,24448,24448,11.949,2.643
+23,20,8,U' F U F' U R U2 R F2 R2 F' R2 U F' U2 F2 R2 U R2 F',BFS,none,true,solved,8,257994,1547962,1050505,1050505,200.578,5.8
+23,20,8,U' F U F' U R U2 R F2 R2 F' R2 U F' U2 F2 R2 U R2 F',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,20.413,2.711
+24,20,7,U2 R' F U' F2 R' F' R' F' U' R' F' U2 R' F2 U' R' U2 R U,BFS,none,true,solved,7,55084,330503,258829,258829,41.931,5.986
+24,20,7,U2 R' F U' F2 R' F' R' F' U' R' F' U2 R' F2 U' R' U2 R U,BFS bidirecional,none,true,solved,7,449,2700,2617,2617,12.582,2.912
+25,20,9,F2 R2 U2 F U R2 U' R2 U F2 U' R U2 R F R F R' F' U2,BFS,none,true,solved,9,395660,2373962,1504735,1504735,310.407,4.984
+25,20,9,F2 R2 U2 F U R2 U' R2 U F2 U' R U2 R F R F R' F' U2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.706,2.785
+26,20,8,F' R2 F U2 R2 F2 U F' R2 U R F2 U2 R U' F U2 R2 F' U',BFS,none,true,solved,8,100710,604260,451963,451963,86.016,5.139
+26,20,8,F' R2 F U2 R2 F2 U F' R2 U R F2 U2 R U' F U2 R2 F' U',BFS bidirecional,none,true,solved,8,770,4626,4464,4464,15.306,2.711
+27,20,9,F' R' F2 R' U' R F' U' R' U R' F R' U R F2 R F' R' F,BFS,none,true,solved,9,467369,2804212,1717846,1717846,411.472,5.08
+27,20,9,F' R' F2 R' U' R F' U' R' U R' F R' U R F2 R F' R' F,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,16.123,2.785
+28,20,9,F R F' R2 U' R2 U F2 U' F U F R U F' R2 U F' U' F',BFS,none,true,solved,9,341296,2047776,1332868,1332868,292.958,4.9
+28,20,9,F R F' R2 U' R2 U F2 U' F U F R U F' R2 U F' U' F',BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,13.645,2.785
+29,20,9,R F2 U R' F' U' R' F R2 U2 R' F R' U' F' U2 F R2 U F2,BFS,none,true,solved,9,552392,3314351,1950613,1950613,398.526,5.178
+29,20,9,R F2 U R' F' U' R' F R2 U2 R' F R' U' F' U2 F R2 U F2,BFS bidirecional,none,true,solved,9,2617,15708,14456,14456,14.624,2.785

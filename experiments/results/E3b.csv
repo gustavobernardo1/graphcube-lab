@@ -1,0 +1,421 @@
+kind,sample,scrambleLength,scramble,algorithm,heuristic,success,status,length,expanded,generated,discovered,peakStored,timeMs,ebf,dstar,phase1,phase2
+scramble,0,2,F2 U',IDA*,pdb,true,solved,2,2,6,7,2,0.169,2,2,,
+scramble,0,2,F2 U',IDA*,misplaced,true,solved,2,2,6,7,2,0.088,2,2,,
+scramble,0,2,F2 U',Duas fases (200 ms),h1/h2,true,solved,2,25,25,,,0.312,,2,,
+scramble,1,2,R2 U',IDA*,pdb,true,solved,2,2,3,4,2,0.032,1.303,2,,
+scramble,1,2,R2 U',IDA*,misplaced,true,solved,2,2,3,4,2,0.066,1.303,2,,
+scramble,1,2,R2 U',Duas fases (200 ms),h1/h2,true,solved,2,23,23,,,0.053,,2,,
+scramble,2,2,F R,IDA*,pdb,true,solved,2,2,12,13,2,0.036,3,2,,
+scramble,2,2,F R,IDA*,misplaced,true,solved,2,2,12,13,2,0.024,3,2,,
+scramble,2,2,F R,Duas fases (200 ms),h1/h2,true,solved,2,1565,1565,,,0.845,,2,,
+scramble,3,2,U' D2,IDA*,pdb,true,solved,2,2,9,10,2,0.032,2.541,2,,
+scramble,3,2,U' D2,IDA*,misplaced,true,solved,2,2,9,10,2,0.02,2.541,2,,
+scramble,3,2,U' D2,Duas fases (200 ms),h1/h2,true,solved,2,21,21,,,0.032,,2,,
+scramble,4,2,F U,IDA*,pdb,true,solved,2,2,9,10,2,0.023,2.541,2,,
+scramble,4,2,F U,IDA*,misplaced,true,solved,2,2,9,10,2,0.02,2.541,2,,
+scramble,4,2,F U,Duas fases (200 ms),h1/h2,true,solved,2,1565,1565,,,0.476,,2,,
+scramble,5,2,D B,IDA*,pdb,true,solved,2,2,27,28,2,0.038,4.72,2,,
+scramble,5,2,D B,IDA*,misplaced,true,solved,2,3,39,40,2,0.043,5.765,2,,
+scramble,5,2,D B,Duas fases (200 ms),h1/h2,true,solved,2,1064,1064,,,0.243,,2,,
+scramble,6,2,R U',IDA*,pdb,true,solved,2,2,4,5,2,0.029,1.562,2,,
+scramble,6,2,R U',IDA*,misplaced,true,solved,2,2,4,5,2,0.015,1.562,2,,
+scramble,6,2,R U',Duas fases (200 ms),h1/h2,true,solved,2,1542,1542,,,0.295,,2,,
+scramble,7,2,L2 F2,IDA*,pdb,true,solved,2,2,19,20,2,0.026,3.887,2,,
+scramble,7,2,L2 F2,IDA*,misplaced,true,solved,2,2,19,20,2,0.026,3.887,2,,
+scramble,7,2,L2 F2,Duas fases (200 ms),h1/h2,true,solved,2,35,35,,,0.027,,2,,
+scramble,8,2,R B2,IDA*,pdb,true,solved,2,2,23,24,2,0.03,4.322,2,,
+scramble,8,2,R B2,IDA*,misplaced,true,solved,2,3,38,39,2,0.048,5.685,2,,
+scramble,8,2,R B2,Duas fases (200 ms),h1/h2,true,solved,2,1539,1539,,,0.225,,2,,
+scramble,9,2,U2 D2,IDA*,pdb,true,solved,2,2,10,11,2,0.017,2.702,2,,
+scramble,9,2,U2 D2,IDA*,misplaced,true,solved,2,2,10,11,2,0.019,2.702,2,,
+scramble,9,2,U2 D2,Duas fases (200 ms),h1/h2,true,solved,2,22,22,,,0.012,,2,,
+scramble,0,4,R L F' R2,IDA*,pdb,true,solved,4,4,27,28,4,0.032,1.936,4,,
+scramble,0,4,R L F' R2,IDA*,misplaced,true,solved,4,22,273,274,4,0.271,3.768,4,,
+scramble,0,4,R L F' R2,Duas fases (200 ms),h1/h2,true,solved,4,1452,1452,,,0.164,,4,,
+scramble,1,4,U L U' F',IDA*,pdb,true,solved,4,4,23,24,4,0.035,1.842,4,,
+scramble,1,4,U L U' F',IDA*,misplaced,true,solved,4,36,470,471,4,0.386,4.366,4,,
+scramble,1,4,U L U' F',Duas fases (200 ms),h1/h2,true,solved,4,1121,1121,,,0.187,,4,,
+scramble,2,4,L F' U B',IDA*,pdb,true,solved,4,4,35,36,4,0.051,2.096,4,,
+scramble,2,4,L F' U B',IDA*,misplaced,true,solved,4,28,362,363,4,0.172,4.069,4,,
+scramble,2,4,L F' U B',Duas fases (200 ms),h1/h2,true,solved,4,1430,1430,,,0.109,,4,,
+scramble,3,4,F2 U' F B,IDA*,pdb,true,solved,4,16,192,193,5,0.171,3.42,4,,
+scramble,3,4,F2 U' F B,IDA*,misplaced,true,solved,4,35,471,472,4,0.207,4.368,4,,
+scramble,3,4,F2 U' F B,Duas fases (200 ms),h1/h2,true,solved,4,921,921,,,0.171,,4,,
+scramble,4,4,L2 F' R F,IDA*,pdb,true,solved,4,4,30,31,4,0.04,2,4,,
+scramble,4,4,L2 F' R F,IDA*,misplaced,true,solved,4,39,504,505,4,0.252,4.449,4,,
+scramble,4,4,L2 F' R F,Duas fases (200 ms),h1/h2,true,solved,4,56,56,,,0.028,,4,,
+scramble,5,4,B' D R2 F2,IDA*,pdb,true,solved,4,4,32,33,4,0.063,2.04,4,,
+scramble,5,4,B' D R2 F2,IDA*,misplaced,true,solved,4,15,191,192,4,0.109,3.415,4,,
+scramble,5,4,B' D R2 F2,Duas fases (200 ms),h1/h2,true,solved,4,60,60,,,0.038,,4,,
+scramble,6,4,R' F R F,IDA*,pdb,true,solved,4,4,25,26,4,0.038,1.891,4,,
+scramble,6,4,R' F R F,IDA*,misplaced,true,solved,4,85,1183,1184,4,0.721,5.584,4,,
+scramble,6,4,R' F R F,Duas fases (200 ms),h1/h2,true,solved,4,63,63,,,0.04,,4,,
+scramble,7,4,F2 L2 D2 L',IDA*,pdb,true,solved,4,11,127,128,5,0.124,3.048,4,,
+scramble,7,4,F2 L2 D2 L',IDA*,misplaced,true,solved,4,43,568,569,4,0.281,4.594,4,,
+scramble,7,4,F2 L2 D2 L',Duas fases (200 ms),h1/h2,true,solved,4,770,770,,,0.142,,4,,
+scramble,8,4,D' L U2 F',IDA*,pdb,true,solved,4,4,28,29,4,0.043,1.958,4,,
+scramble,8,4,D' L U2 F',IDA*,misplaced,true,solved,4,15,184,185,4,0.086,3.38,4,,
+scramble,8,4,D' L U2 F',Duas fases (200 ms),h1/h2,true,solved,4,1120,1120,,,0.108,,4,,
+scramble,9,4,R F2 B2 U',IDA*,pdb,true,solved,4,4,26,27,4,0.039,1.914,4,,
+scramble,9,4,R F2 B2 U',IDA*,misplaced,true,solved,4,7,74,75,4,0.078,2.614,4,,
+scramble,9,4,R F2 B2 U',Duas fases (200 ms),h1/h2,true,solved,4,1581,1581,,,0.103,,4,,
+scramble,0,6,B2 R2 D2 B2 L' D',IDA*,pdb,true,solved,6,346,4606,4607,7,3.601,3.882,6,,
+scramble,0,6,B2 R2 D2 B2 L' D',IDA*,misplaced,true,solved,6,2669,35479,35480,6,8.045,5.545,6,,
+scramble,0,6,B2 R2 D2 B2 L' D',Duas fases (200 ms),h1/h2,true,solved,6,6809,6809,,,1.033,,6,,
+scramble,1,6,U B L' D' B L2,IDA*,pdb,true,solved,6,16,193,194,6,0.128,2.173,6,,
+scramble,1,6,U B L' D' B L2,IDA*,misplaced,true,solved,6,3632,48301,48302,6,9.915,5.849,6,,
+scramble,1,6,U B L' D' B L2,Duas fases (200 ms),h1/h2,true,solved,6,1109,1109,,,0.105,,6,,
+scramble,2,6,U R2 F' U' F L,IDA*,pdb,true,solved,6,30,364,365,6,0.191,2.45,6,,
+scramble,2,6,U R2 F' U' F L,IDA*,misplaced,true,solved,6,4965,66394,66395,6,17.379,6.179,6,,
+scramble,2,6,U R2 F' U' F L,Duas fases (200 ms),h1/h2,true,solved,6,6846,6846,,,0.61,,6,,
+scramble,3,6,F R' B2 R' D2 R',IDA*,pdb,true,solved,6,6,37,38,6,0.055,1.557,6,,
+scramble,3,6,F R' B2 R' D2 R',IDA*,misplaced,true,solved,6,1112,14857,14858,6,4.15,4.767,6,,
+scramble,3,6,F R' B2 R' D2 R',Duas fases (200 ms),h1/h2,true,solved,6,1619,1619,,,0.128,,6,,
+scramble,4,6,B' L2 B R L' D,IDA*,pdb,true,solved,6,15,178,179,7,0.123,2.139,6,,
+scramble,4,6,B' L2 B R L' D,IDA*,misplaced,true,solved,6,3711,49186,49187,6,11.338,5.867,6,,
+scramble,4,6,B' L2 B R L' D,Duas fases (200 ms),h1/h2,true,solved,6,2290,2290,,,0.219,,6,,
+scramble,5,6,F L' F2 L2 U F,IDA*,pdb,true,solved,6,6,44,45,6,0.05,1.615,6,,
+scramble,5,6,F L' F2 L2 U F,IDA*,misplaced,true,solved,6,2972,40181,40182,6,8.822,5.666,6,,
+scramble,5,6,F L' F2 L2 U F,Duas fases (200 ms),h1/h2,true,solved,6,1619,1619,,,0.126,,6,,
+scramble,6,6,L F2 L2 F R B',IDA*,pdb,true,solved,6,18,227,228,7,0.153,2.241,6,,
+scramble,6,6,L F2 L2 F R B',IDA*,misplaced,true,solved,6,3884,51911,51912,6,10.54,5.922,6,,
+scramble,6,6,L F2 L2 F R B',Duas fases (200 ms),h1/h2,true,solved,6,716,716,,,0.105,,6,,
+scramble,7,6,L' F D' F2 R B2,IDA*,pdb,true,solved,6,6,51,52,6,0.046,1.666,6,,
+scramble,7,6,L' F D' F2 R B2,IDA*,misplaced,true,solved,6,3692,49209,49210,6,11.249,5.868,6,,
+scramble,7,6,L' F D' F2 R B2,Duas fases (200 ms),h1/h2,true,solved,6,87,87,,,0.033,,6,,
+scramble,8,6,B2 U R F B R',IDA*,pdb,true,solved,6,18,222,223,6,0.133,2.232,6,,
+scramble,8,6,B2 U R F B R',IDA*,misplaced,true,solved,6,1173,15684,15685,6,3.022,4.813,6,,
+scramble,8,6,B2 U R F B R',Duas fases (200 ms),h1/h2,true,solved,6,1648,1648,,,0.135,,6,,
+scramble,9,6,R2 L2 F' B2 R U,IDA*,pdb,true,solved,6,90,1168,1169,7,0.531,3.037,6,,
+scramble,9,6,R2 L2 F' B2 R U,IDA*,misplaced,true,solved,6,820,10870,10871,6,2.272,4.514,6,,
+scramble,9,6,R2 L2 F' B2 R U,Duas fases (200 ms),h1/h2,true,solved,6,1301,1301,,,0.099,,6,,
+scramble,0,7,D L2 D' F' U B2 R2,IDA*,pdb,true,solved,7,146,1916,1917,8,1.006,2.761,7,,
+scramble,0,7,D L2 D' F' U B2 R2,IDA*,misplaced,true,solved,7,23988,322484,322485,7,61.704,5.964,7,,
+scramble,0,7,D L2 D' F' U B2 R2,Duas fases (200 ms),h1/h2,true,solved,7,1773,1773,,,0.151,,7,,
+scramble,1,7,R B D' L D B2 D',IDA*,pdb,true,solved,7,47,604,605,7,0.339,2.302,7,,
+scramble,1,7,R B D' L D B2 D',IDA*,misplaced,true,solved,7,37038,493507,493508,7,98.571,6.349,7,,
+scramble,1,7,R B D' L D B2 D',Duas fases (200 ms),h1/h2,true,solved,7,2376,2376,,,0.294,,7,,
+scramble,2,7,F2 L2 B2 R B' R D2,IDA*,pdb,true,solved,7,216,2835,2836,8,1.392,2.934,7,,
+scramble,2,7,F2 L2 B2 R B' R D2,IDA*,misplaced,true,solved,7,36718,489753,489754,7,93.865,6.342,7,,
+scramble,2,7,F2 L2 B2 R B' R D2,Duas fases (200 ms),h1/h2,true,solved,7,2354,2354,,,0.276,,7,,
+scramble,3,7,U' B' L D R F' U',IDA*,pdb,true,solved,7,13,130,131,7,0.098,1.787,7,,
+scramble,3,7,U' B' L D R F' U',IDA*,misplaced,true,solved,7,4578,61099,61100,7,10.495,4.664,7,,
+scramble,3,7,U' B' L D R F' U',Duas fases (200 ms),h1/h2,true,solved,7,88,88,,,0.055,,7,,
+scramble,4,7,F2 U2 B2 L' F L' D',IDA*,pdb,true,solved,7,162,2130,2131,8,0.947,2.807,7,,
+scramble,4,7,F2 U2 B2 L' F L' D',IDA*,misplaced,true,solved,7,32440,433998,433999,7,82.164,6.23,7,,
+scramble,4,7,F2 U2 B2 L' F L' D',Duas fases (200 ms),h1/h2,true,solved,7,2041,2041,,,0.194,,7,,
+scramble,5,7,L' D B D2 B' D' R,IDA*,pdb,true,solved,7,66,860,861,7,0.425,2.435,7,,
+scramble,5,7,L' D B D2 B' D' R,IDA*,misplaced,true,solved,7,27659,368291,368292,7,73.261,6.082,7,,
+scramble,5,7,L' D B D2 B' D' R,Duas fases (200 ms),h1/h2,true,solved,7,5138,5138,,,0.579,,7,,
+scramble,6,7,R U2 L2 B U' R U,IDA*,pdb,true,solved,7,13,128,129,7,0.099,1.783,7,,
+scramble,6,7,R U2 L2 B U' R U,IDA*,misplaced,true,solved,7,10743,143726,143727,7,26.111,5.294,7,,
+scramble,6,7,R U2 L2 B U' R U,Duas fases (200 ms),h1/h2,true,solved,7,833,833,,,0.152,,7,,
+scramble,7,7,B' R' B D2 F L D2,IDA*,pdb,true,solved,7,11,123,124,7,0.092,1.77,7,,
+scramble,7,7,B' R' B D2 F L D2,IDA*,misplaced,true,solved,7,37452,500739,500740,7,90.642,6.362,7,,
+scramble,7,7,B' R' B D2 F L D2,Duas fases (200 ms),h1/h2,true,solved,7,204,204,,,0.069,,7,,
+scramble,8,7,D2 L' F' D2 F2 R' F2,IDA*,pdb,true,solved,7,21,248,249,7,0.153,1.992,7,,
+scramble,8,7,D2 L' F' D2 F2 R' F2,IDA*,misplaced,true,solved,7,29183,389333,389334,7,78.419,6.132,7,,
+scramble,8,7,D2 L' F' D2 F2 R' F2,Duas fases (200 ms),h1/h2,true,solved,7,161,161,,,0.085,,7,,
+scramble,9,7,F2 L2 D R2 D' F2 U,IDA*,pdb,true,solved,7,2212,29520,29521,8,13.272,4.185,7,,
+scramble,9,7,F2 L2 D R2 D' F2 U,IDA*,misplaced,true,solved,7,14330,190584,190585,7,40.464,5.519,7,,
+scramble,9,7,F2 L2 D R2 D' F2 U,Duas fases (200 ms),h1/h2,true,solved,7,940214,940214,,,24.298,,7,,
+scramble,0,8,L2 D B2 L2 U B L2 F,IDA*,pdb,true,solved,8,2918,38801,38802,9,18.697,3.597,8,,
+scramble,0,8,L2 D B2 L2 U B L2 F,Duas fases (200 ms),h1/h2,true,solved,8,132492,132492,,,6.153,,8,,
+scramble,1,8,L B' U' B' L2 B' R' B2,IDA*,pdb,true,solved,8,69,909,910,8,0.612,2.17,8,,
+scramble,1,8,L B' U' B' L2 B' R' B2,Duas fases (200 ms),h1/h2,true,solved,8,391475,391475,,,14.41,,8,,
+scramble,2,8,U' L2 D L B' U' F B',IDA*,pdb,true,solved,8,330,4386,4387,8,1.903,2.692,8,,
+scramble,2,8,U' L2 D L B' U' F B',Duas fases (200 ms),h1/h2,true,solved,8,2348,2348,,,0.099,,8,,
+scramble,3,8,L2 F B2 D L' B U R,IDA*,pdb,true,solved,8,107,1424,1425,8,0.606,2.309,8,,
+scramble,3,8,L2 F B2 D L' B U R,Duas fases (200 ms),h1/h2,true,solved,8,583,583,,,0.046,,8,,
+scramble,4,8,D' R' B L2 B' U' B L,IDA*,pdb,true,solved,8,52,669,670,8,0.297,2.078,8,,
+scramble,4,8,D' R' B L2 B' U' B L,Duas fases (200 ms),h1/h2,true,solved,8,121,121,,,0.016,,8,,
+scramble,5,8,D2 B U2 F L2 F2 R U,IDA*,pdb,true,solved,8,74,959,960,8,0.413,2.186,8,,
+scramble,5,8,D2 B U2 F L2 F2 R U,Duas fases (200 ms),h1/h2,true,solved,8,1625,1625,,,0.109,,8,,
+scramble,6,8,D2 L' B' R2 D' F2 R' F2,IDA*,pdb,true,solved,8,53,690,691,8,0.279,2.087,8,,
+scramble,6,8,D2 L' B' R2 D' F2 R' F2,Duas fases (200 ms),h1/h2,true,solved,8,167,167,,,0.015,,8,,
+scramble,7,8,F B D2 B' L' F D' R',IDA*,pdb,true,solved,8,244,3195,3196,9,1.195,2.579,8,,
+scramble,7,8,F B D2 B' L' F D' R',Duas fases (200 ms),h1/h2,true,solved,8,15478,15478,,,0.696,,8,,
+scramble,8,8,L2 F2 R' F' U' L F' B2,IDA*,pdb,true,solved,8,161,2122,2123,8,1.309,2.439,8,,
+scramble,8,8,L2 F2 R' F' U' L F' B2,Duas fases (200 ms),h1/h2,true,solved,8,800691,800691,,,22.145,,8,,
+scramble,9,8,R F2 B D R L' D B',IDA*,pdb,true,solved,8,38,490,491,8,0.269,1.989,8,,
+scramble,9,8,R F2 B D R L' D B',Duas fases (200 ms),h1/h2,true,solved,8,2172,2172,,,0.091,,8,,
+scramble,0,9,D2 L' F B D' L U2 R2 B,IDA*,pdb,true,solved,9,706,9392,9393,9,3.769,2.62,9,,
+scramble,0,9,D2 L' F B D' L U2 R2 B,Duas fases (200 ms),h1/h2,true,solved,9,1166,1166,,,0.066,,9,,
+scramble,1,9,L F' B2 U L2 U D' F' L2,IDA*,pdb,true,solved,9,981,13038,13039,9,6.333,2.724,9,,
+scramble,1,9,L F' B2 U L2 U D' F' L2,Duas fases (200 ms),h1/h2,true,solved,9,528996,528996,,,18.288,,9,,
+scramble,2,9,B2 L D2 F2 U2 R B' D' R',IDA*,pdb,true,solved,9,925,12323,12324,10,5.217,2.706,9,,
+scramble,2,9,B2 L D2 F2 U2 R B' D' R',Duas fases (200 ms),h1/h2,true,solved,9,5696,5696,,,0.247,,9,,
+scramble,3,9,D2 L D2 B2 U' B L2 U' R',IDA*,pdb,true,solved,9,587,7904,7905,9,3.019,2.566,9,,
+scramble,3,9,D2 L D2 B2 U' B L2 U' R',Duas fases (200 ms),h1/h2,true,solved,9,16938,16938,,,0.657,,9,,
+scramble,4,9,D' F D' L2 D2 R2 U D2 F,IDA*,pdb,true,solved,9,2625,34936,34937,9,14.504,3.06,9,,
+scramble,4,9,D' F D' L2 D2 R2 U D2 F,Duas fases (200 ms),h1/h2,true,solved,9,11037,11037,,,0.591,,9,,
+scramble,5,9,U R F2 R' D' F B R' U2,IDA*,pdb,true,solved,9,236,3121,3122,9,1.213,2.294,9,,
+scramble,5,9,U R F2 R' D' F B R' U2,Duas fases (200 ms),h1/h2,true,solved,9,48798,48798,,,1.698,,9,,
+scramble,6,9,R2 U' D' L2 D B R' L2 U',IDA*,pdb,true,solved,9,2601,34597,34598,10,14.689,3.056,9,,
+scramble,6,9,R2 U' D' L2 D B R' L2 U',Duas fases (200 ms),h1/h2,true,solved,9,77872,77872,,,3.152,,9,,
+scramble,7,9,F' D2 L F D L2 D2 L B',IDA*,pdb,true,solved,9,789,10433,10434,9,4.978,2.653,9,,
+scramble,7,9,F' D2 L F D L2 D2 L B',Duas fases (200 ms),h1/h2,true,solved,9,59824,59824,,,2.257,,9,,
+scramble,8,9,L F2 R' L2 D' B2 D' B' D,IDA*,pdb,true,solved,9,463,6103,6104,9,2.654,2.488,9,,
+scramble,8,9,L F2 R' L2 D' B2 D' B' D,Duas fases (200 ms),h1/h2,true,solved,9,60153,60153,,,2.045,,9,,
+scramble,9,9,L D B2 L2 D2 B' D L2 D2,IDA*,pdb,true,solved,9,1218,16115,16116,9,7.255,2.793,9,,
+scramble,9,9,L D B2 L2 D2 B' D L2 D2,Duas fases (200 ms),h1/h2,true,solved,9,439906,439906,,,14.835,,9,,
+scramble,0,10,R' L D' B2 U' L2 B R2 U2 D',IDA*,pdb,true,solved,10,850,11334,11335,10,5.37,2.411,10,,
+scramble,0,10,R' L D' B2 U' L2 B R2 U2 D',Duas fases (200 ms),h1/h2,true,solved,10,335882,335882,,,11.166,,10,,
+scramble,1,10,L D2 B' L U' F U R B' U,IDA*,pdb,true,solved,10,3578,47975,47976,10,22.231,2.812,10,,
+scramble,1,10,L D2 B' L U' F U R B' U,Duas fases (200 ms),h1/h2,true,solved,10,257345,257345,,,9.065,,10,,
+scramble,2,10,R B2 D' L B2 U2 L2 U' B2 R,IDA*,pdb,true,solved,10,12652,168903,168904,10,76.681,3.21,10,,
+scramble,2,10,R B2 D' L B2 U2 L2 U' B2 R,Duas fases (200 ms),h1/h2,true,solved,10,1006100,1006100,,,42.78,,10,,
+scramble,3,10,B' L' D2 B R2 D B U2 B' L',IDA*,pdb,true,solved,10,11604,154768,154769,10,64.729,3.181,10,,
+scramble,3,10,B' L' D2 B R2 D B U2 B' L',Duas fases (200 ms),h1/h2,true,solved,10,467635,467635,,,15.413,,10,,
+scramble,4,10,R2 U' B' R2 F' L F2 R U2 R',IDA*,pdb,true,solved,10,9016,119988,119989,10,50.189,3.097,10,,
+scramble,4,10,R2 U' B' R2 F' L F2 R U2 R',Duas fases (200 ms),h1/h2,true,solved,10,71285,71285,,,2.2,,10,,
+scramble,5,10,L' F2 B' R' U R' F2 D F L,IDA*,pdb,true,solved,10,4388,58589,58590,10,25.35,2.872,10,,
+scramble,5,10,L' F2 B' R' U R' F2 D F L,Duas fases (200 ms),h1/h2,true,solved,10,83646,83646,,,2.651,,10,,
+scramble,6,10,R' L F2 B' R U' L' B2 L2 B2,IDA*,pdb,true,solved,10,39091,520584,520585,11,267.71,3.61,10,,
+scramble,6,10,R' L F2 B' R U' L' B2 L2 B2,Duas fases (200 ms),h1/h2,true,solved,10,1460537,1460537,,,63.21,,10,,
+scramble,7,10,D R D' L' U B2 D L D2 B2,IDA*,pdb,true,solved,10,63044,842087,842088,11,359.846,3.795,10,,
+scramble,7,10,D R D' L' U B2 D L D2 B2,Duas fases (200 ms),h1/h2,true,solved,10,183811,183811,,,8.739,,10,,
+scramble,8,10,R2 D' B' D L2 D B D F2 U',IDA*,pdb,true,solved,10,2902,38787,38788,10,17.842,2.749,10,,
+scramble,8,10,R2 D' B' D L2 D B D F2 U',Duas fases (200 ms),h1/h2,true,solved,10,36953,36953,,,1.591,,10,,
+scramble,9,10,F' R2 D' B U2 B' U R' B D2,IDA*,pdb,true,solved,10,10651,141964,141965,11,63.145,3.152,10,,
+scramble,9,10,F' R2 D' B U2 B' U R' B D2,Duas fases (200 ms),h1/h2,true,solved,10,790425,790425,,,28.58,,10,,
+scramble,0,11,D' R F' B2 D' F2 B' D2 R2 L2 D',IDA*,pdb,true,solved,11,78381,1046487,1046488,11,441.056,3.416,11,,
+scramble,0,11,D' R F' B2 D' F2 B' D2 R2 L2 D',Duas fases (200 ms),h1/h2,true,solved,11,275587,275587,,,10.138,,11,,
+scramble,1,11,B' U R2 U2 F2 D2 R' F' D2 F2 D',IDA*,pdb,true,solved,11,282331,3767743,3767744,11,1667.015,3.854,11,,
+scramble,1,11,B' U R2 U2 F2 D2 R' F' D2 F2 D',Duas fases (200 ms),h1/h2,true,solved,11,6242304,6242304,,,211.808,,11,,
+scramble,2,11,U2 R2 B2 L D L' U D' R2 F' R',IDA*,pdb,true,solved,11,62738,837597,837598,12,330.87,3.345,11,,
+scramble,2,11,U2 R2 B2 L D L' U D' R2 F' R',Duas fases (200 ms),h1/h2,true,solved,11,409237,409237,,,13.535,,11,,
+scramble,3,11,L' U' F' R2 F' L2 D' L2 U' R2 F',IDA*,pdb,true,solved,11,61960,827394,827395,11,327.94,3.341,11,,
+scramble,3,11,L' U' F' R2 F' L2 D' L2 U' R2 F',Duas fases (200 ms),h1/h2,true,solved,11,3096556,3096556,,,86.684,,11,,
+scramble,4,11,R L' F2 R' D B' U2 F' B' U R,IDA*,pdb,true,solved,11,62843,838443,838444,12,324.948,3.346,11,,
+scramble,4,11,R L' F2 R' D B' U2 F' B' U R,Duas fases (200 ms),h1/h2,true,solved,11,2228726,2228726,,,58.459,,11,,
+scramble,5,11,D' R' L2 D' F D' R2 D F' L2 D',IDA*,pdb,true,solved,11,308204,4112505,4112506,11,1771.912,3.886,11,,
+scramble,5,11,D' R' L2 D' F D' R2 D F' L2 D',Duas fases (200 ms),h1/h2,true,solved,11,1016550,1016550,,,32.741,,11,,
+scramble,6,11,F2 B2 R' U' B D R B2 R2 L2 F,IDA*,pdb,true,solved,11,60692,810084,810085,12,309.216,3.335,11,,
+scramble,6,11,F2 B2 R' U' B D R B2 R2 L2 F,Duas fases (200 ms),h1/h2,true,solved,11,110534,110534,,,2.824,,11,,
+scramble,7,11,F2 B2 L B2 D2 B' D2 L2 U R2 F2,IDA*,pdb,true,solved,11,119985,1600484,1600485,12,629.279,3.556,11,,
+scramble,7,11,F2 B2 L B2 D2 B' D2 L2 U R2 F2,Duas fases (200 ms),h1/h2,true,solved,11,315480,315480,,,9.58,,11,,
+scramble,8,11,R2 L F' D L D' F2 U F2 U2 B,IDA*,pdb,true,solved,11,257514,3436801,3436802,11,1362.818,3.821,11,,
+scramble,8,11,R2 L F' D L D' F2 U F2 U2 B,Duas fases (200 ms),h1/h2,true,solved,11,4385738,4385738,,,124.971,,11,,
+scramble,9,11,F B2 R U2 F B2 D R B D2 F,IDA*,pdb,true,solved,11,43082,574226,574227,11,240.401,3.228,11,,
+scramble,9,11,F B2 R U2 F B2 D R B D2 F,Duas fases (200 ms),h1/h2,true,solved,11,110965,110965,,,4.092,,11,,
+scramble,0,12,F' D' F L F' L' B R' F2 U' R D',IDA*,pdb,true,solved,12,578912,7728060,7728061,12,3068.569,3.651,12,,
+scramble,0,12,F' D' F L F' L' B R' F2 U' R D',Duas fases (200 ms),h1/h2,true,solved,20,7643136,7643136,,,200.293,,12,,
+scramble,1,12,U' R U2 F' B D' B U' R2 U F2 U2,IDA*,pdb,true,solved,12,291297,3885810,3885811,12,1555.73,3.441,12,,
+scramble,1,12,U' R U2 F' B D' B U' R2 U F2 U2,Duas fases (200 ms),h1/h2,true,solved,12,2270368,2270368,,,57.424,,12,,
+scramble,2,12,U2 F' B2 D L' U R2 U L2 F D' L',IDA*,pdb,true,solved,12,1015338,13556364,13556365,12,5311.226,3.832,12,,
+scramble,2,12,U2 F' B2 D L' U R2 U L2 F D' L',Duas fases (200 ms),h1/h2,true,solved,12,1600016,1600016,,,48.967,,12,,
+scramble,3,12,B2 U2 F2 L F' L2 F R' L2 U2 D2 L',IDA*,pdb,true,solved,12,2669123,35587128,35587129,13,13883.132,4.162,12,,
+scramble,3,12,B2 U2 F2 L F' L2 F R' L2 U2 D2 L',Duas fases (200 ms),h1/h2,true,solved,12,6619136,6619136,,,206.954,,12,,
+scramble,4,12,D' R2 D2 R D' B2 L2 B' D2 L2 B' U2,IDA*,pdb,true,solved,12,583232,7780215,7780216,13,3115.63,3.653,12,,
+scramble,4,12,D' R2 D2 R D' B2 L2 B' D2 L2 B' U2,Duas fases (200 ms),h1/h2,true,solved,12,3109366,3109366,,,82.034,,12,,
+scramble,5,12,R2 F' L F2 D2 F U' F B2 U2 D' L2,IDA*,pdb,true,solved,12,1519685,20291733,20291734,13,8318.703,3.967,12,,
+scramble,5,12,R2 F' L F2 D2 F U' F B2 U2 D' L2,Duas fases (200 ms),h1/h2,true,solved,12,2465860,2465860,,,69.78,,12,,
+scramble,6,12,F' U' L B U2 F' D2 L2 D R D' L,IDA*,pdb,true,solved,12,1819679,24276934,24276935,13,9447.823,4.028,12,,
+scramble,6,12,F' U' L B U2 F' D2 L2 D R D' L,Duas fases (200 ms),h1/h2,true,solved,20,7962624,7962624,,,200.667,,12,,
+scramble,7,12,R2 F2 D2 L B2 R F D' L2 D2 L' U2,IDA*,pdb,true,solved,12,374523,4992763,4992764,13,1909.715,3.516,12,,
+scramble,7,12,R2 F2 D2 L B2 R F D' L2 D2 L' U2,Duas fases (200 ms),h1/h2,true,solved,12,2610087,2610087,,,77.438,,12,,
+scramble,8,12,F2 U' F2 B2 U' D2 F2 L B L' F' R,IDA*,pdb,true,solved,12,1890495,25189511,25189512,13,10085.113,4.041,12,,
+scramble,8,12,F2 U' F2 B2 U' D2 F2 L B L' F' R,Duas fases (200 ms),h1/h2,true,solved,12,6758400,6758400,,,201.106,,12,,
+scramble,9,12,R2 L' U' L2 D F R' U' F' L2 U2 D2,IDA*,pdb,true,solved,12,467212,6230241,6230242,13,2544.771,3.584,12,,
+scramble,9,12,R2 L' U' L2 D F R' U' F' L2 U2 D2,Duas fases (200 ms),h1/h2,true,solved,17,6840320,6840320,,,201.698,,12,,
+uniform-random,0,,,Duas fases (1ª solução),h1/h2,true,solved,23,160803,160803,,,5.979,,,9,14
+uniform-random,0,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,5109189,5109189,,,154.956,,,12,8
+uniform-random,1,,,Duas fases (1ª solução),h1/h2,true,solved,22,157667,157667,,,5.184,,,8,14
+uniform-random,1,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,538556,538556,,,17.811,,,10,10
+uniform-random,2,,,Duas fases (1ª solução),h1/h2,true,solved,24,55426,55426,,,1.974,,,10,14
+uniform-random,2,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,7760511,7760511,,,212.928,,,12,8
+uniform-random,3,,,Duas fases (1ª solução),h1/h2,true,solved,24,1443072,1443072,,,43.165,,,9,15
+uniform-random,3,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3255408,3255408,,,93.684,,,11,9
+uniform-random,4,,,Duas fases (1ª solução),h1/h2,true,solved,23,266643,266643,,,7.334,,,10,13
+uniform-random,4,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38305792,38305792,,,1003.949,,,11,10
+uniform-random,5,,,Duas fases (1ª solução),h1/h2,true,solved,24,796834,796834,,,25.066,,,9,15
+uniform-random,5,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,8239207,8239207,,,255.931,,,12,8
+uniform-random,6,,,Duas fases (1ª solução),h1/h2,true,solved,23,194949,194949,,,5.802,,,9,14
+uniform-random,6,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2865438,2865438,,,76.476,,,12,8
+uniform-random,7,,,Duas fases (1ª solução),h1/h2,true,solved,22,74281,74281,,,1.921,,,10,12
+uniform-random,7,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3204605,3204605,,,75.894,,,12,8
+uniform-random,8,,,Duas fases (1ª solução),h1/h2,true,solved,23,651938,651938,,,19.976,,,8,15
+uniform-random,8,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1058754,1058754,,,32.352,,,10,10
+uniform-random,9,,,Duas fases (1ª solução),h1/h2,true,solved,23,61479,61479,,,2.071,,,10,13
+uniform-random,9,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,40165376,40165376,,,1000.375,,,11,10
+uniform-random,10,,,Duas fases (1ª solução),h1/h2,true,solved,24,263676,263676,,,9.259,,,10,14
+uniform-random,10,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,741126,741126,,,23.31,,,10,10
+uniform-random,11,,,Duas fases (1ª solução),h1/h2,true,solved,22,27742,27742,,,0.808,,,10,12
+uniform-random,11,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,40132608,40132608,,,1000.829,,,11,10
+uniform-random,12,,,Duas fases (1ª solução),h1/h2,true,solved,22,63358,63358,,,3.154,,,9,13
+uniform-random,12,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,287140,287140,,,10.753,,,10,10
+uniform-random,13,,,Duas fases (1ª solução),h1/h2,true,solved,24,516159,516159,,,16.446,,,10,14
+uniform-random,13,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,34127872,34127872,,,1006.727,,,12,9
+uniform-random,14,,,Duas fases (1ª solução),h1/h2,true,solved,23,13181,13181,,,0.443,,,10,13
+uniform-random,14,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,35618816,35618816,,,1000.159,,,11,10
+uniform-random,15,,,Duas fases (1ª solução),h1/h2,true,solved,24,59875,59875,,,2.405,,,10,14
+uniform-random,15,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3782818,3782818,,,112.219,,,12,8
+uniform-random,16,,,Duas fases (1ª solução),h1/h2,true,solved,24,335124,335124,,,10.224,,,9,15
+uniform-random,16,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,4193031,4193031,,,129.602,,,11,9
+uniform-random,17,,,Duas fases (1ª solução),h1/h2,true,solved,25,195539,195539,,,6.733,,,10,15
+uniform-random,17,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,11775276,11775276,,,297.581,,,12,8
+uniform-random,18,,,Duas fases (1ª solução),h1/h2,true,solved,25,373205,373205,,,12.122,,,10,15
+uniform-random,18,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1331255,1331255,,,39.058,,,11,9
+uniform-random,19,,,Duas fases (1ª solução),h1/h2,true,solved,23,90940,90940,,,2.858,,,10,13
+uniform-random,19,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,4831995,4831995,,,173.634,,,12,8
+uniform-random,20,,,Duas fases (1ª solução),h1/h2,true,solved,24,83754,83754,,,4.198,,,10,14
+uniform-random,20,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,4812340,4812340,,,169.368,,,12,8
+uniform-random,21,,,Duas fases (1ª solução),h1/h2,true,solved,23,84497,84497,,,3.127,,,10,13
+uniform-random,21,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,13004547,13004547,,,332.732,,,12,7
+uniform-random,22,,,Duas fases (1ª solução),h1/h2,true,solved,24,426564,426564,,,14.012,,,10,14
+uniform-random,22,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2253132,2253132,,,61.967,,,11,9
+uniform-random,23,,,Duas fases (1ª solução),h1/h2,true,solved,25,958899,958899,,,25.793,,,10,15
+uniform-random,23,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,7469255,7469255,,,193.712,,,12,7
+uniform-random,24,,,Duas fases (1ª solução),h1/h2,true,solved,22,384851,384851,,,11.035,,,8,14
+uniform-random,24,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,708182,708182,,,20.657,,,10,9
+uniform-random,25,,,Duas fases (1ª solução),h1/h2,true,solved,24,189103,189103,,,5.395,,,10,14
+uniform-random,25,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1483248,1483248,,,42.447,,,12,8
+uniform-random,26,,,Duas fases (1ª solução),h1/h2,true,solved,23,66652,66652,,,2.385,,,10,13
+uniform-random,26,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,20718091,20718091,,,588.581,,,12,8
+uniform-random,27,,,Duas fases (1ª solução),h1/h2,true,solved,23,149141,149141,,,5.89,,,10,13
+uniform-random,27,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,8376340,8376340,,,237.925,,,12,8
+uniform-random,28,,,Duas fases (1ª solução),h1/h2,true,solved,23,48756,48756,,,1.575,,,10,13
+uniform-random,28,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1274814,1274814,,,32.565,,,12,8
+uniform-random,29,,,Duas fases (1ª solução),h1/h2,true,solved,23,55425,55425,,,1.6,,,10,13
+uniform-random,29,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,204440,204440,,,6.638,,,10,10
+uniform-random,30,,,Duas fases (1ª solução),h1/h2,true,solved,20,29107,29107,,,0.847,,,8,12
+uniform-random,30,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,29107,29107,,,0.734,,,8,12
+uniform-random,31,,,Duas fases (1ª solução),h1/h2,true,solved,24,82054,82054,,,2.091,,,10,14
+uniform-random,31,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,7390536,7390536,,,181.951,,,12,7
+uniform-random,32,,,Duas fases (1ª solução),h1/h2,true,solved,22,12822,12822,,,0.414,,,9,13
+uniform-random,32,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,98785,98785,,,2.564,,,10,10
+uniform-random,33,,,Duas fases (1ª solução),h1/h2,true,solved,21,34852,34852,,,1.04,,,9,12
+uniform-random,33,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,349456,349456,,,8.387,,,11,8
+uniform-random,34,,,Duas fases (1ª solução),h1/h2,true,solved,23,218169,218169,,,6.661,,,9,14
+uniform-random,34,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38199296,38199296,,,1006.802,,,11,10
+uniform-random,35,,,Duas fases (1ª solução),h1/h2,true,solved,22,57757,57757,,,2.855,,,8,14
+uniform-random,35,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1187304,1187304,,,42.513,,,11,9
+uniform-random,36,,,Duas fases (1ª solução),h1/h2,true,solved,22,22004,22004,,,0.81,,,10,12
+uniform-random,36,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,29518743,29518743,,,727.04,,,13,7
+uniform-random,37,,,Duas fases (1ª solução),h1/h2,true,solved,24,199722,199722,,,6.74,,,9,15
+uniform-random,37,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,4022242,4022242,,,107.465,,,12,8
+uniform-random,38,,,Duas fases (1ª solução),h1/h2,true,solved,24,250325,250325,,,7.889,,,10,14
+uniform-random,38,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1048706,1048706,,,31.281,,,11,9
+uniform-random,39,,,Duas fases (1ª solução),h1/h2,true,solved,19,26179,26179,,,0.74,,,10,9
+uniform-random,39,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,26179,26179,,,0.607,,,10,9
+uniform-random,40,,,Duas fases (1ª solução),h1/h2,true,solved,22,22558,22558,,,0.881,,,8,14
+uniform-random,40,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,174111,174111,,,5.925,,,9,11
+uniform-random,41,,,Duas fases (1ª solução),h1/h2,true,solved,23,77308,77308,,,2.578,,,10,13
+uniform-random,41,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,39346176,39346176,,,1003.751,,,10,11
+uniform-random,42,,,Duas fases (1ª solução),h1/h2,true,solved,24,39186,39186,,,1.518,,,10,14
+uniform-random,42,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3909638,3909638,,,104.43,,,12,8
+uniform-random,43,,,Duas fases (1ª solução),h1/h2,true,solved,22,99821,99821,,,3.149,,,10,12
+uniform-random,43,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,35774464,35774464,,,1000.838,,,12,9
+uniform-random,44,,,Duas fases (1ª solução),h1/h2,true,solved,25,426229,426229,,,13.325,,,10,15
+uniform-random,44,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2471350,2471350,,,74.346,,,11,9
+uniform-random,45,,,Duas fases (1ª solução),h1/h2,true,solved,25,322856,322856,,,10.872,,,10,15
+uniform-random,45,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,1220759,1220759,,,32.889,,,11,8
+uniform-random,46,,,Duas fases (1ª solução),h1/h2,true,solved,23,81604,81604,,,2.552,,,10,13
+uniform-random,46,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,14128940,14128940,,,369.11,,,12,8
+uniform-random,47,,,Duas fases (1ª solução),h1/h2,true,solved,23,119876,119876,,,4.539,,,10,13
+uniform-random,47,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,39395328,39395328,,,1001.139,,,12,9
+uniform-random,48,,,Duas fases (1ª solução),h1/h2,true,solved,24,116105,116105,,,4.771,,,10,14
+uniform-random,48,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38920192,38920192,,,1001.512,,,11,10
+uniform-random,49,,,Duas fases (1ª solução),h1/h2,true,solved,22,97636,97636,,,3.933,,,9,13
+uniform-random,49,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,7288455,7288455,,,184.181,,,12,7
+uniform-random,50,,,Duas fases (1ª solução),h1/h2,true,solved,24,177062,177062,,,5.402,,,10,14
+uniform-random,50,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,9499850,9499850,,,229.24,,,12,7
+uniform-random,51,,,Duas fases (1ª solução),h1/h2,true,solved,22,89676,89676,,,2.735,,,10,12
+uniform-random,51,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1229955,1229955,,,33.865,,,11,9
+uniform-random,52,,,Duas fases (1ª solução),h1/h2,true,solved,24,251357,251357,,,7.041,,,10,14
+uniform-random,52,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,6705342,6705342,,,171.678,,,12,8
+uniform-random,53,,,Duas fases (1ª solução),h1/h2,true,solved,23,117199,117199,,,3.914,,,10,13
+uniform-random,53,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,7555928,7555928,,,201.799,,,12,8
+uniform-random,54,,,Duas fases (1ª solução),h1/h2,true,solved,23,142157,142157,,,4.554,,,10,13
+uniform-random,54,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3447037,3447037,,,94.091,,,12,8
+uniform-random,55,,,Duas fases (1ª solução),h1/h2,true,solved,25,354786,354786,,,11.391,,,10,15
+uniform-random,55,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,1309638,1309638,,,38.205,,,10,9
+uniform-random,56,,,Duas fases (1ª solução),h1/h2,true,solved,22,67734,67734,,,2.049,,,9,13
+uniform-random,56,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,116938,116938,,,3.995,,,9,11
+uniform-random,57,,,Duas fases (1ª solução),h1/h2,true,solved,21,558719,558719,,,15.002,,,8,13
+uniform-random,57,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,611171,611171,,,17.897,,,8,12
+uniform-random,58,,,Duas fases (1ª solução),h1/h2,true,solved,24,45478,45478,,,1.598,,,10,14
+uniform-random,58,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,7404784,7404784,,,211.416,,,12,8
+uniform-random,59,,,Duas fases (1ª solução),h1/h2,true,solved,23,152974,152974,,,5.075,,,10,13
+uniform-random,59,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3979889,3979889,,,111.036,,,12,8
+uniform-random,60,,,Duas fases (1ª solução),h1/h2,true,solved,21,20712,20712,,,0.943,,,10,11
+uniform-random,60,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,37928960,37928960,,,1004.637,,,10,11
+uniform-random,61,,,Duas fases (1ª solução),h1/h2,true,solved,22,138188,138188,,,5.069,,,9,13
+uniform-random,61,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,13380845,13380845,,,351.463,,,12,8
+uniform-random,62,,,Duas fases (1ª solução),h1/h2,true,solved,22,16254,16254,,,0.479,,,10,12
+uniform-random,62,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3304751,3304751,,,80.961,,,12,8
+uniform-random,63,,,Duas fases (1ª solução),h1/h2,true,solved,23,129588,129588,,,4.019,,,10,13
+uniform-random,63,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,250277,250277,,,7.172,,,11,9
+uniform-random,64,,,Duas fases (1ª solução),h1/h2,true,solved,22,65546,65546,,,1.882,,,9,13
+uniform-random,64,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,289099,289099,,,8.834,,,10,10
+uniform-random,65,,,Duas fases (1ª solução),h1/h2,true,solved,23,639550,639550,,,17.573,,,10,13
+uniform-random,65,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,770221,770221,,,20.634,,,10,10
+uniform-random,66,,,Duas fases (1ª solução),h1/h2,true,solved,23,82094,82094,,,2.41,,,10,13
+uniform-random,66,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,10588455,10588455,,,292.232,,,12,7
+uniform-random,67,,,Duas fases (1ª solução),h1/h2,true,solved,22,103525,103525,,,3.3,,,9,13
+uniform-random,67,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,528404,528404,,,16.321,,,11,9
+uniform-random,68,,,Duas fases (1ª solução),h1/h2,true,solved,24,335705,335705,,,9.425,,,9,15
+uniform-random,68,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,1237018,1237018,,,35.862,,,10,9
+uniform-random,69,,,Duas fases (1ª solução),h1/h2,true,solved,24,707074,707074,,,18.551,,,11,13
+uniform-random,69,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,2350664,2350664,,,65.863,,,11,8
+uniform-random,70,,,Duas fases (1ª solução),h1/h2,true,solved,24,208878,208878,,,5.93,,,10,14
+uniform-random,70,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,39174144,39174144,,,1000.992,,,13,8
+uniform-random,71,,,Duas fases (1ª solução),h1/h2,true,solved,24,857688,857688,,,28.256,,,10,14
+uniform-random,71,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,8998737,8998737,,,249.401,,,12,8
+uniform-random,72,,,Duas fases (1ª solução),h1/h2,true,solved,24,453993,453993,,,13.086,,,10,14
+uniform-random,72,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,36249600,36249600,,,1005.292,,,11,10
+uniform-random,73,,,Duas fases (1ª solução),h1/h2,true,solved,24,447666,447666,,,13.258,,,10,14
+uniform-random,73,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1252320,1252320,,,38.197,,,11,9
+uniform-random,74,,,Duas fases (1ª solução),h1/h2,true,solved,24,332316,332316,,,13.113,,,9,15
+uniform-random,74,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,3052757,3052757,,,84.881,,,11,9
+uniform-random,75,,,Duas fases (1ª solução),h1/h2,true,solved,22,31154,31154,,,0.892,,,10,12
+uniform-random,75,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,5693696,5693696,,,136.677,,,12,8
+uniform-random,76,,,Duas fases (1ª solução),h1/h2,true,solved,24,403071,403071,,,11.091,,,10,14
+uniform-random,76,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,13539070,13539070,,,333.97,,,12,8
+uniform-random,77,,,Duas fases (1ª solução),h1/h2,true,solved,24,58214,58214,,,1.699,,,10,14
+uniform-random,77,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,8943830,8943830,,,214.04,,,12,8
+uniform-random,78,,,Duas fases (1ª solução),h1/h2,true,solved,21,135461,135461,,,4.144,,,8,13
+uniform-random,78,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,157530,157530,,,4.364,,,8,12
+uniform-random,79,,,Duas fases (1ª solução),h1/h2,true,solved,25,1993976,1993976,,,56.303,,,10,15
+uniform-random,79,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,9237315,9237315,,,271.119,,,12,8
+uniform-random,80,,,Duas fases (1ª solução),h1/h2,true,solved,25,933748,933748,,,27.614,,,10,15
+uniform-random,80,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,13447990,13447990,,,361.573,,,12,8
+uniform-random,81,,,Duas fases (1ª solução),h1/h2,true,solved,23,141956,141956,,,4.761,,,9,14
+uniform-random,81,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,144602,144602,,,3.923,,,9,11
+uniform-random,82,,,Duas fases (1ª solução),h1/h2,true,solved,22,307196,307196,,,8.401,,,9,13
+uniform-random,82,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2307966,2307966,,,66.784,,,11,9
+uniform-random,83,,,Duas fases (1ª solução),h1/h2,true,solved,23,136141,136141,,,4.031,,,10,13
+uniform-random,83,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,642735,642735,,,16.732,,,11,9
+uniform-random,84,,,Duas fases (1ª solução),h1/h2,true,solved,21,24107,24107,,,0.77,,,9,12
+uniform-random,84,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,355186,355186,,,9.618,,,11,9
+uniform-random,85,,,Duas fases (1ª solução),h1/h2,true,solved,26,715334,715334,,,19.473,,,11,15
+uniform-random,85,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,39321600,39321600,,,1000.129,,,12,9
+uniform-random,86,,,Duas fases (1ª solução),h1/h2,true,solved,23,79095,79095,,,2.867,,,10,13
+uniform-random,86,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,37871616,37871616,,,1001.53,,,10,11
+uniform-random,87,,,Duas fases (1ª solução),h1/h2,true,solved,23,104934,104934,,,4.541,,,9,14
+uniform-random,87,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,19,1040761,1040761,,,28.706,,,11,8
+uniform-random,88,,,Duas fases (1ª solução),h1/h2,true,solved,23,201904,201904,,,6.759,,,9,14
+uniform-random,88,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,461962,461962,,,15.242,,,10,10
+uniform-random,89,,,Duas fases (1ª solução),h1/h2,true,solved,24,77926,77926,,,2.677,,,10,14
+uniform-random,89,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,6782401,6782401,,,181.555,,,12,8
+uniform-random,90,,,Duas fases (1ª solução),h1/h2,true,solved,23,215839,215839,,,6.739,,,9,14
+uniform-random,90,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38518784,38518784,,,1013.611,,,11,10
+uniform-random,91,,,Duas fases (1ª solução),h1/h2,true,solved,24,796307,796307,,,25.412,,,9,15
+uniform-random,91,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2964153,2964153,,,82.825,,,11,9
+uniform-random,92,,,Duas fases (1ª solução),h1/h2,true,solved,24,131074,131074,,,3.875,,,10,14
+uniform-random,92,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1098334,1098334,,,30.049,,,11,9
+uniform-random,93,,,Duas fases (1ª solução),h1/h2,true,solved,22,17500,17500,,,0.495,,,10,12
+uniform-random,93,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38330368,38330368,,,1000.085,,,11,10
+uniform-random,94,,,Duas fases (1ª solução),h1/h2,true,solved,24,174100,174100,,,6.612,,,10,14
+uniform-random,94,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,2206976,2206976,,,56.28,,,12,8
+uniform-random,95,,,Duas fases (1ª solução),h1/h2,true,solved,22,10736,10736,,,0.473,,,9,13
+uniform-random,95,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,81147,81147,,,2.488,,,9,11
+uniform-random,96,,,Duas fases (1ª solução),h1/h2,true,solved,26,853582,853582,,,25.57,,,10,16
+uniform-random,96,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,21,38150144,38150144,,,1004.364,,,10,11
+uniform-random,97,,,Duas fases (1ª solução),h1/h2,true,solved,21,17280,17280,,,0.83,,,9,12
+uniform-random,97,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,41223,41223,,,1.663,,,9,11
+uniform-random,98,,,Duas fases (1ª solução),h1/h2,true,solved,25,753864,753864,,,22.585,,,10,15
+uniform-random,98,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,1096242,1096242,,,33.813,,,10,10
+uniform-random,99,,,Duas fases (1ª solução),h1/h2,true,solved,23,253900,253900,,,7.147,,,9,14
+uniform-random,99,,,Duas fases (alvo ≤ 20 ou 1 s),h1/h2,true,solved,20,21292139,21292139,,,612.99,,,12,8

@@ -1,0 +1,531 @@
+{
+ "meta": {
+  "experiment": "E4",
+  "title": "Estrutura de grafos de Cayley de subgrupos",
+  "softwareVersion": "0.1.0",
+  "gitCommit": "d865b42",
+  "startedAt": "2026-11-09T15:01:11.827Z",
+  "durationMs": 30994,
+  "seed": "graphcube",
+  "params": {
+   "sets": [
+    {
+     "n": 2,
+     "generators": [
+      "U",
+      "R",
+      "F"
+     ],
+     "label": "2×2×2 ⟨U,R,F⟩ QTM"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "U",
+      "U2",
+      "R",
+      "R2",
+      "F",
+      "F2"
+     ],
+     "label": "2×2×2 ⟨U,R,F⟩ HTM"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "R",
+      "U"
+     ],
+     "label": "2×2×2 ⟨R,U⟩ QTM"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "R",
+      "R2",
+      "U",
+      "U2"
+     ],
+     "label": "2×2×2 ⟨R,U⟩ HTM"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "R",
+      "U2"
+     ],
+     "label": "2×2×2 ⟨R,U2⟩"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "R2",
+      "U2",
+      "F2"
+     ],
+     "label": "2×2×2 ⟨R2,U2,F2⟩"
+    },
+    {
+     "n": 2,
+     "generators": [
+      "R2",
+      "U2"
+     ],
+     "label": "2×2×2 ⟨R2,U2⟩"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R2",
+      "U2"
+     ],
+     "label": "3×3×3 ⟨R2,U2⟩"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R",
+      "L"
+     ],
+     "label": "3×3×3 ⟨R,L⟩"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R",
+      "U2"
+     ],
+     "label": "3×3×3 ⟨R,U2⟩"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R2",
+      "U2",
+      "F2"
+     ],
+     "label": "3×3×3 ⟨R2,U2,F2⟩"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "U2",
+      "D2",
+      "R2",
+      "L2",
+      "F2",
+      "B2"
+     ],
+     "label": "3×3×3 grupo dos quadrados"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R",
+      "U"
+     ],
+     "label": "3×3×3 ⟨R,U⟩ QTM"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "R",
+      "U",
+      "F"
+     ],
+     "label": "3×3×3 ⟨R,U,F⟩ QTM"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "U",
+      "D",
+      "R2",
+      "L2",
+      "F2",
+      "B2"
+     ],
+     "label": "3×3×3 H (Kociemba)"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "U",
+      "D",
+      "R",
+      "L",
+      "F",
+      "B"
+     ],
+     "label": "3×3×3 G QTM"
+    },
+    {
+     "n": 3,
+     "generators": [
+      "U",
+      "U2",
+      "D",
+      "D2",
+      "R",
+      "R2",
+      "L",
+      "L2",
+      "F",
+      "F2",
+      "B",
+      "B2"
+     ],
+     "label": "3×3×3 G HTM"
+    }
+   ],
+   "note": "inversos adicionados automaticamente; |⟨S⟩| por Schreier–Sims"
+  },
+  "moveCountConvention": "arestas = geradores de S ∪ S⁻¹ (cada um custa 1)",
+  "limits": {
+   "maxNodes3": 1000000
+  },
+  "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB"
+ },
+ "rows": [
+  {
+   "label": "2×2×2 ⟨U,R,F⟩ QTM",
+   "n": 2,
+   "generators": "U R F",
+   "degree": 6,
+   "order": "3674160",
+   "complete": true,
+   "exploredRadius": 14,
+   "ballSize": 3674160,
+   "diameter": 14,
+   "antipodes": 276,
+   "girth": 4,
+   "relator": "U' U' U' U'",
+   "symRotations": 3,
+   "symTotal": 6,
+   "sphereSizes": "1;6;27;120;534;2256;8969;33058;114149;360508;930588;1350852;782536;90280;276",
+   "branchingBound": "1;6;30;150;750;3750;18750;93750;468750;2343750;11718750;58593750;292968750;1464843750;7324218750",
+   "meanDistance": 10.666,
+   "timeMs": 3642.66
+  },
+  {
+   "label": "2×2×2 ⟨U,R,F⟩ HTM",
+   "n": 2,
+   "generators": "U U2 R R2 F F2",
+   "degree": 9,
+   "order": "3674160",
+   "complete": true,
+   "exploredRadius": 11,
+   "ballSize": 3674160,
+   "diameter": 11,
+   "antipodes": 2644,
+   "girth": 3,
+   "relator": "U U U2",
+   "symRotations": 3,
+   "symTotal": 6,
+   "sphereSizes": "1;9;54;321;1847;9992;50136;227536;870072;1887748;623800;2644",
+   "branchingBound": "1;9;72;576;4608;36864;294912;2359296;18874368;150994944;1207959552;9663676416",
+   "meanDistance": 8.756,
+   "timeMs": 5708.131
+  },
+  {
+   "label": "2×2×2 ⟨R,U⟩ QTM",
+   "n": 2,
+   "generators": "R U",
+   "degree": 4,
+   "order": "29160",
+   "complete": true,
+   "exploredRadius": 17,
+   "ballSize": 29160,
+   "diameter": 17,
+   "antipodes": 18,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 2,
+   "symTotal": 4,
+   "sphereSizes": "1;4;10;24;58;130;271;526;980;1750;2731;3905;5229;5848;4792;2375;508;18",
+   "branchingBound": "1;4;12;36;108;324;972;2916;8748;26244;78732;236196;708588;2125764;6377292;19131876;57395628;172186884",
+   "meanDistance": 12.005,
+   "timeMs": 18.308
+  },
+  {
+   "label": "2×2×2 ⟨R,U⟩ HTM",
+   "n": 2,
+   "generators": "R R2 U U2",
+   "degree": 6,
+   "order": "29160",
+   "complete": true,
+   "exploredRadius": 14,
+   "ballSize": 29160,
+   "diameter": 14,
+   "antipodes": 22,
+   "girth": 3,
+   "relator": "R R R2",
+   "symRotations": 2,
+   "symTotal": 4,
+   "sphereSizes": "1;6;18;53;148;400;910;1882;3276;4628;6198;6325;4352;941;22",
+   "branchingBound": "1;6;30;150;750;3750;18750;93750;468750;2343750;11718750;58593750;292968750;1464843750;7324218750",
+   "meanDistance": 9.794,
+   "timeMs": 23.629
+  },
+  {
+   "label": "2×2×2 ⟨R,U2⟩",
+   "n": 2,
+   "generators": "R U2",
+   "degree": 3,
+   "order": "120",
+   "complete": true,
+   "exploredRadius": 10,
+   "ballSize": 120,
+   "diameter": 10,
+   "antipodes": 2,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 1,
+   "symTotal": 2,
+   "sphereSizes": "1;3;5;8;13;16;22;26;16;8;2",
+   "branchingBound": "1;3;6;12;24;48;96;192;384;768;1536",
+   "meanDistance": 5.858,
+   "timeMs": 0.35
+  },
+  {
+   "label": "2×2×2 ⟨R2,U2,F2⟩",
+   "n": 2,
+   "generators": "R2 U2 F2",
+   "degree": 3,
+   "order": "24",
+   "complete": true,
+   "exploredRadius": 4,
+   "ballSize": 24,
+   "diameter": 4,
+   "antipodes": 5,
+   "girth": 6,
+   "relator": "U2 R2 U2 R2 U2 R2",
+   "symRotations": 3,
+   "symTotal": 6,
+   "sphereSizes": "1;3;6;9;5",
+   "branchingBound": "1;3;6;12;24",
+   "meanDistance": 2.583,
+   "timeMs": 0.274
+  },
+  {
+   "label": "2×2×2 ⟨R2,U2⟩",
+   "n": 2,
+   "generators": "R2 U2",
+   "degree": 2,
+   "order": "6",
+   "complete": true,
+   "exploredRadius": 3,
+   "ballSize": 6,
+   "diameter": 3,
+   "antipodes": 1,
+   "girth": 6,
+   "relator": "U2 R2 U2 R2 U2 R2",
+   "symRotations": 2,
+   "symTotal": 4,
+   "sphereSizes": "1;2;2;1",
+   "branchingBound": "1;2;2;2",
+   "meanDistance": 1.5,
+   "timeMs": 0.193
+  },
+  {
+   "label": "3×3×3 ⟨R2,U2⟩",
+   "n": 3,
+   "generators": "R2 U2",
+   "degree": 2,
+   "order": "12",
+   "complete": true,
+   "exploredRadius": 6,
+   "ballSize": 12,
+   "diameter": 6,
+   "antipodes": 1,
+   "girth": 12,
+   "relator": "U2 R2 U2 R2 U2 R2 U2 R2 U2 R2 U2 R2",
+   "symRotations": 2,
+   "symTotal": 4,
+   "sphereSizes": "1;2;2;2;2;2;1",
+   "branchingBound": "1;2;2;2;2;2;2",
+   "meanDistance": 3,
+   "timeMs": 0.834
+  },
+  {
+   "label": "3×3×3 ⟨R,L⟩",
+   "n": 3,
+   "generators": "R L",
+   "degree": 4,
+   "order": "16",
+   "complete": true,
+   "exploredRadius": 4,
+   "ballSize": 16,
+   "diameter": 4,
+   "antipodes": 1,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 8,
+   "symTotal": 16,
+   "sphereSizes": "1;4;6;4;1",
+   "branchingBound": "1;4;12;36;108",
+   "meanDistance": 2,
+   "timeMs": 0.735
+  },
+  {
+   "label": "3×3×3 ⟨R,U2⟩",
+   "n": 3,
+   "generators": "R U2",
+   "degree": 3,
+   "order": "14400",
+   "complete": true,
+   "exploredRadius": 25,
+   "ballSize": 14400,
+   "diameter": 25,
+   "antipodes": 1,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 1,
+   "symTotal": 2,
+   "sphereSizes": "1;3;5;8;13;21;34;55;85;125;188;286;432;646;952;1404;1794;2170;2306;1964;1312;512;75;5;3;1",
+   "branchingBound": "1;3;6;12;24;48;96;192;384;768;1536;3072;6144;12288;24576;49152;98304;196608;393216;786432;1572864;3145728;6291456;12582912;25165824;50331648",
+   "meanDistance": 16.587,
+   "timeMs": 53.543
+  },
+  {
+   "label": "3×3×3 ⟨R2,U2,F2⟩",
+   "n": 3,
+   "generators": "R2 U2 F2",
+   "degree": 3,
+   "order": "2592",
+   "complete": true,
+   "exploredRadius": 14,
+   "ballSize": 2592,
+   "diameter": 14,
+   "antipodes": 3,
+   "girth": 12,
+   "relator": "U2 R2 U2 R2 U2 R2 U2 R2 U2 R2 U2 R2",
+   "symRotations": 3,
+   "symTotal": 6,
+   "sphereSizes": "1;3;6;12;24;48;93;180;315;489;604;522;250;42;3",
+   "branchingBound": "1;3;6;12;24;48;96;192;384;768;1536;3072;6144;12288;24576",
+   "meanDistance": 9.451,
+   "timeMs": 6.679
+  },
+  {
+   "label": "3×3×3 grupo dos quadrados",
+   "n": 3,
+   "generators": "U2 D2 R2 L2 F2 B2",
+   "degree": 6,
+   "order": "663552",
+   "complete": true,
+   "exploredRadius": 15,
+   "ballSize": 663552,
+   "diameter": 15,
+   "antipodes": 144,
+   "girth": 4,
+   "relator": "D2 U2 D2 U2",
+   "symRotations": 24,
+   "symTotal": 48,
+   "sphereSizes": "1;6;27;120;519;1932;6484;20310;55034;113892;178495;179196;89728;16176;1488;144",
+   "branchingBound": "1;6;30;150;750;3750;18750;93750;468750;2343750;11718750;58593750;292968750;1464843750;7324218750;36621093750",
+   "meanDistance": 10.134,
+   "timeMs": 4740.962
+  },
+  {
+   "label": "3×3×3 ⟨R,U⟩ QTM",
+   "n": 3,
+   "generators": "R U",
+   "degree": 4,
+   "order": "73483200",
+   "complete": false,
+   "exploredRadius": 14,
+   "ballSize": 627157,
+   "diameter": null,
+   "antipodes": null,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 2,
+   "symTotal": 4,
+   "sphereSizes": "1;4;10;24;58;140;338;816;1970;4756;11448;27448;65260;154192;360692",
+   "branchingBound": "1;4;12;36;108;324;972;2916;8748;26244;78732;236196;708588;2125764;6377292",
+   "meanDistance": null,
+   "timeMs": 3315.163
+  },
+  {
+   "label": "3×3×3 ⟨R,U,F⟩ QTM",
+   "n": 3,
+   "generators": "R U F",
+   "degree": 6,
+   "order": "170659735142400",
+   "complete": false,
+   "exploredRadius": 8,
+   "ballSize": 268840,
+   "diameter": null,
+   "antipodes": null,
+   "girth": 4,
+   "relator": "R' R' R' R'",
+   "symRotations": 3,
+   "symTotal": 6,
+   "sphereSizes": "1;6;27;120;534;2376;10560;46920;208296",
+   "branchingBound": "1;6;30;150;750;3750;18750;93750;468750",
+   "meanDistance": null,
+   "timeMs": 2874.257
+  },
+  {
+   "label": "3×3×3 H (Kociemba)",
+   "n": 3,
+   "generators": "U D R2 L2 F2 B2",
+   "degree": 8,
+   "order": "19508428800",
+   "complete": false,
+   "exploredRadius": 7,
+   "ballSize": 366118,
+   "diameter": null,
+   "antipodes": null,
+   "girth": 4,
+   "relator": "U' U' U' U'",
+   "symRotations": 8,
+   "symTotal": 16,
+   "sphereSizes": "1;8;48;284;1678;9664;54475;299960",
+   "branchingBound": "1;8;56;392;2744;19208;134456;941192",
+   "meanDistance": null,
+   "timeMs": 3893.699
+  },
+  {
+   "label": "3×3×3 G QTM",
+   "n": 3,
+   "generators": "U D R L F B",
+   "degree": 12,
+   "order": "43252003274489856000",
+   "complete": false,
+   "exploredRadius": 6,
+   "ballSize": 983926,
+   "diameter": null,
+   "antipodes": null,
+   "girth": 4,
+   "relator": "U' U' U' U'",
+   "symRotations": 24,
+   "symTotal": 48,
+   "sphereSizes": "1;12;114;1068;10011;93840;878880",
+   "branchingBound": "1;12;132;1452;15972;175692;1932612",
+   "meanDistance": null,
+   "timeMs": 2584.293
+  },
+  {
+   "label": "3×3×3 G HTM",
+   "n": 3,
+   "generators": "U U2 D D2 R R2 L L2 F F2 B B2",
+   "degree": 18,
+   "order": "43252003274489856000",
+   "complete": false,
+   "exploredRadius": 5,
+   "ballSize": 621649,
+   "diameter": null,
+   "antipodes": null,
+   "girth": 3,
+   "relator": "U U U2",
+   "symRotations": 24,
+   "symTotal": 48,
+   "sphereSizes": "1;18;243;3240;43239;574908",
+   "branchingBound": "1;18;306;5202;88434;1503378",
+   "meanDistance": null,
+   "timeMs": 4128.787
+  }
+ ]
+}

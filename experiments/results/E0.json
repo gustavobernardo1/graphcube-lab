@@ -1,0 +1,332 @@
+{
+ "meta": {
+  "experiment": "E0",
+  "title": "Validação contra resultados conhecidos",
+  "softwareVersion": "0.1.0",
+  "gitCommit": "d865b42",
+  "startedAt": "2026-11-09T14:51:05.108Z",
+  "durationMs": 1954,
+  "seed": "graphcube",
+  "params": {},
+  "moveCountConvention": "HTM e QTM indicados por linha",
+  "limits": {},
+  "environment": "node v22.23.4; Linux 6.18.44-fc-v310 x64; CPU Intel(R) Xeon(R) Processor @ 2.10GHz ×4; RAM 15.7 GiB"
+ },
+ "rows": [
+  {
+   "check": "group-order",
+   "object": "G (3×3×3)",
+   "computed": "43252003274489856000",
+   "literature": "43252003274489856000",
+   "source": "Joyner 2008; Rokicki et al. 2014",
+   "match": true,
+   "timeMs": 6.54
+  },
+  {
+   "check": "group-order",
+   "object": "⟨R,U⟩ (3×3×3)",
+   "computed": "73483200",
+   "literature": "73483200",
+   "source": "Joyner 2008 / Jaap Scherphuis",
+   "match": true,
+   "timeMs": 0.527
+  },
+  {
+   "check": "group-order",
+   "object": "⟨U2,D2,R2,L2,F2,B2⟩ (3×3×3)",
+   "computed": "663552",
+   "literature": "663552",
+   "source": "Joyner 2008 (squares group)",
+   "match": true,
+   "timeMs": 0.477
+  },
+  {
+   "check": "group-order",
+   "object": "H = ⟨U,D,R2,L2,F2,B2⟩",
+   "computed": "19508428800",
+   "literature": "19508428800",
+   "source": "Kociemba (8!·8!·4!/2)",
+   "match": true,
+   "timeMs": 1.3
+  },
+  {
+   "check": "group-order",
+   "object": "⟨R2,U2⟩ (3×3×3)",
+   "computed": "12",
+   "literature": "12",
+   "source": "dihedral D₆",
+   "match": true,
+   "timeMs": 0.02
+  },
+  {
+   "check": "group-order",
+   "object": "G₂ = ⟨U,R,F⟩ (2×2×2)",
+   "computed": "3674160",
+   "literature": "3674160",
+   "source": "7!·3⁶",
+   "match": true,
+   "timeMs": 0.173
+  },
+  {
+   "check": "group-order",
+   "object": "⟨R,U⟩ (2×2×2)",
+   "computed": "29160",
+   "literature": "29160",
+   "source": "Jaap Scherphuis",
+   "match": true,
+   "timeMs": 0.063
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=0",
+   "computed": 1,
+   "literature": 1,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": 409.409
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=1",
+   "computed": 9,
+   "literature": 9,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=2",
+   "computed": 54,
+   "literature": 54,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=3",
+   "computed": 321,
+   "literature": 321,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=4",
+   "computed": 1847,
+   "literature": 1847,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=5",
+   "computed": 9992,
+   "literature": 9992,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=6",
+   "computed": 50136,
+   "literature": 50136,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=7",
+   "computed": 227536,
+   "literature": 227536,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=8",
+   "computed": 870072,
+   "literature": 870072,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=9",
+   "computed": 1887748,
+   "literature": 1887748,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=10",
+   "computed": 623800,
+   "literature": 623800,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-HTM",
+   "object": "d=11",
+   "computed": 2644,
+   "literature": 2644,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=0",
+   "computed": 1,
+   "literature": 1,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": 332
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=1",
+   "computed": 6,
+   "literature": 6,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=2",
+   "computed": 27,
+   "literature": 27,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=3",
+   "computed": 120,
+   "literature": 120,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=4",
+   "computed": 534,
+   "literature": 534,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=5",
+   "computed": 2256,
+   "literature": 2256,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=6",
+   "computed": 8969,
+   "literature": 8969,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=7",
+   "computed": 33058,
+   "literature": 33058,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=8",
+   "computed": 114149,
+   "literature": 114149,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=9",
+   "computed": 360508,
+   "literature": 360508,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=10",
+   "computed": 930588,
+   "literature": 930588,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=11",
+   "computed": 1350852,
+   "literature": 1350852,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=12",
+   "computed": 782536,
+   "literature": 782536,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=13",
+   "computed": 90280,
+   "literature": 90280,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "distance-distribution-2x2-QTM",
+   "object": "d=14",
+   "computed": 276,
+   "literature": 276,
+   "source": "OEIS A079761/A079762; Scherphuis",
+   "match": true,
+   "timeMs": null
+  },
+  {
+   "check": "two-phase-tables",
+   "object": "move+pruning tables (3×3×3)",
+   "computed": "built",
+   "literature": null,
+   "source": null,
+   "match": true,
+   "timeMs": 1167.872
+  }
+ ]
+}

@@ -12,6 +12,10 @@ export default defineConfig({
     __APP_VERSION__: JSON.stringify(pkg.version),
   },
   worker: { format: 'es' },
+  build: {
+    rollupOptions: { output: { manualChunks: { three: ['three'], react: ['react', 'react-dom'] } } },
+    chunkSizeWarningLimit: 700,
+  },
   test: {
     include: ['tests/**/*.test.ts'],
     testTimeout: 120_000,
