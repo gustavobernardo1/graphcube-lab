@@ -1,0 +1,35 @@
+{
+  "name": "graphcube-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "GraphCube Lab — mathematical and computational exploration of the Rubik's cube",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b --noEmit",
+    "experiments": "tsx scripts/run-experiments.ts",
+    "verify-group": "tsx scripts/verify-group.ts"
+  },
+  "dependencies": {
+    "d3-force": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/d3-force": "^3.0.10",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
