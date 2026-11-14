@@ -8,6 +8,8 @@
 
 **Acesso rápido:** [Aplicação](app/) · [Fundamentação](docs/03-fundamentacao-matematica.md) · [Experimentos](experiments/) · [Artigo técnico em PDF](paper/main.pdf) · [Licença MIT](LICENSE)
 
+**Hospedagem:** [Instruções para publicar no GitHub Pages](docs/HOSPEDAGEM.md). O endereço público só será anunciado como ativo após um deploy validado.
+
 **Nota:** os resultados experimentais e números de testes apresentados abaixo constam da documentação técnica existente; não foram reexecutados nesta revisão de apresentação.
 
 ---
@@ -25,6 +27,16 @@ admissíveis e experimentos reprodutíveis, acompanhados de um artigo técnico e
 | **Dados** | [`experiments/results/`](experiments/results) (JSON + CSV com metadados) |
 | **Testes** | 55 testes automatizados (Vitest) |
 | **Licença** | MIT (código deste projeto) |
+
+---
+
+## Visualizações da aplicação
+
+As imagens abaixo são capturas já presentes no próprio repositório, correspondentes às três representações matemáticas documentadas. Não são imagens geradas para simular funcionalidades.
+
+| Grafo estrutural | Grafo de estados | Grafo de Cayley |
+|:--:|:--:|:--:|
+| ![Diagrama estrutural com posições de adesivos e camadas](docs/img/estrutural.png) | ![Exploração do grafo de estados](docs/img/estados.png) | ![Exploração de um grafo de Cayley](docs/img/cayley.png) |
 
 ---
 
