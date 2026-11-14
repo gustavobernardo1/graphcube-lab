@@ -1,5 +1,17 @@
 # GraphCube Lab
 
+> **Computational Mathematics · Group Theory · Graph Theory · Heuristic Search**
+
+**English summary:** An interactive, reproducible exploration of Rubik's Cube mathematics: permutation groups, graph representations, admissible-heuristic search, mathematical validation and computational experiments.
+
+**Autoria do projeto:** Gustavo Bernardo Brito. A referência ao GraphCube de Dorian Laguna é uma atribuição de inspiração visual, e não de código reutilizado.
+
+**Acesso rápido:** [Aplicação](app/) · [Fundamentação](docs/03-fundamentacao-matematica.md) · [Experimentos](experiments/) · [Artigo técnico em PDF](paper/main.pdf) · [Licença MIT](LICENSE)
+
+**Nota:** os resultados experimentais e números de testes apresentados abaixo constam da documentação técnica existente; não foram reexecutados nesta revisão de apresentação.
+
+---
+
 **Plataforma interativa para exploração matemática e computacional do cubo mágico** —
 teoria dos grupos, três representações em grafos, algoritmos de busca com heurísticas
 admissíveis e experimentos reprodutíveis, acompanhados de um artigo técnico em LaTeX.
@@ -88,7 +100,7 @@ Requisitos: Node.js ≥ 18 (testado com 22), npm; Python ≥ 3.10 para a anális
 com `biber` e `latexmk` para o artigo.
 
 ```bash
-git clone <este repositório> graphcube-lab
+git clone https://github.com/gustavobernardo1/graphcube-lab.git
 cd graphcube-lab/app
 npm install
 npm run dev          # http://localhost:5173
